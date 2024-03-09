@@ -10,8 +10,8 @@ def make_folder_if_none(path):
 make_folder_if_none("pdfs-to-summarize")
 
 def process_files(pdf_folder, md_final_folder, pdf_final_folder):
-    print(md_final_folder)
-    print(pdf_final_folder)
+    #print(md_final_folder)
+    #print(pdf_final_folder)
     # Get all text files in the specified folder
     pdf_files = glob.glob(os.path.join(pdf_folder, '*.pdf'))
 

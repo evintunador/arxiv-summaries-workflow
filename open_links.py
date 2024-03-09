@@ -1,4 +1,5 @@
 import webbrowser
+import time
 
 # Define the path to the file with links
 file_path = 'bytez_links.txt'
@@ -11,6 +12,7 @@ with open(file_path, 'r') as file:
         # Check if the line is not empty
         if link:
             webbrowser.open(link)
+            time.sleep(2)
         else:
             print("Empty or invalid line detected.")
 

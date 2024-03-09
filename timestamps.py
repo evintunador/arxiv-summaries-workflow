@@ -5,11 +5,14 @@ from config import display_reverse_alphabetical, hotkey
 
 timestamps = []
 start_time = time.time()
-folder_path = "pdfs"
 
-# reverse=True because when I bulk open files in safari it displays them in reverse-chronological order. 
-pdf_files = sorted([f for f in os.listdir(folder_path) if f.endswith('.pdf')], reverse=display_reverse_alphabetical)
-file_iter = iter(pdf_files)
+links_file = "bytez_links.txt"  # Specify the links file
+
+# Read the lines of the file in reverse order
+with open(links_file, "r") as f:
+    lines = f.readlines()
+lines.reverse()  # Reverse the order
+file_iter = iter(lines)
 
 def on_activate():
     elapsed_time = time.time() - start_time
@@ -18,11 +21,11 @@ def on_activate():
     print(f"Hotkey activated {minutes}:{seconds:02d}")  # Debug line
     global file_iter
     try:
-        filename = next(file_iter).replace('.pdf', '')
+        link = next(file_iter).strip()  # Get link and remove newline
     except StopIteration:
-        filename = "Outro"
+        link = "Outro"
     
-    timestamps.append(f"{minutes}:{seconds:02d} {filename}")
+    timestamps.append(f"{minutes}:{seconds:02d} {link}")
 
 timestamps.append("0:00 Intro")
 
