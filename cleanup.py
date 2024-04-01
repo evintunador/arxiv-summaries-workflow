@@ -57,10 +57,10 @@ delete_all_files_in_folder("pdfs-to-summarize")
 delete_all_files_in_folder("pdfs")
 
 try:
-    if os.path.isfile('bytez_links.txt'):
-        os.remove('bytez_links.txt')
+    if os.path.isfile('links.txt'):
+        os.remove('links.txt')
 except Exception as e:
-    print(f"Couldn't delete bytez_links.txt bc Error occurred: \n{e}")
+    print(f"Couldn't delete links.txt bc Error occurred: \n{e}")
 
 try:
     if os.path.isfile('timestamps.txt'):
