@@ -6,7 +6,7 @@ from config import display_reverse_alphabetical, hotkey
 timestamps = []
 start_time = time.time()
 
-links_file = "bytez_links.txt"  # Specify the links file
+links_file = "links.txt"  # Specify the links file
 
 # Read the lines of the file in reverse order
 with open(links_file, "r") as f:

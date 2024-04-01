@@ -66,8 +66,7 @@ if __name__ == '__main__':
     # Write the message
     with open('newsletter.txt', 'w') as outfile:
         outfile.write(f"Welcome to Tunadorable's weekly AI newsletter, where we summarize his favorite articles of the week that he plans to read."
-                      f"\nThis article was written by gpt-3.5-turbo-16k on {today}."
-                      f"\nWARNING: CITATIONS MAY BE INCORRECT")
+                      f"\nThis article was written by gpt-3.5-turbo-16k on {today}.")
 
     # Get list of all PDF files in the input folder
     pdf_files = [f for f in os.listdir('pdfs-to-summarize/') if f.endswith('.pdf')]

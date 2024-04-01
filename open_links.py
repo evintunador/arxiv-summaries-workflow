@@ -2,7 +2,7 @@ import webbrowser
 import time
 
 # Define the path to the file with links
-file_path = 'bytez_links.txt'
+file_path = 'links.txt'
 
 # Open the file and read the links
 with open(file_path, 'r') as file:

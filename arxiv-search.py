@@ -158,20 +158,20 @@ def download_pdf(url, filename):
 def on_button_click(url, filename):
     # Constructing bytez.com URL from arXiv URL
     arxiv_id = re.sub(r'v\d+$', '', url.split('/')[-1])
-    bytez_url = f"https://bytez.com/docs/arxiv/{arxiv_id}"
+    bytez_url = f"https://arxiv.org/abs/{arxiv_id}"
 
     # Duplicate check:
     try:
-        with open('bytez_links.txt', 'r') as file:
+        with open('links.txt', 'r') as file:
             existing_lines = file.readlines()
             if any(line.strip() == bytez_url for line in existing_lines):
-                print("URL already exists in bytez_links.txt - Skipping")
+                print("URL already exists in links.txt - Skipping")
                 return  # Skip if the URL already exists
     except FileNotFoundError:
         pass  # Ignore if the file doesn't exist yet
 
     # Write the bytez.com URL to a text file
-    with open('bytez_links.txt', 'a') as file:
+    with open('links.txt', 'a') as file:
         file.write(bytez_url + '\n')
 
     # Download the PDF in a new thread

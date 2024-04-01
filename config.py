@@ -17,7 +17,7 @@ send_to_obsidian = True
 obsidian_vault_location = '/Users/tunadorable/Vault' #'your/obsidian/vault/location/here'
 obsidian_vault_attachments_location = '/Users/tunadorable/Vault/attachments' #'your/obsidian/vault/location/here/attachments-folder'
 # lines to add to the beginning of each summary.md file in obsidian. I've left mine in as examples
-frontmatter_lines = ['#pdf', '#needsToBeTagged', '#needsVideo', '#unread', ''] 
+frontmatter_lines = '#pdf\n#needsToBeTagged\n#needsVideo\n#unread'
 
 ### timestamps.py
 # True or False
