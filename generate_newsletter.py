@@ -89,7 +89,11 @@ if __name__ == '__main__':
                 paper = ''
                 for page_num in list(range(0,len(pdf_reader.pages))):
                     page = pdf_reader.pages[page_num]
-                    paper += page.extract_text()
+                    try:
+                        paper += page.extract_text()
+                    except KeyError as e:
+                        print(f"Skipping page due to missing information: {e}")
+                        continue  # Skip the current iteration and move to the next page
         except PyPDF2.errors.PdfReadError:
             print(f"Error reading file: {pdf_file}")
             continue
