@@ -138,7 +138,7 @@ if __name__ == '__main__':
         response = client.audio.speech.create(
             model="tts-1",
             voice="alloy",
-            input=segment_text
+            input=segment_text[:4096]
         )
         
         segment_file_path = f"audio_files/temp_segment_{len(segment_files)}.mp3"

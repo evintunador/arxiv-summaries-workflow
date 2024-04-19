@@ -69,7 +69,7 @@ exclude = exclude[:-9]
 print("\nIncluded Terms:\n", include)
 print("\nExcluded Terms:\n", exclude)
 
-categories = "cat:cs.AI OR cat:stat.ML OR cat:cs.CL OR cat:cs.CV OR cat:cs.LG OR cat:cs.MA OR cat:cs.NE" # 
+categories = "cat:cs.AI OR cat:stat.ML OR cat:cs.CL OR cat:cs.CV OR cat:cs.LG OR cat:cs.MA OR cat:cs.NE OR cat:cs.HC OR cat:cs.MA" # 
 if len(include_terms) > 0 & len(exclude_terms) > 0:
     query = f'({categories}) AND ({include}) ANDNOT ({exclude})'
 elif len(include_terms) > 0:

@@ -1,9 +1,7 @@
 prostate
-driving
 surgical
 gender
 ethnic
-quantum
 quadrotor
 racist
 racial
@@ -18,7 +16,6 @@ tornado
 glycemic
 eeg
 ultrasound
-fintech
 indonesian
 fake news
 parkinson
