@@ -8,7 +8,11 @@ file_path = 'links.txt'
 with open(file_path, 'r') as file:
     for line in file:
         # Strip whitespace and newline characters
-        link = line.strip()
+        line = line.strip()
+
+        # isolate link
+        link = line.split(' | ')[1]
+
         # Check if the line is not empty
         if link:
             webbrowser.open(link)

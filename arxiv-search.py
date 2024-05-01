@@ -42,16 +42,16 @@ def read_lines_from_file(filename):
 # Most Recent Days Checker. Sometimes arxiv posts papers w multiple dates on one day so we really just want to make sure we're checking whatever came out since we last queried
 with open('most_recent_day_searched.txt', 'r') as file:
     most_recent = file.read()
-print(most_recent)
+print(f'most recent day searched: {most_recent}')
 try:
     most_recent_check = datetime.strptime(most_recent, '%Y-%m-%d').date()
 except ValueError:
-    most_recent_check = datetime.now().date() - timedelta(days=1)
+    most_recent_check = datetime.now().date() - timedelta(days=2)
 
     with open('most_recent_day_searched.txt', 'w') as file:
             file.write(most_recent_check.strftime('%Y-%m-%d'))
 
-    print("No date listed in most_recent_day_searched.txt. Yesterday's date inserted, but arXiv frequently publishes papers with older dates on a given day (yes it's confusing) so you may want to edit the text file to an even earlier date. If today is a weekend then the script may return nothing.")
+    print("No date listed in most_recent_day_searched.txt. Two days ago's date inserted, but arXiv frequently publishes papers with older dates on a given day (yes it's confusing) so you may want to edit the text file to an even earlier date. If today is a weekend then the script may return nothing.")
 
 
 
@@ -84,7 +84,7 @@ print("\nQuery:\n", query)
 client = arxiv.Client(
   page_size = 1,
   delay_seconds = 5.0,
-  num_retries = 10
+  num_retries = 50
 )
 # Define the search parameters
 search = arxiv.Search(
@@ -104,6 +104,7 @@ def safe_iterator(iterable):
         try:
             yield next(it)  # Yield the next item from the iterator
         except StopIteration:
+            print("got to StopIteration")
             break  # StopIteration means there are no more items
         except Exception as e:
             # Handle the exception or simply pass to skip to the next item
@@ -113,17 +114,18 @@ def safe_iterator(iterable):
 i = 0
 for result in safe_iterator(results):
 
-    if (i == 0):
-        new_most_recent = result.published.date().strftime('%Y-%m-%d')
+    if i == 0:
+        new_most_recent = result.published.date()#.strftime('%Y-%m-%d')
     
     if restrict_to_most_recent & (result.published.date() < most_recent_check):
+        print(f"GOT TO MOST RECENT DATE RESET: {result.published.date()} <= {most_recent_check}")
         # Write new_most_recent to .txt file
         # we only want to do that here bc if restrict_to_most_recent=False then we don't want to change the value
         with open('most_recent_day_searched.txt', 'w') as file:
-            file.write(new_most_recent)
+            file.write(new_most_recent.strftime('%Y-%m-%d'))
 
         # In case you need to run it back
-        print(f"If you need to run back the most recent check, then edit the date in most_recent_day_searched.txt to be '{most_recent_check}'.")
+        print(f"If you need to run back the most recent check, then edit the date in most_recent_day_searched.txt to be '{most_recent_check.strftime('%Y-%m-%d')}'.")
 
         # bc we've hit files we likely already downloaded before we'll end here
         break
@@ -158,21 +160,24 @@ def download_pdf(url, filename):
 def on_button_click(url, filename):
     # Constructing bytez.com URL from arXiv URL
     arxiv_id = re.sub(r'v\d+$', '', url.split('/')[-1])
-    bytez_url = f"https://arxiv.org/abs/{arxiv_id}"
+    arxiv_url = f"https://arxiv.org/abs/{arxiv_id}"
+    arxiv_id_no_version = arxiv_id.split('v')[0]
+    bytez_url = f"https://bytez.com/docs/arxiv/{arxiv_id_no_version}/paper"
+    line = f'{filename[5:-4]} | {bytez_url} | {arxiv_url}'
 
     # Duplicate check:
     try:
         with open('links.txt', 'r') as file:
             existing_lines = file.readlines()
-            if any(line.strip() == bytez_url for line in existing_lines):
-                print("URL already exists in links.txt - Skipping")
+            if any(l.strip() == line for l in existing_lines):
+                print(f'Line already exists in chapters.txt - Skipping')
                 return  # Skip if the URL already exists
     except FileNotFoundError:
         pass  # Ignore if the file doesn't exist yet
 
     # Write the bytez.com URL to a text file
     with open('links.txt', 'a') as file:
-        file.write(bytez_url + '\n')
+        file.write(line + '\n')
 
     # Download the PDF in a new thread
     thread = Thread(target=download_pdf, args=(url, filename))

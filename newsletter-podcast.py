@@ -1,7 +1,7 @@
 from openai import OpenAI
 import PyPDF2
 from config import prompts
-from time import time, sleep
+from time import sleep
 from datetime import datetime
 import os
 from halo import Halo

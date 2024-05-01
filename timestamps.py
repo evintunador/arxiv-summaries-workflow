@@ -1,7 +1,7 @@
 from pynput import keyboard
 import time
 import os
-from config import display_reverse_alphabetical, hotkey
+from config import hotkey
 
 timestamps = []
 start_time = time.time()

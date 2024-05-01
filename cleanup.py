@@ -10,12 +10,14 @@ def make_folder_if_none(path):
 make_folder_if_none("pdfs-to-summarize")
 
 def process_files(pdf_folder, md_final_folder, pdf_final_folder):
-    #print(md_final_folder)
-    #print(pdf_final_folder)
+    
     # Get all text files in the specified folder
     pdf_files = glob.glob(os.path.join(pdf_folder, '*.pdf'))
 
+    count = 0
     for pdf_file in pdf_files:
+        count += 1
+
         # Get the base filename without the extension
         base_filename = os.path.basename(pdf_file).rsplit('.', 1)[0]
 
@@ -29,13 +31,15 @@ def process_files(pdf_folder, md_final_folder, pdf_final_folder):
         try:
             shutil.move(md_file, md_final_folder)
         except shutil.Error as e:
-            print(f"Error: {e}. Skipping file {md_file} because it already exists in the Obsidian Vault. Usually this error will come up because you erroneously attempted to run the script twice, although it is also possible that there is an entirely unrelated file with the same name already in the vault.")
+            print(f"Error: {e}. Skipping file {md_file} because it already exists in the Obsidian Vault.")
 
         # Move the .pdf files to the final folder. the exception exists cuz sometimes i get antsy and add the pdf too soon
         try:
-            shutil.copy(pdf_file, pdf_final_folder)
+            shutil.move(pdf_file, pdf_final_folder)
         except shutil.Error as e:
             print(f"Error: {e}. Skipping file {pdf_file} because it already exists in the Obsidian Vault.")
+
+    print(f'{count} files added to vault assuming no skip errors')
 
 if send_to_obsidian:
     # Call the function with your specified folders
