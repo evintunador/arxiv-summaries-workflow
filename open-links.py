@@ -10,12 +10,14 @@ with open(file_path, 'r') as file:
         # Strip whitespace and newline characters
         line = line.strip()
 
-        # isolate link
-        link = line.split(' | ')[1]
-
+        # isolate links
+        title, link1, link2 = line.split(' | ')
+        print(f'{title} |{link1}|{link2}|')
         # Check if the line is not empty
-        if link:
-            webbrowser.open(link)
+        if link1 or link2:
+            webbrowser.open(link2)
+            time.sleep(2)
+            webbrowser.open(link1)
             time.sleep(2)
         else:
             print("Empty or invalid line detected.")

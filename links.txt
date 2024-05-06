@@ -1,8 +1,0 @@
-Kangaroo - Lossless Self-Speculative Decoding via Double Early Exiting | https://bytez.com/docs/arxiv/2404.18911/paper | https://arxiv.org/abs/2404.18911
-Multi-Agent Synchronization Tasks | https://bytez.com/docs/arxiv/2404.18798/paper | https://arxiv.org/abs/2404.18798
-Time Machine GPT | https://bytez.com/docs/arxiv/2404.18543/paper | https://arxiv.org/abs/2404.18543
-Trends and Challenges of Real-time Learning in Large Language Models - A Critical Review | https://bytez.com/docs/arxiv/2404.18311/paper | https://arxiv.org/abs/2404.18311
-PatentGPT - A Large Language Model for Intellectual Property | https://bytez.com/docs/arxiv/2404.18255/paper | https://arxiv.org/abs/2404.18255
-Dynamic Against Dynamic - An Open-set Self-learning Framework | https://bytez.com/docs/arxiv/2404.17830/paper | https://arxiv.org/abs/2404.17830
-An exactly solvable model for emergence and scaling laws | https://bytez.com/docs/arxiv/2404.17563/paper | https://arxiv.org/abs/2404.17563
-A multi-agent model of hierarchical decision dynamics | https://bytez.com/docs/arxiv/2404.17477/paper | https://arxiv.org/abs/2404.17477

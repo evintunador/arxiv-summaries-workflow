@@ -21,5 +21,5 @@ frontmatter_lines = '#pdf\n#needsNote\n#needsVideo\n#unread\n'
 
 ### timestamps.py
 # The hotkey used to start the next yt chapter
-hotkey = 'w'
+hotkey = '`'
 # sorry i'm not changing the end process hotkey from esc to anything else. feel free to push an update if that's a feature you want
