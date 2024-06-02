@@ -9,18 +9,36 @@ def get_high_contrast_color(bg_color):
     brightness = sum(bg_color) / 3
     return (255, 255, 255) if brightness < 128 else (0, 0, 0)
 
+def get_color_by_name(color_name, color_list):
+    color_dict = {name: color for name, color in color_list}
+    return color_dict.get(color_name.lower(), random.choice(list(color_dict.values())))
+
+# List of predefined colors
+predefined_colors = [
+    ("red", (255, 0, 0)),
+    ("green", (0, 210, 0)),
+    ("blue", (0, 128, 255)),
+    ("yellow", (255, 255, 0)),
+    ("purple", (127, 0, 255)),
+    ("cyan", (0, 255, 255)),
+    ("magenta", (255, 0, 255)),
+    ("orange", (255, 153, 51)),
+    ("pink", (255, 102, 255)),
+    ("black", (0, 0, 0)),
+    ("white", (255, 255, 255)),
+]
+
 # Get current date
 now = datetime.now()
 default = f"NEW\nARTIFICIAL\nINTELLIGENCE\nPAPERS\n{now.strftime('%b').upper()} {now.day}, {now.year}"
 
-def main(video_path, text=default, coverage=2/3, font_size=140):
+def main(video_path, text=default, coverage=2/3, font_size=140, color_name=None):
     # Capture first frame from video
     cap = cv2.VideoCapture(video_path)
     cap.set(cv2.CAP_PROP_POS_FRAMES, 1)
     ret, frame = cap.read()
     cap.release()
 
-    
     if not ret:
         print("Error reading video.")
         return
@@ -29,8 +47,8 @@ def main(video_path, text=default, coverage=2/3, font_size=140):
     target_dim = (1920, 1080)
     frame = cv2.resize(frame, target_dim)
 
-    # Create text overlay image
-    bg_color = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
+    # Select background color
+    bg_color = get_color_by_name(color_name, predefined_colors)
     text_color = get_high_contrast_color(bg_color)
     text_img_width = int(coverage * target_dim[0])
     text_img = Image.new('RGB', (text_img_width, target_dim[1]), color=bg_color)
@@ -38,7 +56,6 @@ def main(video_path, text=default, coverage=2/3, font_size=140):
     font = ImageFont.truetype('arialbd.ttf', font_size)
     d = ImageDraw.Draw(text_img)
 
-    #text_w, text_h = d.textsize(text, font=font)
     bbox = d.textbbox((0, 0), text, font=font)  # (left, top, right, bottom)
     text_w = bbox[2] - bbox[0]
     text_h = bbox[3] - bbox[1]
@@ -66,10 +83,12 @@ if __name__ == "__main__":
     parser.add_argument('--text', type=str, default=default, help='Custom text with new lines using \\n')
     parser.add_argument('--coverage', type=float, default=2/3, help='Fraction of frame to cover with text')
     parser.add_argument('--font_size', type=int, default=160, help='Font size of the overlay text')
+    parser.add_argument('--color', type=str, default='pink', help='Background color name for the overlay text')
     
     args = parser.parse_args()
 
-    main(args.video_path, args.text, args.coverage, args.font_size)
+    main(args.video_path, args.text, args.coverage, args.font_size, args.color)
+
 
 
 
