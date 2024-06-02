@@ -1,6 +1,6 @@
 ### arxiv-search.py
 restrict_to_most_recent = True
-max_results = 1000
+max_results = 3#5000
 
 ### generate_newsletter.py 
 # Mess around with these prompts to tease out specific information you're looking for

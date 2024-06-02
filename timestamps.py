@@ -22,10 +22,12 @@ def on_activate():
     global file_iter
     try:
         link = next(file_iter).strip()  # Get link and remove newline
+        parts = link.split(' | ')
+        line = parts[0]+' '+parts[1]
     except StopIteration:
-        link = "Outro"
+        line = "Outro"
     
-    timestamps.append(f"{minutes}:{seconds:02d} {link}")
+    timestamps.append(f"{minutes}:{seconds:02d} {line}")
 
 timestamps.append("0:00 Intro")
 

@@ -69,7 +69,7 @@ exclude = exclude[:-9]
 print("\nIncluded Terms:\n", include)
 print("\nExcluded Terms:\n", exclude)
 
-categories = "cat:cs.AI OR cat:stat.ML OR cat:cs.CL OR cat:cs.CV OR cat:cs.LG OR cat:cs.MA OR cat:cs.NE OR cat:cs.HC OR cat:cs.MA" # 
+categories = "cat:cs.AI OR cat:stat.ML OR cat:cs.CL OR cat:cs.LG OR cat:cs.MA OR cat:cs.MA" # 
 if len(include_terms) > 0 & len(exclude_terms) > 0:
     query = f'({categories}) AND ({include}) ANDNOT ({exclude})'
 elif len(include_terms) > 0:
@@ -131,13 +131,14 @@ for result in safe_iterator(results):
         break
     
     try:
-        papers.append({"title": result.title, "url": result.pdf_url})
+        papers.append({"title": result.title, "url": result.pdf_url, "i": i})
         print('Title: ', result.title)
         print('Publishing date ', result.published)
         #print(result.categories)
         #print('Abstract: ', textwrap.fill(result.summary, width=220))
         print('PDF URL: ', result.pdf_url)
         #print('DOI ', result.doi)
+        print()
     except UnexpectedEmptyPageError:
         continue
     
@@ -160,10 +161,10 @@ def download_pdf(url, filename):
 def on_button_click(url, filename):
     # Constructing bytez.com URL from arXiv URL
     arxiv_id = re.sub(r'v\d+$', '', url.split('/')[-1])
-    arxiv_url = f"https://arxiv.org/abs/{arxiv_id}"
-    arxiv_id_no_version = arxiv_id.split('v')[0]
-    bytez_url = f"https://bytez.com/docs/arxiv/{arxiv_id_no_version}/paper"
-    line = f'{filename[5:-4]} | {bytez_url} | {arxiv_url}'
+    arxiv_url = f"arxiv.org/abs/{arxiv_id}"
+    #arxiv_id_no_version = arxiv_id.split('v')[0]
+    #bytez_url = f"https://bytez.com/docs/arxiv/{arxiv_id_no_version}/paper"
+    line = f'{filename[5:-4]} | {arxiv_url}'# | {bytez_url}
 
     # Duplicate check:
     try:
@@ -204,7 +205,11 @@ for i, paper in enumerate(papers):
     #label = ttk.Label(frame, text=paper["title"])
     #label.grid(row=i, column=0, sticky=tk.W)
     #print(paper['url'])
-    button = ttk.Button(frame, text=paper['title'], command=lambda url=paper['url'], fn=f"pdfs/{paper['title']}.pdf".replace(":", " -"): on_button_click(url, fn))
+    button = ttk.Button(
+        frame, 
+        text=f"{paper['i']}: {paper['title']}", 
+        command=lambda url=paper['url'], 
+        fn=f"pdfs/{paper['title']}.pdf".replace(":", " -"): on_button_click(url, fn))
     button.grid(row=i, column=1)
 
 # Update frame size and set canvas scroll region

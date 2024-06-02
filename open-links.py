@@ -11,13 +11,11 @@ with open(file_path, 'r') as file:
         line = line.strip()
 
         # isolate links
-        title, link1, link2 = line.split(' | ')
-        print(f'{title} |{link1}|{link2}|')
+        title, link = line.split(' | ')
         # Check if the line is not empty
-        if link1 or link2:
-            webbrowser.open(link2)
-            time.sleep(2)
-            webbrowser.open(link1)
+        if link:
+            print(f'{title} | {link}') 
+            webbrowser.open('https://' + link)
             time.sleep(2)
         else:
             print("Empty or invalid line detected.")
