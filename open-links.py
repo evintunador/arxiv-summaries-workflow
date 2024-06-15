@@ -15,7 +15,7 @@ with open(file_path, 'r') as file:
         # Check if the line is not empty
         if link:
             print(f'{title} | {link}') 
-            webbrowser.open('https://' + link)
+            webbrowser.open(link)
             time.sleep(2)
         else:
             print("Empty or invalid line detected.")
