@@ -1,6 +1,7 @@
 ### arxiv-search.py
 restrict_to_most_recent = True
-max_results = 5000
+max_results = 2000
+categories = "cat:cs.AI OR cat:stat.ML OR cat:cs.CL OR cat:cs.LG OR cat:cs.MA OR cat:cs.MA"
 
 ### generate_newsletter.py 
 # Mess around with these prompts to tease out specific information you're looking for
@@ -20,6 +21,49 @@ obsidian_vault_attachments_location = '/Users/tunadorable/Vault/attachments' #'y
 frontmatter_lines = '#pdf\n#needsNote\n#needsVideo\n#unread\n'
 
 ### timestamps.py
-# The hotkey used to start the next yt chapter
+# The hotkey used to start the next yt chapter (`esc` ends the process)
 hotkey = '`'
-# sorry i'm not changing the end process hotkey from esc to anything else. feel free to push an update if that's a feature you want
+# the strings to replace with shorter versions
+replacements = {
+    "Multimodal Large Language Model": "MLLM",
+    "Large Language Model": "LLM",
+    "Language Model": "LM",
+    "Mixture-of-Experts": "MoE",
+    "Artificial Neural Network": "ANN",
+    "Deep Neural Network": "DNN",
+    "Graph Neural Network": "GNN",
+    "Neural Network": "NN",
+    "Monte Carlo Tree Search": "MCTS",
+    "Monte Carlo": "MC",
+    "Reinforcement Learning with Human Feedback": "RLHF",
+    "Direct Preference Optimization": "DPO",
+    "Preference Optimization": "PO",
+    "Natural Language Processing": "NLP",
+    "Natural Language": "NL",
+    "Convolutional Neural Network": "CNN",
+    "Generative Adversarial Network": "GAN",
+    "Graph Neural Network": "GNN",
+    "Long Short-Term Memory": "LSTM",
+    "Support Vector Machine": "SVM",
+    "Principal Component Analysis": "PCA",
+    "Stochastic Gradient Descent": "SGD",
+    "Transformer Model": "Transformer",
+    "Attention Mechanism": "Attention",
+    "Self-Attention Mechanism": "Self-Attention",
+    "Bidirectional Encoder Representations from Transformers": "BERT",
+    "Recursive Neural Network": "RNN",
+    "Autoregressive Model": "AR Model",
+    "Machine Learning": "ML",
+    "Artificial Intelligence": "AI",
+    "Reinforcement Learning": "RL",
+    "Explainable AI": "XAI",
+    "Federated Learning": "FL",
+    "K-Nearest Neighbors": "KNN",
+    "Markov Decision Process": "MDP",
+    "Variational Autoencoder": "VAE",
+    "Autoencoder": "AE",
+    "Singular Value Decomposition": "SVD",
+}
+# the lines will be trimmed away until they get below this character count. 
+limit = 4500
+    # papers that i spent less time on get trimmed first

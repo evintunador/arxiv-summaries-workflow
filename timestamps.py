@@ -1,7 +1,7 @@
 from pynput import keyboard
 import time
 import os
-from config import hotkey
+from config import hotkey, replacements, limit
 
 timestamps = []
 start_time = time.time()
@@ -14,6 +14,40 @@ with open(links_file, "r") as f:
 lines.reverse()  # Reverse the order
 file_iter = iter(lines)
 
+def apply_replacements(text, replacements):
+    for old, new in replacements.items():
+        text = text.replace(old, new)
+    return text
+
+def calculate_total_characters(timestamps):
+    return sum(len(timestamp) for timestamp in timestamps)
+
+def trim_timestamps(timestamps, limit=limit):
+    while calculate_total_characters(timestamps) > limit:
+        min_diff = float('inf')
+        min_index = -1
+
+        for i in range(1, len(timestamps) - 1):
+            curr_time = timestamps[i].split()[0]
+            next_time = timestamps[i + 1].split()[0]
+
+            curr_minutes, curr_seconds = map(int, curr_time.split(':'))
+            next_minutes, next_seconds = map(int, next_time.split(':'))
+
+            curr_total_seconds = curr_minutes * 60 + curr_seconds
+            next_total_seconds = next_minutes * 60 + next_seconds
+
+            diff = next_total_seconds - curr_total_seconds
+
+            if diff < min_diff:
+                min_diff = diff
+                min_index = i
+
+        if min_index != -1:
+            del timestamps[min_index]
+
+    return timestamps
+
 def on_activate():
     elapsed_time = time.time() - start_time
     minutes, seconds = divmod(int(elapsed_time), 60)
@@ -24,10 +58,13 @@ def on_activate():
         link = next(file_iter).strip()  # Get link and remove newline
         parts = link.split(' | ')
         line = parts[0]+' '+parts[1]
+        # Apply replacements to the line
+        line = apply_replacements(line, replacements)
     except StopIteration:
         line = "Outro"
     
-    timestamps.append(f"{minutes}:{seconds:02d} {line}")
+    if not timestamps or not timestamps[-1].endswith("Outro"):
+        timestamps.append(f"{minutes}:{seconds:02d} {line}")
 
 timestamps.append("0:00 Intro")
 
@@ -48,6 +85,9 @@ def on_release(key):
 with keyboard.Listener(on_press=on_press, on_release=on_release) as listener:
     listener.join()
 
+# Trim timestamps if necessary
+timestamps = trim_timestamps(timestamps)
 
 with open(f"timestamps.txt", "w") as f:
     f.write("\n".join(timestamps))
+

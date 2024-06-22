@@ -1,6 +1,7 @@
 import os
 import shutil
 import glob
+import csv
 from config import obsidian_vault_location, obsidian_vault_attachments_location, frontmatter_lines, send_to_obsidian
 
 def make_folder_if_none(path):  
@@ -8,6 +9,35 @@ def make_folder_if_none(path):
         os.makedirs(path)
 
 make_folder_if_none("pdfs-to-summarize")
+
+def update_papers_kept_csv(base_filename):
+    downloaded_csv = "papers_downloaded.csv"
+    kept_csv = "papers_kept.csv"
+    
+    # Initialize the papers_kept.csv with headers if it doesn't exist
+    if not os.path.isfile(kept_csv):
+        with open(kept_csv, mode='w', newline='') as file:
+            writer = csv.writer(file)
+            writer.writerow(["Title", "ArXiv Link", "Paper Date", "Date Added"])
+
+    # Read the row from papers_downloaded.csv
+    row_to_add = None
+    with open(downloaded_csv, mode='r', newline='') as file:
+        reader = csv.reader(file)
+        headers = next(reader)  # skip the header
+        for row in reader:
+            if row[0] == base_filename:
+                row_to_add = row
+                break
+    
+    # Add the row to papers_kept.csv
+    if row_to_add:
+        with open(kept_csv, mode='a', newline='') as file:
+            writer = csv.writer(file)
+            writer.writerow(row_to_add)
+        print(f"Added to {kept_csv}: {base_filename}")
+    else:
+        print(f"Error: Could not find {base_filename} in {downloaded_csv}")
 
 def process_files(pdf_folder, md_final_folder, pdf_final_folder):
     
@@ -38,6 +68,9 @@ def process_files(pdf_folder, md_final_folder, pdf_final_folder):
             shutil.move(pdf_file, pdf_final_folder)
         except shutil.Error as e:
             print(f"Error: {e}. Skipping file {pdf_file} because it already exists in the Obsidian Vault.")
+
+        # Update papers_kept.csv
+        update_papers_kept_csv(base_filename)
 
     print(f'{count} files added to vault assuming no skip errors')
 

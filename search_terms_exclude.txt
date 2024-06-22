@@ -28,3 +28,7 @@ hand
 grasp
 peptide
 amino acid
+medical
+medicine
+medicinal
+quantum

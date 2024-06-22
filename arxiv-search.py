@@ -5,10 +5,11 @@ import textwrap
 import tkinter as tk
 from tkinter import ttk
 import requests
-from threading import Thread
-from config import restrict_to_most_recent, max_results
+from threading import Thread, Event
+from config import restrict_to_most_recent, max_results, categories
 import os
 import re
+import csv
 
 
 if not os.path.exists("pdfs"):
@@ -68,8 +69,7 @@ include = include[:-9]
 exclude = exclude[:-9]
 print("\nIncluded Terms:\n", include)
 print("\nExcluded Terms:\n", exclude)
-
-categories = "cat:cs.AI OR cat:stat.ML OR cat:cs.CL OR cat:cs.LG OR cat:cs.MA OR cat:cs.MA" # 
+ 
 if len(include_terms) > 0 & len(exclude_terms) > 0:
     query = f'({categories}) AND ({include}) ANDNOT ({exclude})'
 elif len(include_terms) > 0:
@@ -131,12 +131,10 @@ for result in safe_iterator(results):
         break
     
     try:
-        papers.append({"title": result.title, "url": result.pdf_url, "i": i})
-        print('Title: ', result.title)
-        print('Publishing date ', result.published)
+        papers.append({"i": i, "title": result.title, "url": result.pdf_url, "published_date": result.published.date()})
+        print(f'{result.title}\nPublish date: {result.published.date()}, PDF URL: {result.pdf_url}')
         #print(result.categories)
         #print('Abstract: ', textwrap.fill(result.summary, width=220))
-        print('PDF URL: ', result.pdf_url)
         #print('DOI ', result.doi)
         print()
     except UnexpectedEmptyPageError:
@@ -150,16 +148,27 @@ for result in safe_iterator(results):
 
 print(f"Total papers: {i}")
 
+# Initialize CSV files with headers if they don't exist
+csv_file_seen = "papers_seen.csv"
+if not os.path.isfile(csv_file_seen):
+    with open(csv_file_seen, mode='w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow(["Title", "ArXiv Link", "Paper Date", "Date Added"])
+csv_file_downloaded = "papers_downloaded.csv"
+if not os.path.isfile(csv_file_downloaded):
+    with open(csv_file_downloaded, mode='w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow(["Title", "ArXiv Link", "Paper Date", "Date Added"])
 
 
 # Function to download PDF from arXiv
-def download_pdf(url, filename):
+def download_pdf(url, filename, event):
     response = requests.get(url)
     with open(filename, "wb") as f:
         f.write(response.content)
+    event.set()
 
 def on_button_click(url, filename):
-    # Constructing bytez.com URL from arXiv URL
     arxiv_id = re.sub(r'v\d+$', '', url.split('/')[-1])
     arxiv_url = f"https://arxiv.org/abs/{arxiv_id}"
     #arxiv_id_no_version = arxiv_id.split('v')[0]
@@ -176,17 +185,30 @@ def on_button_click(url, filename):
     except FileNotFoundError:
         pass  # Ignore if the file doesn't exist yet
 
-    # Write the bytez.com URL to a text file
+    # Write the title & URL to a text file
     with open('links.txt', 'a') as file:
         file.write(line + '\n')
+    
+    # Write to papers_downloaded.csv
+    today_date = datetime.now().strftime('%Y-%m-%d')
+    with open(csv_file_downloaded, mode='a', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow([filename[5:-4], arxiv_url, new_most_recent, today_date])
 
     # Download the PDF in a new thread
-    thread = Thread(target=download_pdf, args=(url, filename))
+    event = Event()
+    thread = Thread(target=download_pdf, args=(url, filename, event))
+    thread.daemon = True  # Ensure the thread exits when the main program exits
     thread.start()
 
+    def check_thread():
+        if event.is_set():
+            button.config(state=tk.NORMAL)
+        else:
+            root.after(100, check_thread)
 
-
-
+    button.config(state=tk.DISABLED)
+    check_thread()
 
 # Create the main window
 root = tk.Tk()
@@ -201,10 +223,15 @@ frame = ttk.Frame(canvas)
 canvas.create_window((0, 0), window=frame, anchor="nw")
 canvas.configure(yscrollcommand=scrollbar.set)
 
+today_date = datetime.now().strftime('%Y-%m-%d')
 for i, paper in enumerate(papers):
-    #label = ttk.Label(frame, text=paper["title"])
-    #label.grid(row=i, column=0, sticky=tk.W)
-    #print(paper['url'])
+    # Write to CSV
+    arxiv_id = re.sub(r'v\d+$', '', paper['url'].split('/')[-1])
+    arxiv_url = f"https://arxiv.org/abs/{arxiv_id}"
+    with open(csv_file_seen, mode='a', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow([paper['title'].replace(":", " -"), arxiv_url, paper['published_date'], today_date])
+
     button = ttk.Button(
         frame, 
         text=f"{paper['i']}: {paper['title']}", 
