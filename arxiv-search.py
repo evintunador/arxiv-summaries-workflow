@@ -117,7 +117,7 @@ for result in safe_iterator(results):
     if i == 0:
         new_most_recent = result.published.date()#.strftime('%Y-%m-%d')
     
-    if restrict_to_most_recent & (result.published.date() < most_recent_check):
+    if restrict_to_most_recent & (result.published.date() <= most_recent_check):
         print(f"GOT TO MOST RECENT DATE RESET: {result.published.date()} <= {most_recent_check}")
         # Write new_most_recent to .txt file
         # we only want to do that here bc if restrict_to_most_recent=False then we don't want to change the value

@@ -6,13 +6,22 @@ from config import hotkey, replacements, limit
 timestamps = []
 start_time = time.time()
 
-links_file = "links.txt"  # Specify the links file
+links_file = "links.txt"
+timestamps_file = "timestamps.txt"
 
-# Read the lines of the file in reverse order
-with open(links_file, "r") as f:
-    lines = f.readlines()
-lines.reverse()  # Reverse the order
-file_iter = iter(lines)
+# Check if timestamps.txt exists
+first_run = not os.path.exists(timestamps_file)
+
+if first_run:
+    # Read the lines of the file in reverse order
+    with open(links_file, "r") as f:
+        lines = f.readlines()
+    lines.reverse()  # Reverse the order
+    file_iter = iter(lines)
+else:
+    # Read existing timestamps
+    with open(timestamps_file, "r") as f:
+        timestamps = f.read().splitlines()
 
 def apply_replacements(text, replacements):
     for old, new in replacements.items():
@@ -53,20 +62,26 @@ def on_activate():
     minutes, seconds = divmod(int(elapsed_time), 60)
 
     print(f"Hotkey activated {minutes}:{seconds:02d}")  # Debug line
-    global file_iter
-    try:
-        link = next(file_iter).strip()  # Get link and remove newline
-        parts = link.split(' | ')
-        line = parts[0]+' '+parts[1]
-        # Apply replacements to the line
-        line = apply_replacements(line, replacements)
-    except StopIteration:
-        line = "Outro"
     
-    if not timestamps or not timestamps[-1].endswith("Outro"):
-        timestamps.append(f"{minutes}:{seconds:02d} {line}")
+    if first_run:
+        global file_iter
+        try:
+            link = next(file_iter).strip()  # Get link and remove newline
+            parts = link.split(' | ')
+            line = parts[0]+' '+parts[1]
+            # Apply replacements to the line
+            line = apply_replacements(line, replacements)
+        except StopIteration:
+            line = "Outro"
+        
+        if not timestamps or not timestamps[-1].endswith("Outro"):
+            timestamps.append(f"{minutes}:{seconds:02d} {line}")
+    else:
+        # For subsequent runs, just add the timestamp
+        timestamps.append(f"{minutes}:{seconds:02d}")
 
-timestamps.append("0:00 Intro")
+if first_run:
+    timestamps.append("0:00 Intro")
 
 current_keys = set()
 
@@ -85,9 +100,9 @@ def on_release(key):
 with keyboard.Listener(on_press=on_press, on_release=on_release) as listener:
     listener.join()
 
-# Trim timestamps if necessary
-timestamps = trim_timestamps(timestamps)
+# Trim timestamps if it's not the first run
+if not first_run:
+    timestamps = trim_timestamps(timestamps)
 
-with open(f"timestamps.txt", "w") as f:
+with open(timestamps_file, "w") as f:
     f.write("\n".join(timestamps))
-

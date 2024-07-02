@@ -90,3 +90,72 @@ AdaMoE - Token-Adaptive Routing with Null Experts for Mixture-of-Experts Languag
 Locating and Extracting Relational Concepts in Large Language Models,https://arxiv.org/abs/2406.13184,2024-06-20,2024-06-21
 Amphista - Accelerate LLM Inference with Bi-directional Multiple Drafting Heads in a Non-autoregressive Style,https://arxiv.org/abs/2406.13170,2024-06-20,2024-06-21
 Large Language Models are Biased Because They Are Large Language Models,https://arxiv.org/abs/2406.13138,2024-06-20,2024-06-21
+Understanding and Mitigating Tokenization Bias in Language Models,https://arxiv.org/abs/2406.16829,2024-06-24,2024-06-25
+Lottery Ticket Adaptation - Mitigating Destructive Interference in LLMs,https://arxiv.org/abs/2406.16797,2024-06-24,2024-06-25
+Adam-mini - Use Fewer Learning Rates To Gain More,https://arxiv.org/abs/2406.16793,2024-06-24,2024-06-25
+Finding Transformer Circuits with Edge Pruning,https://arxiv.org/abs/2406.16778,2024-06-24,2024-06-25
+The Responsible Foundation Model Development Cheatsheet - A Review of Tools & Resources,https://arxiv.org/abs/2406.16746,2024-06-24,2024-06-25
+Scaling Laws for Linear Complexity Language Models,https://arxiv.org/abs/2406.16690,2024-06-24,2024-06-25
+Forecasting with Deep Learning - Beyond Average of Average of Average Performance,https://arxiv.org/abs/2406.16590,2024-06-24,2024-06-25
+LLaMA-MoE - Building Mixture-of-Experts from LLaMA with Continual Pre-training,https://arxiv.org/abs/2406.16554,2024-06-24,2024-06-25
+Large Vocabulary Size Improves Large Language Models,https://arxiv.org/abs/2406.16508,2024-06-24,2024-06-25
+OTCE - Hybrid SSM and Attention with Cross Domain Mixture of Experts to construct Observer-Thinker-Conceiver-Expresser,https://arxiv.org/abs/2406.16495,2024-06-24,2024-06-25
+The Hidden Pitfalls of the Cosine Similarity Loss,https://arxiv.org/abs/2406.16468,2024-06-24,2024-06-25
+Building on Efficient Foundations - Effectively Training LLMs with Structured Feedforward Layers,https://arxiv.org/abs/2406.16450,2024-06-24,2024-06-25
+Theory on Mixture-of-Experts in Continual Learning,https://arxiv.org/abs/2406.16437,2024-06-24,2024-06-25
+Pruning via Merging - Compressing LLMs via Manifold Alignment Based Layer Merging,https://arxiv.org/abs/2406.16330,2024-06-24,2024-06-25
+What Do VLMs NOTICE? A Mechanistic Interpretability Pipeline for Noise-free Text-Image Corruption and Evaluation,https://arxiv.org/abs/2406.16320,2024-06-24,2024-06-25
+Does Cross-Cultural Alignment Change the Commonsense Morality of Language Models?,https://arxiv.org/abs/2406.16316,2024-06-24,2024-06-25
+"One Thousand and One Pairs - A ""novel"" challenge for long-context language models",https://arxiv.org/abs/2406.16264,2024-06-24,2024-06-25
+Video-Infinity - Distributed Long Video Generation,https://arxiv.org/abs/2406.16260,2024-06-24,2024-06-25
+LLMs' Classification Performance is Overclaimed,https://arxiv.org/abs/2406.16203,2024-06-24,2024-06-25
+FastMem - Fast Memorization of Prompt Improves Context Awareness of Large Language Models,https://arxiv.org/abs/2406.16069,2024-06-24,2024-06-25
+Combine and Conquer - A Meta-Analysis on Data Shift and Out-of-Distribution Detection,https://arxiv.org/abs/2406.16045,2024-06-24,2024-06-25
+Unlocking the Future - Exploring Look-Ahead Planning Mechanistic Interpretability in Large Language Models,https://arxiv.org/abs/2406.16033,2024-06-24,2024-06-25
+Effect of Random Learning Rate - Theoretical Analysis of SGD Dynamics in Non-Convex Optimization via Stationary Distribution,https://arxiv.org/abs/2406.16032,2024-06-24,2024-06-25
+Distributed Rule Vectors is A Key Mechanism in Large Language Models' In-Context Learning,https://arxiv.org/abs/2406.16007,2024-06-24,2024-06-25
+SimSMoE - Solving Representational Collapse via Similarity Measure,https://arxiv.org/abs/2406.15883,2024-06-24,2024-06-25
+What Matters in Transformers? Not All Attention is Needed,https://arxiv.org/abs/2406.15786,2024-06-24,2024-06-25
+Unveiling and Harnessing Hidden Attention Sinks - Enhancing Large Language Models without Training through Attention Calibration,https://arxiv.org/abs/2406.15765,2024-06-24,2024-06-25
+Scaling Laws for Fact Memorization of Large Language Models,https://arxiv.org/abs/2406.15720,2024-06-24,2024-06-25
+Large Language Models have Intrinsic Self-Correction Ability,https://arxiv.org/abs/2406.15673,2024-06-24,2024-06-25
+Hybrid Alignment Training for Large Language Models,https://arxiv.org/abs/2406.15178,2024-06-24,2024-06-25
+Brain-Like Language Processing via a Shallow Untrained Multihead Attention Network,https://arxiv.org/abs/2406.15109,2024-06-24,2024-06-25
+HLQ - Fast and Efficient Backpropagation via Hadamard Low-rank Quantization,https://arxiv.org/abs/2406.15102,2024-06-24,2024-06-25
+Optimised Grouped-Query Attention Mechanism for Transformers,https://arxiv.org/abs/2406.14963,2024-06-24,2024-06-25
+MoA - Mixture of Sparse Attention for Automatic Large Language Model Compression,https://arxiv.org/abs/2406.14909,2024-06-24,2024-06-25
+Do LLMs Have Distinct and Consistent Personality? TRAIT - Personality Testset designed for LLMs with Psychometrics,https://arxiv.org/abs/2406.14703,2024-06-24,2024-06-25
+Can LLMs Learn by Teaching? A Preliminary Study,https://arxiv.org/abs/2406.14629,2024-06-24,2024-06-25
+DataComp-LM - In search of the next generation of training sets for language models,https://arxiv.org/abs/2406.11794,2024-06-17,2024-06-25
+
+Interpreting Attention Layer Outputs with Sparse Autoencoders,https://arxiv.org/abs/2406.17759,2024-06-25,2024-06-27
+"Recite, Reconstruct, Recollect - Memorization in LMs as a Multifaceted Phenomenon",https://arxiv.org/abs/2406.17746,2024-06-25,2024-06-27
+Grass - Compute Efficient Low-Memory LLM Training with Structured Sparse Gradients,https://arxiv.org/abs/2406.17660,2024-06-25,2024-06-27
+Banishing LLM Hallucinations Requires Rethinking Generalization,https://arxiv.org/abs/2406.17642,2024-06-25,2024-06-27
+Benchmarking Mental State Representations in Language Models,https://arxiv.org/abs/2406.17513,2024-06-25,2024-06-27
+The Tree of Diffusion Life - Evolutionary Embeddings to Understand the Generation Process of Diffusion Models,https://arxiv.org/abs/2406.17462,2024-06-25,2024-06-27
+A Text is Worth Several Tokens - Text Embedding from LLMs Secretly Aligns Well with The Key Tokens,https://arxiv.org/abs/2406.17378,2024-06-25,2024-06-27
+Native Design Bias - Studying the Impact of English Nativeness on Language Model Performance,https://arxiv.org/abs/2406.17385,2024-06-25,2024-06-27
+Peirce in the Machine - How Mixture of Experts Models Perform Hypothesis Construction,https://arxiv.org/abs/2406.17150,2024-06-25,2024-06-27
+Large Language Models Assume People are More Rational than We Really are,https://arxiv.org/abs/2406.17055,2024-06-25,2024-06-27
+Mental Modeling of Reinforcement Learning Agents by Language Models,https://arxiv.org/abs/2406.18505,2024-06-26,2024-06-27
+Do LLMs dream of elephants (when told not to)? Latent concept association and associative memory in transformers,https://arxiv.org/abs/2406.18400,2024-06-26,2024-06-27
+Adversarial Search Engine Optimization for Large Language Models,https://arxiv.org/abs/2406.18382,2024-06-26,2024-06-27
+A Closer Look into Mixture-of-Experts in Large Language Models,https://arxiv.org/abs/2406.18219,2024-06-26,2024-06-27
+MammothModa - Multi-Modal Large Language Model,https://arxiv.org/abs/2406.18193,2024-06-26,2024-06-27
+Emergence of social hierarchies in a society with two competitive classes,https://arxiv.org/abs/2406.18168,2024-06-26,2024-06-27
+ResumeAtlas - Revisiting Resume Classification with Large-Scale Datasets and Large Language Models,https://arxiv.org/abs/2406.18125,2024-06-26,2024-06-27
+Multilingual Knowledge Graph Completion from Pretrained Language Models with Knowledge Constraints,https://arxiv.org/abs/2406.18085,2024-06-26,2024-06-27
+Encourage or Inhibit Monosemanticity? Revisit Monosemanticity from a Feature Decorrelation Perspective,https://arxiv.org/abs/2406.17969,2024-06-26,2024-06-27
+Why Line Search when you can Plane Search? SO-Friendly Neural Networks allow Per-Iteration Optimization of Learning and Momentum Rates for Every Layer,https://arxiv.org/abs/2406.17954,2024-06-26,2024-06-27
+Emergence of Hidden Capabilities - Exploring Learning Dynamics in Concept Space,https://arxiv.org/abs/2406.19370,2024-06-27,2024-06-28
+Efficient World Models with Context-Aware Tokenization,https://arxiv.org/abs/2406.19320,2024-06-27,2024-06-28
+Commodification of Compute,https://arxiv.org/abs/2406.19261,2024-06-27,2024-06-28
+Revealing Fine-Grained Values and Opinions in Large Language Models,https://arxiv.org/abs/2406.19238,2024-06-27,2024-06-28
+T-FREE - Tokenizer-Free Generative LLMs via Sparse Representations for Memory-Efficient Embeddings,https://arxiv.org/abs/2406.19223,2024-06-27,2024-06-28
+Resolving Discrepancies in Compute-Optimal Scaling of Language Models,https://arxiv.org/abs/2406.19146,2024-06-27,2024-06-28
+Adaptive Stochastic Weight Averaging,https://arxiv.org/abs/2406.19092,2024-06-27,2024-06-28
+Dimensions underlying the representational alignment of deep neural networks with humans,https://arxiv.org/abs/2406.19087,2024-06-27,2024-06-28
+The Rise of Artificial Intelligence in Educational Measurement - Opportunities and Ethical Challenges,https://arxiv.org/abs/2406.18900,2024-06-27,2024-06-28
+All Random Features Representations are Equivalent,https://arxiv.org/abs/2406.18802,2024-06-27,2024-06-28
+Infinite Width Models That Work - Why Feature Learning Doesn't Matter as Much as You Think,https://arxiv.org/abs/2406.18800,2024-06-27,2024-06-28

@@ -29,6 +29,7 @@ replacements = {
     "Large Language Model": "LLM",
     "Language Model": "LM",
     "Mixture-of-Experts": "MoE",
+    "Mixture of Experts": "MoE",
     "Artificial Neural Network": "ANN",
     "Deep Neural Network": "DNN",
     "Graph Neural Network": "GNN",
@@ -63,7 +64,8 @@ replacements = {
     "Variational Autoencoder": "VAE",
     "Autoencoder": "AE",
     "Singular Value Decomposition": "SVD",
+    "Continual Learning": "CL"
 }
 # the lines will be trimmed away until they get below this character count. 
-limit = 4500
+limit = 4475
     # papers that i spent less time on get trimmed first

@@ -26,7 +26,7 @@ def update_papers_kept_csv(base_filename):
         reader = csv.reader(file)
         headers = next(reader)  # skip the header
         for row in reader:
-            if row[0] == base_filename:
+            if row and row[0] == base_filename:  # Check if row is not empty and matches base_filename
                 row_to_add = row
                 break
     
