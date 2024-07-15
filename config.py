@@ -1,6 +1,6 @@
 ### arxiv-search.py
 restrict_to_most_recent = True
-max_results = 2000
+max_results = 5000
 categories = "cat:cs.AI OR cat:stat.ML OR cat:cs.CL OR cat:cs.LG OR cat:cs.MA OR cat:cs.MA"
 
 ### generate_newsletter.py 
@@ -27,6 +27,8 @@ hotkey = '`'
 replacements = {
     "Multimodal Large Language Model": "MLLM",
     "Large Language Model": "LLM",
+    "large language model": "LLM",
+    "language model": "LM",
     "Language Model": "LM",
     "Mixture-of-Experts": "MoE",
     "Mixture of Experts": "MoE",
@@ -64,7 +66,11 @@ replacements = {
     "Variational Autoencoder": "VAE",
     "Autoencoder": "AE",
     "Singular Value Decomposition": "SVD",
-    "Continual Learning": "CL"
+    "Continual Learning": "CL",
+    "Chain of Thought": "CoT",
+    "Chains of Thought": "CoTs",
+    "State Space Model": "SSM",
+    "state space model": "SSM",
 }
 # the lines will be trimmed away until they get below this character count. 
 limit = 4475

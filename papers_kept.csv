@@ -24,3 +24,37 @@ MoA - Mixture of Sparse Attention for Automatic Large Language Model Compression
 The Hidden Pitfalls of the Cosine Similarity Loss,https://arxiv.org/abs/2406.16468,2024-06-24,2024-06-25
 Finding Transformer Circuits with Edge Pruning,https://arxiv.org/abs/2406.16778,2024-06-24,2024-06-25
 A Closer Look into Mixture-of-Experts in Large Language Models,https://arxiv.org/abs/2406.18219,2024-06-26,2024-06-27
+Single Parent Family - A Spectrum of Family Members from a Single Pre-Trained Foundation Model,https://arxiv.org/abs/2406.19995,2024-06-28,2024-07-02
+Universal Length Generalization with Turing Programs,https://arxiv.org/abs/2407.03310v1,2024-07-03,2024-07-04
+Large Language Model Enhanced Knowledge Representation Learning - A Survey,https://arxiv.org/abs/2407.00936,2024-07-02,2024-07-03
+Universal Approximation Theory - The basic theory for large language models,https://arxiv.org/abs/2407.00958,2024-07-02,2024-07-03
+Multiple-Resolution Tokenization for Time Series Forecasting with an Application to Pricing,https://arxiv.org/abs/2407.03185,2024-07-03,2024-07-04
+On the Anatomy of Attention,https://arxiv.org/abs/2407.02423,2024-07-02,2024-07-03
+A Review of the Applications of Deep Learning-Based Emergent Communication,https://arxiv.org/abs/2407.03302,2024-07-03,2024-07-04
+Hypformer - Exploring Efficient Hyperbolic Transformer Fully in Hyperbolic Space,https://arxiv.org/abs/2407.01290,2024-07-02,2024-07-03
+Efficient Expert Pruning for Sparse Mixture-of-Experts Language Models - Enhancing Performance and Reducing Inference Costs,https://arxiv.org/abs/2407.00945,2024-07-02,2024-07-03
+Do language models plan ahead for future tokens -,https://arxiv.org/abs/2404.00859,2024-04-01,2024-07-04
+Diffusion Models and Representation Learning - A Survey,https://arxiv.org/abs/2407.00783,2024-07-02,2024-07-03
+Predicting vs. Acting - A Trade-off Between World Modeling & Agent Modeling,https://arxiv.org/abs/2407.02446,2024-07-02,2024-07-03
+Min P Sampling - Balancing Creativity and Coherence at High Temperature,https://arxiv.org/abs/2407.01082,2024-07-02,2024-07-03
+Token Erasure as a Footprint of Implicit Vocabulary Items in LLMs,https://arxiv.org/abs/2406.20086,2024-06-28,2024-07-02
+Efficient Training of Language Models with Compact and Consistent Next Token Distributions,https://arxiv.org/abs/2407.02819,2024-07-03,2024-07-04
+How Does Overparameterization Affect Features?,https://arxiv.org/abs/2407.00968,2024-07-02,2024-07-03
+LLM Internal States Reveal Hallucination Risk Faced With a Query,https://arxiv.org/abs/2407.03282,2024-07-03,2024-07-04
+Large Language Models Assume People are More Rational than We Really are,https://arxiv.org/abs/2406.17055,2024-06-25,2024-06-27
+MobileLLM - Optimizing Sub-billion Parameter Language Models for On-Device Use Cases,https://arxiv.org/pdf/2402.14905,2024-02-22,2024-07-11
+Predictive Coding Networks and Inference Learning - Tutorial and Survey,https://arxiv.org/abs/2407.04117,2024-07-09,2024-07-10
+Over the Edge of Chaos? Excess Complexity as a Roadblock to Artificial General Intelligence,https://arxiv.org/abs/2407.03652,2024-07-09,2024-07-10
+SoftDedup - an Efficient Data Reweighting Method for Speeding Up Language Model Pre-training,https://arxiv.org/abs/2407.06654,2024-07-09,2024-07-10
+Anthropocentric bias and the possibility of artificial cognition,https://arxiv.org/abs/2407.03859,2024-07-09,2024-07-10
+Mixture of A Million Experts,https://arxiv.org/abs/2407.04153,2024-07-09,2024-07-10
+Improving Self Consistency in LLMs through Probabilistic Tokenization,https://arxiv.org/abs/2407.03678,2024-07-09,2024-07-10
+Internet of Agents - Weaving a Web of Heterogeneous Agents for Collaborative Intelligence,https://arxiv.org/abs/2407.07061,2024-07-09,2024-07-10
+A Theory of Machine Learning,https://arxiv.org/abs/2407.05520,2024-07-09,2024-07-10
+Introducing 'Inside' Out of Distribution,https://arxiv.org/abs/2407.04534,2024-07-09,2024-07-10
+A Review of the Challenges with Massive Web-mined Corpora Used in Large Language Models Pre-Training,https://arxiv.org/abs/2407.07630,2024-07-10,2024-07-11
+When LLMs Play the Telephone Game - Cumulative Changes and Attractors in Iterated Cultural Transmissions,https://arxiv.org/abs/2407.04503,2024-07-09,2024-07-10
+Enhancing learning in artificial neural networks through cellular heterogeneity and neuromodulatory signaling,https://arxiv.org/abs/2407.04525,2024-07-09,2024-07-10
+Learning to (Learn at Test Time) - RNNs with Expressive Hidden States,https://arxiv.org/abs/2407.04620,2024-07-05,2024-07-12
+Surpassing Cosine Similarity for Multidimensional Comparisons - Dimension Insensitive Euclidean Metric (DIEM),https://arxiv.org/abs/2407.08623,2024-07-11,2024-07-12
+Collective Innovation in Groups of Large Language Models,https://arxiv.org/abs/2407.05377,2024-07-09,2024-07-10
