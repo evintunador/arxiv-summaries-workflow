@@ -106,6 +106,12 @@ except Exception as e:
     print(f"Couldn't delete timestamps.txt bc Error occurred: \n{e}")
 
 try:
+    if os.path.isfile('timestamps_adjusted.txt'):
+        os.remove('timestamps_adjusted.txt')
+except Exception as e:
+    print(f"Couldn't delete timestamps_adjusted.txt bc Error occurred: \n{e}")
+
+try:
     if os.path.isfile('newsletter.txt'):
         os.remove('newsletter.txt')
 except Exception as e:

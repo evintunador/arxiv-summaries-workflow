@@ -71,3 +71,32 @@ A Survey on Universal Approximation Theorems,https://arxiv.org/abs/2407.12895,20
 Future Lens - Anticipating Subsequent Tokens from a Single Hidden State,https://arxiv.org/abs/2311.04897,2023-11-08,2024-07-16
 Information-Theoretic Foundations for Machine Learning,https://arxiv.org/abs/2407.12288,2024-07-18,2024-07-19
 Flash normalization - fast RMSNorm for LLMs,https://arxiv.org/abs/2407.09577,2024-07-18,2024-07-21
+Efficient Visual Transformer by Learnable Token Merging,https://arxiv.org/abs/2407.15219,2024-07-23,2024-07-26
+Deep Learning for Economists,https://arxiv.org/abs/2407.15339,2024-07-23,2024-07-26
+Matryoshka Diffusion Models,https://arxiv.org/abs/2310.15111,2023-10-23,2024-07-26
+Vectoring Languages,https://arxiv.org/abs/2407.11766,2024-07-18,2024-07-20
+On the Benefits of Rank in Attention Layers,https://arxiv.org/abs/2407.16153,2024-07-23,2024-07-25
+Demystifying Verbatim Memorization in Large Language Models,https://arxiv.org/abs/2407.17817,2024-07-25,2024-07-26
+"Farewell to Length Extrapolation, a Training-Free Infinite Context with Finite Attention Scope",https://arxiv.org/abs/2407.15176,2024-07-23,2024-07-26
+Dissecting Multiplication in Transformers - Insights into LLMs,https://arxiv.org/abs/2407.15360,2024-07-23,2024-07-26
+Keep the Cost Down - A Review on Methods to Optimize LLM' s KV-Cache Consumption,https://arxiv.org/abs/2407.18003,2024-07-25,2024-07-26
+Shared Imagination - LLMs Hallucinate Alike,https://arxiv.org/abs/2407.16604,2024-07-23,2024-07-25
+Investigating learning-independent abstract reasoning in artificial neural networks,https://arxiv.org/abs/2407.17791,2024-07-25,2024-07-26
+Learning mental states estimation through self-observation - a developmental synergy between intentions and beliefs representations in a deep-learning model of Theory of Mind,https://arxiv.org/abs/2407.18022,2024-07-25,2024-07-26
+"A Comprehensive Survey of LLM Alignment Techniques - RLHF, RLAIF, PPO, DPO and More",https://arxiv.org/abs/2407.16216,2024-07-23,2024-07-25
+PMoE - Progressive Mixture of Experts with Asymmetric Transformer for Continual Learning,https://arxiv.org/abs/2407.21571,2024-07-31,2024-08-01
+Deep Companion Learning - Enhancing Generalization Through Historical Consistency,https://arxiv.org/abs/2407.18821,2024-07-29,2024-07-30
+Adaptive Pre-training Data Detection for Large Language Models via Surprising Tokens,https://arxiv.org/abs/2407.21248,2024-07-31,2024-08-01
+Machine Learning for predicting chaotic systems,https://arxiv.org/abs/2407.20158,2024-07-29,2024-07-30
+Universal Approximation Theory - Foundations for Parallelism in Neural Networks,https://arxiv.org/abs/2407.21670,2024-07-31,2024-08-01
+Mixture of Nested Experts - Adaptive Processing of Visual Tokens,https://arxiv.org/abs/2407.19985,2024-07-29,2024-07-30
+Big Cooperative Learning,https://arxiv.org/abs/2407.21319,2024-07-31,2024-08-01
+An introduction to reinforcement learning for neuroscience,https://arxiv.org/abs/2311.07315v2,2023-11-13,2024-08-02
+MoMa - Efficient Early-Fusion Pre-training with Mixture of Modality-Aware Experts,https://arxiv.org/abs/2407.21770,2024-07-31,2024-08-01
+Social Learning through Interactions with Other Agents - A Survey,https://arxiv.org/abs/2407.21713,2024-07-31,2024-08-01
+Comprehensive Survey of Complex-Valued Neural Networks - Insights into Backpropagation and Activation Functions,https://arxiv.org/abs/2407.19258,2024-07-29,2024-07-30
+Supertrust - Evolution-based superalignment strategy for safe coexistence,https://arxiv.org/abs/2407.20208,2024-07-29,2024-07-30
+"Entropy, Thermodynamics and the Geometrization of the Language Model",https://arxiv.org/abs/2407.21092,2024-07-31,2024-08-01
+Do Language Models Have a Critical Period for Language Acquisition -,https://arxiv.org/abs/2407.19325v1,2024-07-27,2024-08-02
+Exploring Loss Landscapes through the Lens of Spin Glass Theory,https://arxiv.org/abs/2407.20724,2024-07-31,2024-08-01
+The Llama 3 Herd of Models,https://arxiv.org/abs/2407.21783,2024-07-31,2024-08-01

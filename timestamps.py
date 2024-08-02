@@ -4,8 +4,7 @@ import os
 from config import hotkey, replacements, limit
 
 timestamps = []
-start_time = time.time()
-
+start_time = None
 links_file = "links.txt"
 timestamps_file = "timestamps.txt"
 
@@ -35,36 +34,37 @@ def trim_timestamps(timestamps, limit=limit):
     while calculate_total_characters(timestamps) > limit:
         min_diff = float('inf')
         min_index = -1
-
         for i in range(1, len(timestamps) - 1):
             curr_time = timestamps[i].split()[0]
             next_time = timestamps[i + 1].split()[0]
-
             curr_minutes, curr_seconds = map(int, curr_time.split(':'))
             next_minutes, next_seconds = map(int, next_time.split(':'))
-
             curr_total_seconds = curr_minutes * 60 + curr_seconds
             next_total_seconds = next_minutes * 60 + next_seconds
-
             diff = next_total_seconds - curr_total_seconds
-
             if diff < min_diff:
                 min_diff = diff
                 min_index = i
-
         if min_index != -1:
             del timestamps[min_index]
-
     return timestamps
 
 def on_activate():
+    global start_time, timestamps, first_run, file_iter
+    
+    if start_time is None:
+        start_time = time.time()
+        print("Timer started!")
+        if first_run:
+            timestamp = "0:00 Intro"
+            timestamps.append(timestamp)
+            print(timestamp)  # Print the Intro timestamp
+        return
+
     elapsed_time = time.time() - start_time
     minutes, seconds = divmod(int(elapsed_time), 60)
-
-    print(f"Hotkey activated {minutes}:{seconds:02d}")  # Debug line
     
     if first_run:
-        global file_iter
         try:
             link = next(file_iter).strip()  # Get link and remove newline
             parts = link.split(' | ')
@@ -75,13 +75,14 @@ def on_activate():
             line = "Outro"
         
         if not timestamps or not timestamps[-1].endswith("Outro"):
-            timestamps.append(f"{minutes}:{seconds:02d} {line}")
+            timestamp = f"{minutes}:{seconds:02d} {line}"
+            timestamps.append(timestamp)
+            print(timestamp)  # Print the new timestamp
     else:
         # For subsequent runs, just add the timestamp
-        timestamps.append(f"{minutes}:{seconds:02d}")
-
-if first_run:
-    timestamps.append("0:00 Intro")
+        timestamp = f"{minutes}:{seconds:02d}"
+        timestamps.append(timestamp)
+        print(timestamp)  # Print the new timestamp
 
 current_keys = set()
 

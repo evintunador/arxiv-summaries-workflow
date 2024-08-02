@@ -59,6 +59,7 @@ replacements = {
     "Machine Learning": "ML",
     "Artificial Intelligence": "AI",
     "Reinforcement Learning": "RL",
+    "reinforcement learning": "RL",
     "Explainable AI": "XAI",
     "Federated Learning": "FL",
     "K-Nearest Neighbors": "KNN",
