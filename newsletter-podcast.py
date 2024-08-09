@@ -54,6 +54,14 @@ def cut_off_string(input_string, cutoff_string):
         # If the cutoff string is not found, return the original string
         # You can also choose to handle this case differently
         return input_string, ''
+
+def get_link(base_filename):
+    with open('links.txt', 'r') as f:
+        for line in f:
+            title, link = line.strip().split(' | ')
+            if title.lower() in base_filename.lower():
+                return link
+    return None
     
 if __name__ == '__main__':
     # instantiate chatbot, variables
@@ -74,8 +82,10 @@ if __name__ == '__main__':
     summaries = ''
     # iterate over pdf files and create summaries to add to the newsletter
     for pdf_file in pdf_files:
-        # title of each summary
-        summaries += f"\n\n\n\n# {pdf_file.replace('.pdf', '')}"
+        # title and link of each summary
+        base_filename = pdf_file.replace('.pdf', '')
+        link = get_link(base_filename)
+        summaries += f"\n\n\n\n# {base_filename}\n{link}"
 
         # Check if the report already exists in the output folder
         filename = 'txt-summaries/' + pdf_file.replace('.pdf', '.txt')

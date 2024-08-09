@@ -430,3 +430,66 @@ Mixture of Nested Experts - Adaptive Processing of Visual Tokens,https://arxiv.o
 Large Language Monkeys - Scaling Inference Compute with Repeated Sampling,https://arxiv.org/abs/2407.21787,2024-07-31,2024-08-02
 MindSearch - Mimicking Human Minds Elicits Deep AI Searcher,https://arxiv.org/abs/2407.20183,2024-07-29,2024-08-02
 On the Design and Analysis of LLM-Based Algorithms,https://arxiv.org/abs/2407.14788v1,2024-07-20,2024-08-02
+Unexpected Benefits of Self-Modeling in Neural Systems,https://arxiv.org/abs/2407.10188,2024-07-14,2024-08-05
+Gemma 2 - Improving Open Language Models at a Practical Size,https://arxiv.org/abs/2408.00118,2024-07-31,2024-08-05
+Next Generation Reservoir Computing,https://arxiv.org/abs/2106.07688,2021-06-14,2024-08-05
+Derivation of Back-propagation for Graph Convolutional Networks using Matrix Calculus and its Application to Explainable Artificial Intelligence,https://arxiv.org/abs/2408.01408,2024-08-02,2024-08-05
+Transformers are Universal In-context Learners,https://arxiv.org/abs/2408.01367,2024-08-02,2024-08-05
+Autoencoders in Function Space,https://arxiv.org/abs/2408.01362,2024-08-02,2024-08-05
+Data Debugging is NP-hard for Classifiers Trained with SGD,https://arxiv.org/abs/2408.01365,2024-08-02,2024-08-05
+Reconsidering Token Embeddings with the Definitions for Pre-trained Language Models,https://arxiv.org/abs/2408.01308,2024-08-02,2024-08-05
+Detection and Characterization of Coordinated Online Behavior - A Survey,https://arxiv.org/abs/2408.01257,2024-08-02,2024-08-05
+A Survey on Self-play Methods in Reinforcement Learning,https://arxiv.org/abs/2408.01072,2024-08-02,2024-08-05
+On the Resilience of Multi-Agent Systems with Malicious Agents,https://arxiv.org/abs/2408.00989,2024-08-02,2024-08-05
+Equivariant neural networks and piecewise linear representation theory,https://arxiv.org/abs/2408.00949,2024-08-02,2024-08-05
+Generalisation of Total Uncertainty in AI - A Theoretical Study,https://arxiv.org/abs/2408.00946,2024-08-02,2024-08-05
+Disentangling Dense Embeddings with Sparse Autoencoders,https://arxiv.org/abs/2408.00657,2024-08-02,2024-08-05
+"SentenceVAE - Faster, Longer and More Accurate Inference with Next-sentence Prediction for Large Language Models",https://arxiv.org/abs/2408.00655,2024-08-02,2024-08-05
+A Systematic Review on Long-Tailed Learning,https://arxiv.org/abs/2408.00483,2024-08-02,2024-08-05
+What comes after transformers? -- A selective survey connecting ideas in deep learning,https://arxiv.org/abs/2408.00386,2024-08-02,2024-08-05
+Stretching Each Dollar - Diffusion Training from Scratch on a Micro-Budget,https://arxiv.org/abs/2407.15811,2024-07-22,2024-08-06
+Apple Intelligence Foundation Language Models,https://arxiv.org/abs/2407.21075,2024-07-29,2024-08-06
+Adversarial Examples that Fool both Computer Vision and Time-Limited Humans,https://arxiv.org/abs/1802.08195,2018-02-22,2024-08-06
+Language Model Can Listen While Speaking,https://arxiv.org/abs/2408.02622,2024-08-05,2024-08-06
+SEAS - Self-Evolving Adversarial Safety Optimization for Large Language Models,https://arxiv.org/abs/2408.02632,2024-08-05,2024-08-06
+Decoupled Vocabulary Learning Enables Zero-Shot Translation from Unseen Languages,https://arxiv.org/abs/2408.02290,2024-08-05,2024-08-06
+Spin glass model of in-context learning,https://arxiv.org/abs/2408.02288,2024-08-05,2024-08-06
+DeMansia - Mamba Never Forgets Any Tokens,https://arxiv.org/abs/2408.01986,2024-08-05,2024-08-06
+Cross-layer Attention Sharing for Large Language Models,https://arxiv.org/abs/2408.01890,2024-08-05,2024-08-06
+STBLLM - Breaking the 1-Bit Barrier with Structured Binary LLMs,https://arxiv.org/abs/2408.01803,2024-08-05,2024-08-06
+Classical Machine Learning - Seventy Years of Algorithmic Learning Evolution,https://arxiv.org/abs/2408.01747,2024-08-05,2024-08-06
+Neural Machine Translation without Embeddings,https://arxiv.org/abs/2008.09396,2020-08-21,2024-08-06
+From pixels to planning - scale-free active inference,https://arxiv.org/abs/2407.20292,2024-07-27,2024-08-07
+The Need for a Big World Simulator - A Scientific Challenge for Continual Learning,https://arxiv.org/abs/2408.02930,2024-08-06,2024-08-07
+Self-Compressing Neural Networks,https://arxiv.org/abs/2301.13142,2023-01-30,2024-08-07
+From Words to Worth - Newborn Article Impact Prediction with LLM,https://arxiv.org/abs/2408.03934,2024-08-07,2024-08-08
+Why transformers are obviously good models of language,https://arxiv.org/abs/2408.03855,2024-08-07,2024-08-08
+Generative Design of Periodic Orbits in the Restricted Three-Body Problem,https://arxiv.org/abs/2408.03691,2024-08-07,2024-08-08
+Is Child-Directed Speech Effective Training Data for Language Models?,https://arxiv.org/abs/2408.03617,2024-08-07,2024-08-08
+"1.5-Pints Technical Report - Pretraining in Days, Not Months -- Your Language Model Thrives on Quality Data",https://arxiv.org/abs/2408.03506,2024-08-07,2024-08-08
+Automated Theorem Provers Help Improve Large Language Model Reasoning,https://arxiv.org/abs/2408.03492,2024-08-07,2024-08-08
+Automated mapping of virtual environments with visual predictive coding,https://arxiv.org/abs/2308.10913,2023-08-20,2024-08-09
+Learn To Learn More Precisely,https://arxiv.org/abs/2408.04590,2024-08-08,2024-08-09
+Conversational Prompt Engineering,https://arxiv.org/abs/2408.04560,2024-08-08,2024-08-09
+How Transformers Utilize Multi-Head Attention in In-Context Learning? A Case Study on Sparse Linear Regression,https://arxiv.org/abs/2408.04532,2024-08-08,2024-08-09
+Partial Experts Checkpoint - Efficient Fault Tolerance for Sparse Mixture-of-Experts Model Training,https://arxiv.org/abs/2408.04307,2024-08-08,2024-08-09
+The Ungrounded Alignment Problem,https://arxiv.org/abs/2408.04242,2024-08-08,2024-08-09
+Diffusion Guided Language Modeling,https://arxiv.org/abs/2408.04220,2024-08-08,2024-08-09
+A tutorial on the dynamic Laplacian,https://arxiv.org/abs/2408.04149,2024-08-08,2024-08-09
+Step Saver - Predicting Minimum Denoising Steps for Diffusion Model Image Generation,https://arxiv.org/abs/2408.02054v1,2024-08-04,2024-08-09
+Climbing the Complexity Ladder with Expressive Attention,https://arxiv.org/abs/2407.18601v1,2024-07-26,2024-08-09
+Longhorn - State Space Models are Amortized Online Learners,https://arxiv.org/abs/2407.14207v3,2024-07-19,2024-08-09
+Vision language models are blind,https://arxiv.org/abs/2407.06581v5,2024-07-09,2024-08-09
+Developing Safe and Responsible Large Language Model  - Can We Balance Bias Reduction and Language Understanding in Large Language Models -,https://arxiv.org/abs/2404.01399v4,2024-04-01,2024-08-09
+LLMs' Understanding of Natural Language Revealed,https://arxiv.org/abs/2407.19630v1,2024-07-29,2024-08-09
+Decoupled Vocabulary Learning Enables Zero-Shot Translation from Unseen Languages,https://arxiv.org/abs/2408.02290v1,2024-08-05,2024-08-09
+Mixture of Modular Experts - Distilling Knowledge from a Multilingual Teacher into Specialized Modular Language Models,https://arxiv.org/abs/2407.19610v1,2024-07-28,2024-08-09
+Bigger is not Always Better - Scaling Properties of Latent Diffusion Models,https://arxiv.org/abs/2404.01367,2024-04-01,2024-08-09
+Mixture-of-Depths - Dynamically allocating compute in transformer-based language models,https://arxiv.org/abs/2404.02258,2024-04-02,2024-08-09
+Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters,https://arxiv.org/abs/2408.03314,2024-08-06,2024-08-09
+Self-Taught Evaluators,https://arxiv.org/abs/2408.02666,2024-08-05,2024-08-09
+POA - Pre-training Once for Models of All Sizes,https://arxiv.org/abs/2408.01031,2024-08-02,2024-08-09
+Language Model Can Listen While Speaking,https://arxiv.org/abs/2408.02622,2024-08-05,2024-08-09
+Autoencoders in Function Space,https://arxiv.org/abs/2408.01362,2024-08-02,2024-08-09
+Transformers are Universal In-context Learners,https://arxiv.org/abs/2408.01367,2024-08-02,2024-08-09
+EXAONE 3.0 7.8B Instruction Tuned Language Model,https://arxiv.org/abs/2408.03541,2024-08-07,2024-08-09

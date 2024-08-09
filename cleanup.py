@@ -39,6 +39,14 @@ def update_papers_kept_csv(base_filename):
     else:
         print(f"Error: Could not find {base_filename} in {downloaded_csv}")
 
+def get_link(base_filename):
+    with open('links.txt', 'r') as f:
+        for line in f:
+            title, link = line.strip().split(' | ')
+            if title.lower() in base_filename.lower():
+                return link
+    return None
+
 def process_files(pdf_folder, md_final_folder, pdf_final_folder):
     
     # Get all text files in the specified folder
@@ -51,11 +59,14 @@ def process_files(pdf_folder, md_final_folder, pdf_final_folder):
         # Get the base filename without the extension
         base_filename = os.path.basename(pdf_file).rsplit('.', 1)[0]
 
+        link = get_link(base_filename)
         
         md_file = os.path.join('pdfs-to-summarize', base_filename.title() + ' (pdf).md')
         with open(md_file, 'w') as f_out:
-            # visible link to pdf in bottom of note
-            f_out.write(f"{frontmatter_lines}\n\n\n![[{base_filename}.pdf]]")
+            f_out.write(f"{frontmatter_lines}")
+            if link:
+                f_out.write(f"Link: [{link}]({link})")
+            f_out.write(f"\n\n![[{base_filename}.pdf]]")
             
         # Move the .md file to the final folder. Usually this error comes up because you tried to run the scrip twice
         try:
@@ -104,6 +115,12 @@ try:
         os.remove('timestamps.txt')
 except Exception as e:
     print(f"Couldn't delete timestamps.txt bc Error occurred: \n{e}")
+
+try:
+    if os.path.isfile('trimmed_timestamps.txt'):
+        os.remove('trimmed_timestamps.txt')
+except Exception as e:
+    print(f"Couldn't delete trimmed_timestamps.txt bc Error occurred: \n{e}")
 
 try:
     if os.path.isfile('timestamps_adjusted.txt'):

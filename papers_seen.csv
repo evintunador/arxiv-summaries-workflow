@@ -8056,3 +8056,766 @@ Mixture of Nested Experts - Adaptive Processing of Visual Tokens,https://arxiv.o
 Large Language Monkeys - Scaling Inference Compute with Repeated Sampling,https://arxiv.org/abs/2407.21787,2024-07-31,2024-08-02
 MindSearch - Mimicking Human Minds Elicits Deep AI Searcher,https://arxiv.org/abs/2407.20183,2024-07-29,2024-08-02
 On the Design and Analysis of LLM-Based Algorithms,https://arxiv.org/abs/2407.14788v1,2024-07-20,2024-08-02
+Unexpected Benefits of Self-Modeling in Neural Systems,https://arxiv.org/abs/2407.10188,2024-07-14,2024-08-05
+Gemma 2 - Improving Open Language Models at a Practical Size,https://arxiv.org/abs/2408.00118,2024-07-31,2024-08-05
+Next Generation Reservoir Computing,https://arxiv.org/abs/2106.07688,2021-06-14,2024-08-05
+Prompt Recursive Search - A Living Framework with Adaptive Growth in LLM Auto-Prompting,https://arxiv.org/abs/2408.01423,2024-08-02,2024-08-05
+DebateQA - Evaluating Question Answering on Debatable Knowledge,https://arxiv.org/abs/2408.01419,2024-08-02,2024-08-05
+"The Quest for the Right Mediator - A History, Survey, and Theoretical Grounding of Causal Interpretability",https://arxiv.org/abs/2408.01416,2024-08-02,2024-08-05
+Conditional LoRA Parameter Generation,https://arxiv.org/abs/2408.01415,2024-08-02,2024-08-05
+Derivation of Back-propagation for Graph Convolutional Networks using Matrix Calculus and its Application to Explainable Artificial Intelligence,https://arxiv.org/abs/2408.01408,2024-08-02,2024-08-05
+Pre-trained Language Models Improve the Few-shot Prompt Ability of Decision Transformer,https://arxiv.org/abs/2408.01402,2024-08-02,2024-08-05
+Improving Multilingual Neural Machine Translation by Utilizing Semantic and Linguistic Features,https://arxiv.org/abs/2408.01394,2024-08-02,2024-08-05
+FT K-Means - A High-Performance K-Means on GPU with Fault Tolerance,https://arxiv.org/abs/2408.01391,2024-08-02,2024-08-05
+NeuralBeta - Estimating Beta Using Deep Learning,https://arxiv.org/abs/2408.01387,2024-08-02,2024-08-05
+Explaining a probabilistic prediction on the simplex with Shapley compositions,https://arxiv.org/abs/2408.01382,2024-08-02,2024-08-05
+Coalitions of Large Language Models Increase the Robustness of AI Agents,https://arxiv.org/abs/2408.01380,2024-08-02,2024-08-05
+Resampling and averaging coordinates on data,https://arxiv.org/abs/2408.01379,2024-08-02,2024-08-05
+Hybrid Coordinate Descent for Efficient Neural Network Learning Using Line Search and Gradient Descent,https://arxiv.org/abs/2408.01374,2024-08-02,2024-08-05
+Transformers are Universal In-context Learners,https://arxiv.org/abs/2408.01367,2024-08-02,2024-08-05
+Data Debugging is NP-hard for Classifiers Trained with SGD,https://arxiv.org/abs/2408.01365,2024-08-02,2024-08-05
+Toward Automatic Relevance Judgment using Vision--Language Models for Image--Text Retrieval Evaluation,https://arxiv.org/abs/2408.01363,2024-08-02,2024-08-05
+Autoencoders in Function Space,https://arxiv.org/abs/2408.01362,2024-08-02,2024-08-05
+PC$^2$ - Pseudo-Classification Based Pseudo-Captioning for Noisy Correspondence Learning in Cross-Modal Retrieval,https://arxiv.org/abs/2408.01349,2024-08-02,2024-08-05
+Prompt Refinement or Fine-tuning? Best Practices for using LLMs in Computational Social Science Tasks,https://arxiv.org/abs/2408.01346,2024-08-02,2024-08-05
+StitchFusion - Weaving Any Visual Modalities to Enhance Multimodal Semantic Segmentation,https://arxiv.org/abs/2408.01343,2024-08-02,2024-08-05
+Leveraging Knowledge Graph Embedding for Effective Conversational Recommendation,https://arxiv.org/abs/2408.01342,2024-08-02,2024-08-05
+MuChoMusic - Evaluating Music Understanding in Multimodal Audio-Language Models,https://arxiv.org/abs/2408.01337,2024-08-02,2024-08-05
+Sparse Linear Regression when Noises and Covariates are Heavy-Tailed and Contaminated by Outliers,https://arxiv.org/abs/2408.01336,2024-08-02,2024-08-05
+A Backbone for Long-Horizon Robot Task Understanding,https://arxiv.org/abs/2408.01334,2024-08-02,2024-08-05
+HMDN - Hierarchical Multi-Distribution Network for Click-Through Rate Prediction,https://arxiv.org/abs/2408.01332,2024-08-02,2024-08-05
+UnifiedNN - Efficient Neural Network Training on the Cloud,https://arxiv.org/abs/2408.01331,2024-08-02,2024-08-05
+FANNO - Augmenting High-Quality Instruction Data with Open-Sourced LLMs Only,https://arxiv.org/abs/2408.01323,2024-08-02,2024-08-05
+A Robotics-Inspired Scanpath Model Reveals the Importance of Uncertainty and Semantic Object Cues for Gaze Guidance in Dynamic Scenes,https://arxiv.org/abs/2408.01322,2024-08-02,2024-08-05
+A Comprehensive Review of Multimodal Large Language Models - Performance and Challenges Across Different Tasks,https://arxiv.org/abs/2408.01319,2024-08-02,2024-08-05
+Point Prediction for Streaming Data,https://arxiv.org/abs/2408.01318,2024-08-02,2024-08-05
+Synergistic pathways of modulation enable robust task packing within neural dynamics,https://arxiv.org/abs/2408.01316,2024-08-02,2024-08-05
+Reconsidering Token Embeddings with the Definitions for Pre-trained Language Models,https://arxiv.org/abs/2408.01308,2024-08-02,2024-08-05
+A Decision-driven Methodology for Designing Uncertainty-aware AI Self-Assessment,https://arxiv.org/abs/2408.01301,2024-08-02,2024-08-05
+Assessing Robustness of Machine Learning Models using Covariate Perturbations,https://arxiv.org/abs/2408.01300,2024-08-02,2024-08-05
+Optimal Mixed Integer Linear Optimization Trained Multivariate Classification Trees,https://arxiv.org/abs/2408.01297,2024-08-02,2024-08-05
+3DPX - Progressive 2D-to-3D Oral Image Reconstruction with Hybrid MLP-CNN Networks,https://arxiv.org/abs/2408.01292,2024-08-02,2024-08-05
+The Mismeasure of Man and Models - Evaluating Allocational Harms in Large Language Models,https://arxiv.org/abs/2408.01285,2024-08-02,2024-08-05
+A Tiny Supervised ODL Core with Auto Data Pruning for Human Activity Recognition,https://arxiv.org/abs/2408.01283,2024-08-02,2024-08-05
+Certified Robust Invariant Polytope Training in Neural Controlled ODEs,https://arxiv.org/abs/2408.01273,2024-08-02,2024-08-05
+The virtual CAT - A tool for algorithmic thinking assessment in Swiss compulsory education,https://arxiv.org/abs/2408.01263,2024-08-02,2024-08-05
+RAGEval - Scenario Specific RAG Evaluation Dataset Generation Framework,https://arxiv.org/abs/2408.01262,2024-08-02,2024-08-05
+Detection and Characterization of Coordinated Online Behavior - A Survey,https://arxiv.org/abs/2408.01257,2024-08-02,2024-08-05
+TrIM - Triangular Input Movement Systolic Array for Convolutional Neural Networks -- Part I - Dataflow and Analytical Modelling,https://arxiv.org/abs/2408.01254,2024-08-02,2024-08-05
+Metareasoning in uncertain environments - a meta-BAMDP framework,https://arxiv.org/abs/2408.01253,2024-08-02,2024-08-05
+Automated Classification of Dry Bean Varieties Using XGBoost and SVM Models,https://arxiv.org/abs/2408.01244,2024-08-02,2024-08-05
+Tailoring Graph Neural Network-based Flow-guided Localization to Individual Bloodstreams and Activities,https://arxiv.org/abs/2408.01239,2024-08-02,2024-08-05
+HeteroMorpheus - Universal Control Based on Morphological Heterogeneity Modeling,https://arxiv.org/abs/2408.01230,2024-08-02,2024-08-05
+Rubric-based Learner Modelling via Noisy Gates Bayesian Networks for Computational Thinking Skills Assessment,https://arxiv.org/abs/2408.01221,2024-08-02,2024-08-05
+Multi-Objective Deep Reinforcement Learning for Optimisation in Autonomous Systems,https://arxiv.org/abs/2408.01188,2024-08-02,2024-08-05
+Nested Music Transformer - Sequentially Decoding Compound Tokens in Symbolic Music and Audio Generation,https://arxiv.org/abs/2408.01180,2024-08-02,2024-08-05
+Sustainable Diffusion-based Incentive Mechanism for Generative AI-driven Digital Twins in Industrial Cyber-Physical Systems,https://arxiv.org/abs/2408.01173,2024-08-02,2024-08-05
+"Misinforming LLMs - vulnerabilities, challenges and opportunities",https://arxiv.org/abs/2408.01168,2024-08-02,2024-08-05
+Domain Adaptation-Enhanced Searchlight - Enabling brain decoding from visual perception to mental imagery,https://arxiv.org/abs/2408.01163,2024-08-02,2024-08-05
+DERA - Dense Entity Retrieval for Entity Alignment in Knowledge Graphs,https://arxiv.org/abs/2408.01154,2024-08-02,2024-08-05
+Machine learning topological energy braiding of non-Bloch bands,https://arxiv.org/abs/2408.01141,2024-08-02,2024-08-05
+Interpreting Global Perturbation Robustness of Image Models using Axiomatic Spectral Importance Decomposition,https://arxiv.org/abs/2408.01139,2024-08-02,2024-08-05
+A Survey of Mamba,https://arxiv.org/abs/2408.01129,2024-08-02,2024-08-05
+CFBench - A Comprehensive Constraints-Following Benchmark for LLMs,https://arxiv.org/abs/2408.01122,2024-08-02,2024-08-05
+Being Accountable is Smart - Navigating the Technical and Regulatory Landscape of AI-based Services for Power Grid,https://arxiv.org/abs/2408.01121,2024-08-02,2024-08-05
+Task Prompt Vectors - Effective Initialization through Multi-Task Soft-Prompt Transfer,https://arxiv.org/abs/2408.01119,2024-08-02,2024-08-05
+IAI Group at CheckThat! 2024 - Transformer Models and Data Augmentation for Checkworthy Claim Detection,https://arxiv.org/abs/2408.01118,2024-08-02,2024-08-05
+BioRAG - A RAG-LLM Framework for Biological Question Reasoning,https://arxiv.org/abs/2408.01107,2024-08-02,2024-08-05
+Contribution-based Low-Rank Adaptation with Pre-training Model for Real Image Restoration,https://arxiv.org/abs/2408.01099,2024-08-02,2024-08-05
+Six Dragons Fly Again - Reviving 15th-Century Korean Court Music with Transformers and Novel Encoding,https://arxiv.org/abs/2408.01096,2024-08-02,2024-08-05
+An Encoding--Searching Separation Perspective on Bi-Encoder Neural Search,https://arxiv.org/abs/2408.01094,2024-08-02,2024-08-05
+Dissecting Dissonance - Benchmarking Large Multimodal Models Against Self-Contradictory Instructions,https://arxiv.org/abs/2408.01091,2024-08-02,2024-08-05
+General-purpose Dataflow Model with Neuromorphic Primitives,https://arxiv.org/abs/2408.01090,2024-08-02,2024-08-05
+Bridging Information Gaps in Dialogues With Grounded Exchanges Using Knowledge Graphs,https://arxiv.org/abs/2408.01088,2024-08-02,2024-08-05
+Adaptive Contrastive Decoding in Retrieval-Augmented Generation for Handling Noisy Contexts,https://arxiv.org/abs/2408.01084,2024-08-02,2024-08-05
+The EAP-AIAS - Adapting the AI Assessment Scale for English for Academic Purposes,https://arxiv.org/abs/2408.01075,2024-08-02,2024-08-05
+A Survey on Self-play Methods in Reinforcement Learning,https://arxiv.org/abs/2408.01072,2024-08-02,2024-08-05
+Leveraging Large Language Models for Mobile App Review Feature Extraction,https://arxiv.org/abs/2408.01063,2024-08-02,2024-08-05
+Universality of kernel random matrices and kernel regression in the quadratic regime,https://arxiv.org/abs/2408.01062,2024-08-02,2024-08-05
+LLM as Runtime Error Handler - A Promising Pathway to Adaptive Self-Healing of Software Systems,https://arxiv.org/abs/2408.01055,2024-08-02,2024-08-05
+From Stem to Stern - Contestability Along AI Value Chains,https://arxiv.org/abs/2408.01051,2024-08-02,2024-08-05
+The Impact of Hyperparameters on Large Language Model Inference Performance - An Evaluation of vLLM and HuggingFace Pipelines,https://arxiv.org/abs/2408.01050,2024-08-02,2024-08-05
+QUDSELECT - Selective Decoding for Questions Under Discussion Parsing,https://arxiv.org/abs/2408.01046,2024-08-02,2024-08-05
+Privacy-Preserving Split Learning with Vision Transformers using Patch-Wise Random and Noisy CutMix,https://arxiv.org/abs/2408.01040,2024-08-02,2024-08-05
+UNER - A Unified Prediction Head for Named Entity Recognition in Visually-rich Documents,https://arxiv.org/abs/2408.01038,2024-08-02,2024-08-05
+Semantic Skill Grounding for Embodied Instruction-Following in Cross-Domain Environments,https://arxiv.org/abs/2408.01024,2024-08-02,2024-08-05
+Distilling interpretable causal trees from causal forests,https://arxiv.org/abs/2408.01023,2024-08-02,2024-08-05
+A Family of Distributions of Random Subsets for Controlling Positive and Negative Dependence,https://arxiv.org/abs/2408.01022,2024-08-02,2024-08-05
+GNN-MolKAN - Harnessing the Power of KAN to Advance Molecular Representation Learning with GNNs,https://arxiv.org/abs/2408.01018,2024-08-02,2024-08-05
+IBB Traffic Graph Data - Benchmarking and Road Traffic Prediction Model,https://arxiv.org/abs/2408.01016,2024-08-02,2024-08-05
+Tensor Train Low-rank Approximation (TT-LoRA) - Democratizing AI with Accelerated LLMs,https://arxiv.org/abs/2408.01008,2024-08-02,2024-08-05
+Enhancing Financial Market Predictions - Causality-Driven Feature Selection,https://arxiv.org/abs/2408.01005,2024-08-02,2024-08-05
+Piculet - Specialized Models-Guided Hallucination Decrease for MultiModal Large Language Models,https://arxiv.org/abs/2408.01003,2024-08-02,2024-08-05
+Adaptive Two-Stage Cloud Resource Scaling via Hierarchical Multi-Indicator Forecasting and Bayesian Decision-Making,https://arxiv.org/abs/2408.01000,2024-08-02,2024-08-05
+FBSDiff - Plug-and-Play Frequency Band Substitution of Diffusion Features for Highly Controllable Text-Driven Image Translation,https://arxiv.org/abs/2408.00998,2024-08-02,2024-08-05
+A Safe Exploration Strategy for Model-free Task Adaptation in Safety-constrained Grid Environments,https://arxiv.org/abs/2408.00997,2024-08-02,2024-08-05
+"IncidentNet - Traffic Incident Detection, Localization and Severity Estimation with Sparse Sensing",https://arxiv.org/abs/2408.00996,2024-08-02,2024-08-05
+ArchCode - Incorporating Software Requirements in Code Generation with Large Language Models,https://arxiv.org/abs/2408.00994,2024-08-02,2024-08-05
+Fairness in Large Language Models in Three Hour,https://arxiv.org/abs/2408.00992,2024-08-02,2024-08-05
+On the Resilience of Multi-Agent Systems with Malicious Agents,https://arxiv.org/abs/2408.00989,2024-08-02,2024-08-05
+A SAT-based approach to rigorous verification of Bayesian networks,https://arxiv.org/abs/2408.00986,2024-08-02,2024-08-05
+Reconstructing Richtmyer-Meshkov instabilities from noisy radiographs using low dimensional features and attention-based neural networks,https://arxiv.org/abs/2408.00985,2024-08-02,2024-08-05
+Cross-domain Named Entity Recognition via Graph Matching,https://arxiv.org/abs/2408.00981,2024-08-02,2024-08-05
+"Automatic Extraction of Relationships among Motivations, Emotions and Actions from Natural Language Texts",https://arxiv.org/abs/2408.00966,2024-08-02,2024-08-05
+Integrating ESG and AI - A Comprehensive Responsible AI Assessment Framework,https://arxiv.org/abs/2408.00965,2024-08-02,2024-08-05
+MIS-ME - A Multi-modal Framework for Soil Moisture Estimation,https://arxiv.org/abs/2408.00963,2024-08-02,2024-08-05
+PERSOMA - PERsonalized SOft ProMpt Adapter Architecture for Personalized Language Prompting,https://arxiv.org/abs/2408.00960,2024-08-02,2024-08-05
+Aggregation Models with Optimal Weights for Distributed Gaussian Processes,https://arxiv.org/abs/2408.00955,2024-08-01,2024-08-05
+Equivariant neural networks and piecewise linear representation theory,https://arxiv.org/abs/2408.00949,2024-08-01,2024-08-05
+Leveraging Large Language Models (LLMs) for Traffic Management at Urban Intersections - The Case of Mixed Traffic Scenarios,https://arxiv.org/abs/2408.00948,2024-08-01,2024-08-05
+Generalisation of Total Uncertainty in AI - A Theoretical Study,https://arxiv.org/abs/2408.00946,2024-08-01,2024-08-05
+CIResDiff - A Clinically-Informed Residual Diffusion Model for Predicting Idiopathic Pulmonary Fibrosis Progression,https://arxiv.org/abs/2408.00938,2024-08-01,2024-08-05
+Towards Zero-Shot Annotation of the Built Environment with Vision-Language Models (Vision Paper),https://arxiv.org/abs/2408.00932,2024-08-01,2024-08-05
+Enabling High Data Throughput Reinforcement Learning on GPUs - A Domain Agnostic Framework for Data-Driven Scientific Research,https://arxiv.org/abs/2408.00930,2024-08-01,2024-08-05
+Verification of Machine Unlearning is Fragile,https://arxiv.org/abs/2408.00929,2024-08-01,2024-08-05
+WHITE PAPER - A Brief Exploration of Data Exfiltration using GCG Suffixes,https://arxiv.org/abs/2408.00925,2024-08-01,2024-08-05
+Reclaiming Residual Knowledge - A Novel Paradigm to Low-Bit Quantization,https://arxiv.org/abs/2408.00923,2024-08-01,2024-08-05
+Automatic Pull Request Description Generation Using LLMs - A T5 Model Approach,https://arxiv.org/abs/2408.00921,2024-08-01,2024-08-05
+Towards Certified Unlearning for Deep Neural Networks,https://arxiv.org/abs/2408.00920,2024-08-01,2024-08-05
+Distance-Preserving Generative Modeling of Spatial Transcriptomics,https://arxiv.org/abs/2408.00911,2024-08-01,2024-08-05
+Early Stopping Based on Repeated Significance,https://arxiv.org/abs/2408.00908,2024-08-01,2024-08-05
+Expressive MIDI-format Piano Performance Generation,https://arxiv.org/abs/2408.00900,2024-08-01,2024-08-05
+Hybrid Querying Over Relational Databases and Large Language Models,https://arxiv.org/abs/2408.00884,2024-08-01,2024-08-05
+On the Relationship Between Monotone and Squared Probabilistic Circuits,https://arxiv.org/abs/2408.00876,2024-08-01,2024-08-05
+Online Detection of Anomalies in Temporal Knowledge Graphs with Interpretability,https://arxiv.org/abs/2408.00872,2024-08-01,2024-08-05
+UniMoT - Unified Molecule-Text Language Model with Discrete Token Representation,https://arxiv.org/abs/2408.00863,2024-08-01,2024-08-05
+LICM - Effective and Efficient Long Interest Chain Modeling for News Recommendation,https://arxiv.org/abs/2408.00859,2024-08-01,2024-08-05
+A Novel Use of Pseudospectra in Mathematical Biology - Understanding HPA Axis Sensitivity,https://arxiv.org/abs/2408.00845,2024-08-01,2024-08-05
+Calibrating Bayesian Generative Machine Learning for Bayesiamplification,https://arxiv.org/abs/2408.00838,2024-08-01,2024-08-05
+MM-Vet v2 - A Challenging Benchmark to Evaluate Large Multimodal Models for Integrated Capabilities,https://arxiv.org/abs/2408.00765,2024-08-01,2024-08-05
+AgentGen - Enhancing Planning Abilities for Large Language Model based Agent via Environment and Task Generation,https://arxiv.org/abs/2408.00764,2024-08-01,2024-08-05
+Tamper-Resistant Safeguards for Open-Weight LLMs,https://arxiv.org/abs/2408.00761,2024-08-01,2024-08-05
+Smoothed Energy Guidance - Guiding Diffusion Models with Reduced Energy Curvature of Attention,https://arxiv.org/abs/2408.00760,2024-08-01,2024-08-05
+Coarse Correspondence Elicit 3D Spacetime Understanding in Multimodal Language Model,https://arxiv.org/abs/2408.00754,2024-08-01,2024-08-05
+A deep learning-enabled smart garment for versatile sleep behaviour monitoring,https://arxiv.org/abs/2408.00753,2024-08-01,2024-08-05
+A Policy-Gradient Approach to Solving Imperfect-Information Games with Iterate Convergence,https://arxiv.org/abs/2408.00751,2024-08-01,2024-08-05
+Leaf Angle Estimation using Mask R-CNN and LETR Vision Transformer,https://arxiv.org/abs/2408.00749,2024-08-01,2024-08-05
+DynamoLLM - Designing LLM Inference Clusters for Performance and Energy Efficiency,https://arxiv.org/abs/2408.00741,2024-08-01,2024-08-05
+CERT-ED - Certifiably Robust Text Classification for Edit Distance,https://arxiv.org/abs/2408.00728,2024-08-01,2024-08-05
+Y Social - an LLM-powered Social Media Digital Twin,https://arxiv.org/abs/2408.00818,2024-08-01,2024-08-05
+An Empirical Analysis of Compute-Optimal Inference for Problem-Solving with Language Models,https://arxiv.org/abs/2408.00724,2024-08-01,2024-08-05
+"Pathway to Secure and Trustworthy 6G for LLMs - Attacks, Defense, and Opportunities",https://arxiv.org/abs/2408.00722,2024-08-01,2024-08-05
+A Natural Language Processing Framework for Hotel Recommendation Based on Users' Text Reviews,https://arxiv.org/abs/2408.00716,2024-08-01,2024-08-05
+SAM 2 - Segment Anything in Images and Videos,https://arxiv.org/abs/2408.00714,2024-08-01,2024-08-05
+Reinforcement Learning applied to Insurance Portfolio Pursuit,https://arxiv.org/abs/2408.00713,2024-08-01,2024-08-05
+Synthetic dual image generation for reduction of labeling efforts in semantic segmentation of micrographs with a customized metric function,https://arxiv.org/abs/2408.00707,2024-08-01,2024-08-05
+Future of Artificial Intelligence in Agile Software Development,https://arxiv.org/abs/2408.00703,2024-08-01,2024-08-05
+You Can't Ignore Either - Unifying Structure and Feature Denoising for Robust Graph Learning,https://arxiv.org/abs/2408.00700,2024-08-01,2024-08-05
+Granular-Balls based Fuzzy Twin Support Vector Machine for Classification,https://arxiv.org/abs/2408.00699,2024-08-01,2024-08-05
+Accelerating Full Waveform Inversion By Transfer Learning,https://arxiv.org/abs/2408.00695,2024-08-01,2024-08-05
+Improving Text Embeddings for Smaller Language Models Using Contrastive Fine-tuning,https://arxiv.org/abs/2408.00690,2024-08-01,2024-08-05
+Can Developers Prompt? A Controlled Experiment for Code Documentation Generation,https://arxiv.org/abs/2408.00686,2024-08-01,2024-08-05
+Assessing the Variety of a Concept Space Using an Unbiased Estimate of Rao's Quadratic Index,https://arxiv.org/abs/2408.00684,2024-08-01,2024-08-05
+Learning in Multi-Objective Public Goods Games with Non-Linear Utilities,https://arxiv.org/abs/2408.00682,2024-08-01,2024-08-05
+Alpha-VI DeepONet - A prior-robust variational Bayesian approach for enhancing DeepONets with uncertainty quantification,https://arxiv.org/abs/2408.00681,2024-08-01,2024-08-05
+An effect analysis of the balancing techniques on the counterfactual explanations of student success prediction models,https://arxiv.org/abs/2408.00676,2024-08-01,2024-08-05
+Leveraging Entailment Judgements in Cross-Lingual Summarisation,https://arxiv.org/abs/2408.00675,2024-08-01,2024-08-05
+ChordSync - Conformer-Based Alignment of Chord Annotations to Music Audio,https://arxiv.org/abs/2408.00674,2024-08-01,2024-08-05
+AutoM3L - An Automated Multimodal Machine Learning Framework with Large Language Models,https://arxiv.org/abs/2408.00665,2024-08-01,2024-08-05
+Aligning Multiple Knowledge Graphs in a Single Pass,https://arxiv.org/abs/2408.00662,2024-08-01,2024-08-05
+Disentangling Dense Embeddings with Sparse Autoencoders,https://arxiv.org/abs/2408.00657,2024-08-01,2024-08-05
+"SentenceVAE - Faster, Longer and More Accurate Inference with Next-sentence Prediction for Large Language Models",https://arxiv.org/abs/2408.00655,2024-08-01,2024-08-05
+Enhancing Multistep Prediction of Multivariate Market Indices Using Weighted Optical Reservoir Computing,https://arxiv.org/abs/2408.00652,2024-08-01,2024-08-05
+A Dirichlet stochastic block model for composition-weighted networks,https://arxiv.org/abs/2408.00651,2024-08-01,2024-08-05
+Enhancing Ethereum Fraud Detection via Generative and Contrastive Self-supervision,https://arxiv.org/abs/2408.00641,2024-08-01,2024-08-05
+AMAES - Augmented Masked Autoencoder Pretraining on Public Brain MRI Data for 3D-Native Segmentation,https://arxiv.org/abs/2408.00640,2024-08-01,2024-08-05
+DisTrack - a new Tool for Semi-automatic Misinformation Tracking in Online Social Networks,https://arxiv.org/abs/2408.00633,2024-08-01,2024-08-05
+SynesLM - A Unified Approach for Audio-visual Speech Recognition and Translation via Language Model and Synthetic Data,https://arxiv.org/abs/2408.00624,2024-08-01,2024-08-05
+Are Bigger Encoders Always Better in Vision Large Models?,https://arxiv.org/abs/2408.00620,2024-08-01,2024-08-05
+Unlocking Fair Use in the Generative AI Supply Chain - A Systematized Literature Review,https://arxiv.org/abs/2408.00613,2024-08-01,2024-08-05
+Downstream bias mitigation is all you need,https://arxiv.org/abs/2408.00612,2024-08-01,2024-08-05
+AutoPV - Automatically Design Your Photovoltaic Power Forecasting Model,https://arxiv.org/abs/2408.00601,2024-08-01,2024-08-05
+"Non Verbis, Sed Rebus - Large Language Models are Weak Solvers of Italian Rebuses",https://arxiv.org/abs/2408.00584,2024-08-01,2024-08-05
+Convergence Analysis of Natural Gradient Descent for Over-parameterized Physics-Informed Neural Networks,https://arxiv.org/abs/2408.00573,2024-08-01,2024-08-05
+Alleviating Hallucination in Large Vision-Language Models with Active Retrieval Augmentation,https://arxiv.org/abs/2408.00555,2024-08-01,2024-08-05
+Mitigating Multilingual Hallucination in Large Vision-Language Models,https://arxiv.org/abs/2408.00550,2024-08-01,2024-08-05
+Learning to Embed Distributions via Maximum Kernel Entropy,https://arxiv.org/abs/2408.00549,2024-08-01,2024-08-05
+Illustrating Classic Brazilian Books using a Text-To-Image Diffusion Model,https://arxiv.org/abs/2408.00544,2024-08-01,2024-08-05
+Intermittent Semi-working Mask - A New Masking Paradigm for LLMs,https://arxiv.org/abs/2408.00539,2024-08-01,2024-08-05
+Adaptive traffic signal safety and efficiency improvement by multi objective deep reinforcement learning approach,https://arxiv.org/abs/2408.00814,2024-08-01,2024-08-05
+The Monetisation of Toxicity - Analysing YouTube Content Creators and Controversy-Driven Engagement,https://arxiv.org/abs/2408.00534,2024-08-01,2024-08-05
+ReSi - A Comprehensive Benchmark for Representational Similarity Measures,https://arxiv.org/abs/2408.00531,2024-08-01,2024-08-05
+Hilbert curves for efficient exploratory landscape analysis neighbourhood sampling,https://arxiv.org/abs/2408.00526,2024-08-01,2024-08-05
+Identifying the Hierarchical Emotional Areas in the Human Brain Through Information Fusion,https://arxiv.org/abs/2408.00525,2024-08-01,2024-08-05
+Jailbreaking Text-to-Image Models with LLM-Based Agents,https://arxiv.org/abs/2408.00523,2024-08-01,2024-08-05
+A new approach for encoding code and assisting code understanding,https://arxiv.org/abs/2408.00521,2024-08-01,2024-08-05
+Low-Power Vibration-Based Predictive Maintenance for Industry 4.0 using Neural Networks - A Survey,https://arxiv.org/abs/2408.00516,2024-08-01,2024-08-05
+VecAug - Unveiling Camouflaged Frauds with Cohort Augmentation for Enhanced Detection,https://arxiv.org/abs/2408.00513,2024-08-01,2024-08-05
+Block-Operations - Using Modular Routing to Improve Compositional Generalization,https://arxiv.org/abs/2408.00508,2024-08-01,2024-08-05
+GalleryGPT - Analyzing Paintings with Large Multimodal Models,https://arxiv.org/abs/2408.00491,2024-08-01,2024-08-05
+Graph Representation Learning via Causal Diffusion for Out-of-Distribution Recommendation,https://arxiv.org/abs/2408.00490,2024-08-01,2024-08-05
+A Systematic Review on Long-Tailed Learning,https://arxiv.org/abs/2408.00483,2024-08-01,2024-08-05
+Towards Explainable and Interpretable Musical Difficulty Estimation - A Parameter-efficient Approach,https://arxiv.org/abs/2408.00473,2024-08-01,2024-08-05
+Image Super-Resolution with Taylor Expansion Approximation and Large Field Reception,https://arxiv.org/abs/2408.00470,2024-08-01,2024-08-05
+Infrequent Resolving Algorithm for Online Linear Programming,https://arxiv.org/abs/2408.00465,2024-08-01,2024-08-05
+Designing Efficient LLM Accelerators for Edge Devices,https://arxiv.org/abs/2408.00462,2024-08-01,2024-08-05
+Reenact Anything - Semantic Video Motion Transfer Using Motion-Textual Inversion,https://arxiv.org/abs/2408.00458,2024-08-01,2024-08-05
+DiscipLink - Unfolding Interdisciplinary Information Seeking Process via Human-AI Co-Exploration,https://arxiv.org/abs/2408.00447,2024-08-01,2024-08-05
+Ontological Relations from Word Embeddings,https://arxiv.org/abs/2408.00444,2024-08-01,2024-08-05
+"Focus, Distinguish, and Prompt - Unleashing CLIP for Efficient and Flexible Scene Text Retrieval",https://arxiv.org/abs/2408.00441,2024-08-01,2024-08-05
+Rapid and Power-Aware Learned Optimization for Modular Receive Beamforming,https://arxiv.org/abs/2408.00439,2024-08-01,2024-08-05
+Efficient Patient Fine-Tuned Seizure Detection with a Tensor Kernel Machine,https://arxiv.org/abs/2408.00437,2024-08-01,2024-08-05
+A Qualitative Study on Using ChatGPT for Software Security - Perception vs. Practicality,https://arxiv.org/abs/2408.00435,2024-08-01,2024-08-05
+Augmenting Channel Simulator and Semi- Supervised Learning for Efficient Indoor Positioning,https://arxiv.org/abs/2408.00429,2024-08-01,2024-08-05
+A Cross-Domain Benchmark for Active Learning,https://arxiv.org/abs/2408.00426,2024-08-01,2024-08-05
+Towards Evolutionary-based Automated Machine Learning for Small Molecule Pharmacokinetic Prediction,https://arxiv.org/abs/2408.00421,2024-08-01,2024-08-05
+MPT-PAR -Mix-Parameters Transformer for Panoramic Activity Recognition,https://arxiv.org/abs/2408.00420,2024-08-01,2024-08-05
+Unsupervised Pairwise Causal Discovery on Heterogeneous Data using Mutual Information Measures,https://arxiv.org/abs/2408.00399,2024-08-01,2024-08-05
+In-Context Example Selection via Similarity Search Improves Low-Resource Machine Translation,https://arxiv.org/abs/2408.00397,2024-08-01,2024-08-05
+What comes after transformers? -- A selective survey connecting ideas in deep learning,https://arxiv.org/abs/2408.00386,2024-08-01,2024-08-05
+On the Limitations and Prospects of Machine Unlearning for Generative AI,https://arxiv.org/abs/2408.00376,2024-08-01,2024-08-05
+DiM-Gesture - Co-Speech Gesture Generation with Adaptive Layer Normalization Mamba-2 framework,https://arxiv.org/abs/2408.00370,2024-08-01,2024-08-05
+Multimodal Fusion and Coherence Modeling for Video Topic Segmentation,https://arxiv.org/abs/2408.00365,2024-08-01,2024-08-05
+Memorization Capacity for Additive Fine-Tuning with Small ReLU Networks,https://arxiv.org/abs/2408.00359,2024-08-01,2024-08-05
+DeliLaw - A Chinese Legal Counselling System Based on a Large Language Model,https://arxiv.org/abs/2408.00357,2024-08-01,2024-08-05
+DNTextSpotter - Arbitrary-Shaped Scene Text Spotting via Improved Denoising Training,https://arxiv.org/abs/2408.00355,2024-08-01,2024-08-05
+A Simple Background Augmentation Method for Object Detection with Diffusion Model,https://arxiv.org/abs/2408.00350,2024-08-01,2024-08-05
+Neural Graph Matching for Video Retrieval in Large-Scale Video-driven E-commerce,https://arxiv.org/abs/2408.00346,2024-08-01,2024-08-05
+IN-Sight - Interactive Navigation through Sight,https://arxiv.org/abs/2408.00343,2024-08-01,2024-08-05
+MuJoCo MPC for Humanoid Control - Evaluation on HumanoidBench,https://arxiv.org/abs/2408.00342,2024-08-01,2024-08-05
+"""Patriarchy Hurts Men Too."" Does Your Model Agree? A Discussion on Fairness Assumptions",https://arxiv.org/abs/2408.00330,2024-08-01,2024-08-05
+OTAD - An Optimal Transport-Induced Robust Model for Agnostic Adversarial Attack,https://arxiv.org/abs/2408.00329,2024-08-01,2024-08-05
+Exploiting Preferences in Loss Functions for Sequential Recommendation via Weak Transitivity,https://arxiv.org/abs/2408.00326,2024-08-01,2024-08-05
+Condorcet's Jury Theorem with Abstention,https://arxiv.org/abs/2408.00317,2024-08-01,2024-08-05
+ADBM - Adversarial diffusion bridge model for reliable adversarial purification,https://arxiv.org/abs/2408.00315,2024-08-01,2024-08-05
+Adversarial Text Rewriting for Text-aware Recommender Systems,https://arxiv.org/abs/2408.00312,2024-08-01,2024-08-05
+Online Linear Programming with Batching,https://arxiv.org/abs/2408.00310,2024-08-01,2024-08-05
+Discretizing Continuous Action Space with Unimodal Probability Distributions for On-Policy Reinforcement Learning,https://arxiv.org/abs/2408.00309,2024-08-01,2024-08-05
+ABC Align - Large Language Model Alignment for Safety & Accuracy,https://arxiv.org/abs/2408.00307,2024-08-01,2024-08-05
+Contrastive Graph Representation Learning with Adversarial Cross-view Reconstruction and Information Bottleneck,https://arxiv.org/abs/2408.00295,2024-08-01,2024-08-05
+Multi-Modal Parameter-Efficient Fine-tuning via Graph Neural Network,https://arxiv.org/abs/2408.00290,2024-08-01,2024-08-05
+Gradient Harmonization in Unsupervised Domain Adaptation,https://arxiv.org/abs/2408.00288,2024-08-01,2024-08-05
+Bailing-TTS - Chinese Dialectal Speech Synthesis Towards Human-like Spontaneous Representation,https://arxiv.org/abs/2408.00284,2024-08-01,2024-08-05
+Navigating Text-to-Image Generative Bias across Indic Languages,https://arxiv.org/abs/2408.00283,2024-08-01,2024-08-05
+Towards Scalable GPU-Accelerated SNN Training via Temporal Fusion,https://arxiv.org/abs/2408.00280,2024-08-01,2024-08-05
+High Performance Im2win and Direct Convolutions using Three Tensor Layouts on SIMD Architectures,https://arxiv.org/abs/2408.00278,2024-08-01,2024-08-05
+QUITO - Accelerating Long-Context Reasoning through Query-Guided Context Compression,https://arxiv.org/abs/2408.00274,2024-08-01,2024-08-05
+Clover-2 - Accurate Inference for Regressive Lightweight Speculative Decoding,https://arxiv.org/abs/2408.00264,2024-08-01,2024-08-05
+Discovering Car-following Dynamics from Trajectory Data through Deep Learning,https://arxiv.org/abs/2408.00251,2024-08-01,2024-08-05
+Enhanced Structured State Space Models via Grouped FIR Filtering and Attention Sink Mechanisms,https://arxiv.org/abs/2408.00244,2024-08-01,2024-08-05
+Multiple Greedy Quasi-Newton Methods for Saddle Point Problems,https://arxiv.org/abs/2408.00241,2024-08-01,2024-08-05
+CDFGNN - a Systematic Design of Cache-based Distributed Full-Batch Graph Neural Network Training with Communication Reduction,https://arxiv.org/abs/2408.00232,2024-08-01,2024-08-05
+Lost in Translation - Latent Concept Misalignment in Text-to-Image Diffusion Models,https://arxiv.org/abs/2408.00230,2024-08-01,2024-08-05
+Invariant Discovery of Features Across Multiple Length Scales - Applications in Microscopy and Autonomous Materials Characterization,https://arxiv.org/abs/2408.00229,2024-08-01,2024-08-05
+Persistent de Rham-Hodge Laplacians in the Eulerian representation,https://arxiv.org/abs/2408.00220,2024-08-01,2024-08-05
+Load Balancing in Federated Learning,https://arxiv.org/abs/2408.00217,2024-08-01,2024-08-05
+"Penzai + Treescope - A Toolkit for Interpreting, Visualizing, and Editing Models As Data",https://arxiv.org/abs/2408.00211,2024-08-01,2024-08-05
+A Prior Embedding-Driven Architecture for Long Distance Blind Iris Recognition,https://arxiv.org/abs/2408.00210,2024-08-01,2024-08-05
+Gaussian Processes Sampling with Sparse Grids under Additive Schwarz Preconditioner,https://arxiv.org/abs/2408.00206,2024-08-01,2024-08-05
+"Sentence-wise Speech Summarization - Task, Datasets, and End-to-End Modeling with LM Knowledge Distillation",https://arxiv.org/abs/2408.00205,2024-08-01,2024-08-05
+OmniParser for Pure Vision Based GUI Agent,https://arxiv.org/abs/2408.00203,2024-08-01,2024-08-05
+Stretching Each Dollar - Diffusion Training from Scratch on a Micro-Budget,https://arxiv.org/abs/2407.15811,2024-07-22,2024-08-06
+Apple Intelligence Foundation Language Models,https://arxiv.org/abs/2407.21075,2024-07-29,2024-08-06
+Adversarial Examples that Fool both Computer Vision and Time-Limited Humans,https://arxiv.org/abs/1802.08195,2018-02-22,2024-08-06
+Self-Taught Evaluators,https://arxiv.org/abs/2408.02666,2024-08-05,2024-08-06
+On Using Quasirandom Sequences in Machine Learning for Model Weight Initialization,https://arxiv.org/abs/2408.02654,2024-08-05,2024-08-06
+Can Reinforcement Learning Unlock the Hidden Dangers in Aligned Large Language Models?,https://arxiv.org/abs/2408.02651,2024-08-05,2024-08-06
+Detection of Compromised Functions in a Serverless Cloud Environment,https://arxiv.org/abs/2408.02641,2024-08-05,2024-08-06
+Command-line Obfuscation Detection using Small Language Models,https://arxiv.org/abs/2408.02637,2024-08-05,2024-08-06
+SEAS - Self-Evolving Adversarial Safety Optimization for Large Language Models,https://arxiv.org/abs/2408.02632,2024-08-05,2024-08-06
+Language Model Can Listen While Speaking,https://arxiv.org/abs/2408.02622,2024-08-05,2024-08-06
+Backward explanations via redefinition of predicates,https://arxiv.org/abs/2408.02606,2024-08-05,2024-08-06
+BioMamba - A Pre-trained Biomedical Language Representation Model Leveraging Mamba,https://arxiv.org/abs/2408.02600,2024-08-05,2024-08-06
+Progressively Selective Label Enhancement for Language Model Alignment,https://arxiv.org/abs/2408.02599,2024-08-05,2024-08-06
+AI-Driven Strategies for Reducing Student Withdrawal -- A Study of EMU Student Stopout,https://arxiv.org/abs/2408.02598,2024-08-05,2024-08-06
+Modelling Visual Semantics via Image Captioning to extract Enhanced Multi-Level Cross-Modal Semantic Incongruity Representation with Attention for Multimodal Sarcasm Detection,https://arxiv.org/abs/2408.02595,2024-08-05,2024-08-06
+Leveraging the Power of LLMs - A Fine-Tuning Approach for High-Quality Aspect-Based Summarization,https://arxiv.org/abs/2408.02584,2024-08-05,2024-08-06
+Clustering and Mining Accented Speech for Inclusive and Fair Speech Recognition,https://arxiv.org/abs/2408.02582,2024-08-05,2024-08-06
+Operational range bounding of spectroscopy models with anomaly detection,https://arxiv.org/abs/2408.02581,2024-08-05,2024-08-06
+Artificial Intelligence for Public Health Surveillance in Africa - Applications and Opportunities,https://arxiv.org/abs/2408.02575,2024-08-05,2024-08-06
+Contrastive Learning-based Multi Modal Architecture for Emoticon Prediction by Employing Image-Text Pairs,https://arxiv.org/abs/2408.02571,2024-08-05,2024-08-06
+Cross-Modality Clustering-based Self-Labeling for Multimodal Data Classification,https://arxiv.org/abs/2408.02568,2024-08-05,2024-08-06
+Evaluating and Enhancing LLMs Agent based on Theory of Mind in Guandan - A Multi-Player Cooperative Game under Imperfect Information,https://arxiv.org/abs/2408.02559,2024-08-05,2024-08-06
+Peer-induced Fairness - A Causal Approach to Reveal Algorithmic Unfairness in Credit Approval,https://arxiv.org/abs/2408.02558,2024-08-05,2024-08-06
+MeshAnything V2 - Artist-Created Mesh Generation With Adjacent Mesh Tokenization,https://arxiv.org/abs/2408.02555,2024-08-05,2024-08-06
+Process-constrained batch Bayesian approaches for yield optimization in multi-reactor systems,https://arxiv.org/abs/2408.02551,2024-08-05,2024-08-06
+RAG Foundry - A Framework for Enhancing LLMs for Retrieval Augmented Generation,https://arxiv.org/abs/2408.02545,2024-08-05,2024-08-06
+Caution for the Environment - Multimodal Agents are Susceptible to Environmental Distractions,https://arxiv.org/abs/2408.02544,2024-08-05,2024-08-06
+LMEMs for post-hoc analysis of HPO Benchmarking,https://arxiv.org/abs/2408.02533,2024-08-05,2024-08-06
+Counterfactual Shapley Values for Explaining Reinforcement Learning,https://arxiv.org/abs/2408.02529,2024-08-05,2024-08-06
+Single-tap Latency Reduction with Single- or Double- tap Prediction,https://arxiv.org/abs/2408.02525,2024-08-05,2024-08-06
+OneLove beyond the field -- A few-shot pipeline for topic and sentiment analysis during the FIFA World Cup in Qatar,https://arxiv.org/abs/2408.02520,2024-08-05,2024-08-06
+Stem-JEPA - A Joint-Embedding Predictive Architecture for Musical Stem Compatibility Estimation,https://arxiv.org/abs/2408.02514,2024-08-05,2024-08-06
+Practical Attacks against Black-box Code Completion Engines,https://arxiv.org/abs/2408.02509,2024-08-05,2024-08-06
+UnifiedMLLM - Enabling Unified Representation for Multi-modal Multi-tasks With Large Language Model,https://arxiv.org/abs/2408.02503,2024-08-05,2024-08-06
+Automatic rating of incomplete hippocampal inversions evaluated across multiple cohorts,https://arxiv.org/abs/2408.02496,2024-08-05,2024-08-06
+Full error analysis of policy gradient learning algorithms for exploratory linear quadratic mean-field control problem in continuous time with common noise,https://arxiv.org/abs/2408.02489,2024-08-05,2024-08-06
+A First Look at License Compliance Capability of LLMs in Code Generation,https://arxiv.org/abs/2408.02487,2024-08-05,2024-08-06
+On the influence of dependent features in classification problems - a game-theoretic perspective,https://arxiv.org/abs/2408.02481,2024-08-05,2024-08-06
+"From LLMs to LLM-based Agents for Software Engineering - A Survey of Current, Challenges and Future",https://arxiv.org/abs/2408.02479,2024-08-05,2024-08-06
+Toward Attention-based TinyML - A Heterogeneous Accelerated Architecture and Automated Deployment Flow,https://arxiv.org/abs/2408.02473,2024-08-05,2024-08-06
+An investigation into the causes of race bias in AI-based cine CMR segmentation,https://arxiv.org/abs/2408.02462,2024-08-05,2024-08-06
+Enhancing Heterogeneous Knowledge Graph Completion with a Novel GAT-based Approach,https://arxiv.org/abs/2408.02456,2024-08-05,2024-08-06
+Let Me Speak Freely? A Study on the Impact of Format Restrictions on Performance of Large Language Models,https://arxiv.org/abs/2408.02442,2024-08-05,2024-08-06
+Long Input Benchmark for Russian Analysis,https://arxiv.org/abs/2408.02439,2024-08-05,2024-08-06
+On Probabilistic Embeddings in Optimal Dimension Reduction,https://arxiv.org/abs/2408.02433,2024-08-05,2024-08-06
+Attenuation-adjusted deep learning of pore defects in 2D radiographs of additive manufacturing powders,https://arxiv.org/abs/2408.02427,2024-08-05,2024-08-06
+"Infusing Emotions into Task-oriented Dialogue Systems - Understanding, Management, and Generation",https://arxiv.org/abs/2408.02417,2024-08-05,2024-08-06
+Why Are My Prompts Leaked? Unraveling Prompt Extraction Threats in Customized Large Language Models,https://arxiv.org/abs/2408.02416,2024-08-05,2024-08-06
+PENDRAM - Enabling High-Performance and Energy-Efficient Processing of Deep Neural Networks through a Generalized DRAM Data Mapping Policy,https://arxiv.org/abs/2408.02412,2024-08-05,2024-08-06
+Terracorder - Sense Long and Prosper,https://arxiv.org/abs/2408.02407,2024-08-05,2024-08-06
+Enhancing AI-based Generation of Software Exploits with Contextual Information,https://arxiv.org/abs/2408.02402,2024-08-05,2024-08-06
+Graphical Modelling without Independence Assumptions for Uncentered Data,https://arxiv.org/abs/2408.02393,2024-08-05,2024-08-06
+Strategic Federated Learning - Application to Smart Meter Data Clustering,https://arxiv.org/abs/2408.02384,2024-08-05,2024-08-06
+Perfect Information Monte Carlo with Postponing Reasoning,https://arxiv.org/abs/2408.02380,2024-08-05,2024-08-06
+A Few-Shot Approach for Relation Extraction Domain Adaptation using Large Language Models,https://arxiv.org/abs/2408.02377,2024-08-05,2024-08-06
+Operationalizing Contextual Integrity in Privacy-Conscious Assistants,https://arxiv.org/abs/2408.02373,2024-08-05,2024-08-06
+StoDIP - Efficient 3D MRF image reconstruction with deep image priors and stochastic iterations,https://arxiv.org/abs/2408.02367,2024-08-05,2024-08-06
+Dialogue Ontology Relation Extraction via Constrained Chain-of-Thought Decoding,https://arxiv.org/abs/2408.02361,2024-08-05,2024-08-06
+On the consistent reasoning paradox of intelligence and optimal trust in AI - The power of 'I don't know',https://arxiv.org/abs/2408.02357,2024-08-05,2024-08-06
+Quantile Regression using Random Forest Proximities,https://arxiv.org/abs/2408.02355,2024-08-05,2024-08-06
+RECE - Reduced Cross-Entropy Loss for Large-Catalogue Sequential Recommenders,https://arxiv.org/abs/2408.02354,2024-08-05,2024-08-06
+Active Sensing of Knee Osteoarthritis Progression with Reinforcement Learning,https://arxiv.org/abs/2408.02349,2024-08-05,2024-08-06
+Exploiting Hankel-Toeplitz Structures for Fast Computation of Kernel Precision Matrices,https://arxiv.org/abs/2408.02346,2024-08-05,2024-08-06
+"Developing PUGG for Polish - A Modern Approach to KBQA, MRC, and IR Dataset Construction",https://arxiv.org/abs/2408.02337,2024-08-05,2024-08-06
+Infusing Environmental Captions for Long-Form Video Language Grounding,https://arxiv.org/abs/2408.02336,2024-08-05,2024-08-06
+Explosive neural networks via higher-order interactions in curved statistical manifolds,https://arxiv.org/abs/2408.02326,2024-08-05,2024-08-06
+A Sharp Convergence Theory for The Probability Flow ODEs of Diffusion Models,https://arxiv.org/abs/2408.02320,2024-08-05,2024-08-06
+A Lean Transformer Model for Dynamic Malware Analysis and Detection,https://arxiv.org/abs/2408.02313,2024-08-05,2024-08-06
+Optimization of Iterative Blind Detection based on Expectation Maximization and Belief Propagation,https://arxiv.org/abs/2408.02312,2024-08-05,2024-08-06
+On the Robustness of Malware Detectors to Adversarial Samples,https://arxiv.org/abs/2408.02310,2024-08-05,2024-08-06
+SNFinLLM - Systematic and Nuanced Financial Domain Adaptation of Chinese Large Language Models,https://arxiv.org/abs/2408.02302,2024-08-05,2024-08-06
+Network Fission Ensembles for Low-Cost Self-Ensembles,https://arxiv.org/abs/2408.02301,2024-08-05,2024-08-06
+Backward Compatibility in Attributive Explanation and Enhanced Model Training Method,https://arxiv.org/abs/2408.02298,2024-08-05,2024-08-06
+Heart Rate and its Variability from Short-term ECG Recordings as Biomarkers for Detecting Mild Cognitive Impairment in Indian Population,https://arxiv.org/abs/2408.02296,2024-08-05,2024-08-06
+Generalized Gaussian Temporal Difference Error For Uncertainty-aware Reinforcement Learning,https://arxiv.org/abs/2408.02295,2024-08-05,2024-08-06
+Decoupled Vocabulary Learning Enables Zero-Shot Translation from Unseen Languages,https://arxiv.org/abs/2408.02290,2024-08-05,2024-08-06
+Spin glass model of in-context learning,https://arxiv.org/abs/2408.02288,2024-08-05,2024-08-06
+Hardware Aware Ensemble Selection for Balancing Predictive Accuracy and Cost,https://arxiv.org/abs/2408.02280,2024-08-05,2024-08-06
+DRFormer - Multi-Scale Transformer Utilizing Diverse Receptive Fields for Long Time-Series Forecasting,https://arxiv.org/abs/2408.02279,2024-08-05,2024-08-06
+"Geometric Algebra Meets Large Language Models - Instruction-Based Transformations of Separate Meshes in 3D, Interactive and Controllable Scenes",https://arxiv.org/abs/2408.02275,2024-08-05,2024-08-06
+COM Kitchens - An Unedited Overhead-view Video Dataset as a Vision-Language Benchmark,https://arxiv.org/abs/2408.02272,2024-08-05,2024-08-06
+StyEmp - Stylizing Empathetic Response Generation via Multi-Grained Prefix Encoder and Personality Reinforcement,https://arxiv.org/abs/2408.02271,2024-08-05,2024-08-06
+One-Shot Collaborative Data Distillation,https://arxiv.org/abs/2408.02266,2024-08-05,2024-08-06
+To Aggregate or Not to Aggregate. That is the Question - A Case Study on Annotation Subjectivity in Span Prediction,https://arxiv.org/abs/2408.02257,2024-08-05,2024-08-06
+Advancing Post-OCR Correction - A Comparative Study of Synthetic Data,https://arxiv.org/abs/2408.02253,2024-08-05,2024-08-06
+ReDel - A Toolkit for LLM-Powered Recursive Multi-Agent Systems,https://arxiv.org/abs/2408.02248,2024-08-05,2024-08-06
+Contrastive Learning and Abstract Concepts - The Case of Natural Numbers,https://arxiv.org/abs/2408.02247,2024-08-05,2024-08-06
+Methods to improve run time of hydrologic models - opportunities and challenges in the machine learning era,https://arxiv.org/abs/2408.02242,2024-08-05,2024-08-06
+BOTS-LM - Training Large Language Models for Setswana,https://arxiv.org/abs/2408.02239,2024-08-05,2024-08-06
+Do Large Language Models Speak All Languages Equally? A Comparative Study in Low-Resource Settings,https://arxiv.org/abs/2408.02237,2024-08-05,2024-08-06
+A Multi-Source Heterogeneous Knowledge Injected Prompt Learning Method for Legal Charge Prediction,https://arxiv.org/abs/2408.02233,2024-08-05,2024-08-06
+SpecRover - Code Intent Extraction via LLMs,https://arxiv.org/abs/2408.02232,2024-08-05,2024-08-06
+Large Language Model Aided QoS Prediction for Service Recommendation,https://arxiv.org/abs/2408.02223,2024-08-05,2024-08-06
+Climate-Driven Doubling of Maize Loss Probability in U.S. Crop Insurance - Spatiotemporal Prediction and Possible Policy Responses,https://arxiv.org/abs/2408.02217,2024-08-05,2024-08-06
+MARCO - A Memory-Augmented Reinforcement Framework for Combinatorial Optimization,https://arxiv.org/abs/2408.02207,2024-08-05,2024-08-06
+Towards AI-Safety-by-Design - A Taxonomy of Runtime Guardrails in Foundation Model based Systems,https://arxiv.org/abs/2408.02205,2024-08-05,2024-08-06
+Evaluating the Performance of Large Language Models for SDG Mapping (Technical Report),https://arxiv.org/abs/2408.02201,2024-08-05,2024-08-06
+Synergistic Learning with Multi-Task DeepONet for Efficient PDE Problem Solving,https://arxiv.org/abs/2408.02198,2024-08-05,2024-08-06
+CodeACT - Code Adaptive Compute-efficient Tuning Framework for Code LLMs,https://arxiv.org/abs/2408.02193,2024-08-05,2024-08-06
+Embedding generalization within the learning dynamics - An approach based-on sample path large deviation theory,https://arxiv.org/abs/2408.02167,2024-08-04,2024-08-06
+SelfBC - Self Behavior Cloning for Offline Reinforcement Learning,https://arxiv.org/abs/2408.02165,2024-08-04,2024-08-06
+Distilling Machine Learning's Added Value - Pareto Fronts in Atmospheric Applications,https://arxiv.org/abs/2408.02161,2024-08-04,2024-08-06
+SPINEX-TimeSeries - Similarity-based Predictions with Explainable Neighbors Exploration for Time Series and Forecasting Problems,https://arxiv.org/abs/2408.02159,2024-08-04,2024-08-06
+Calibration-Disentangled Learning and Relevance-Prioritized Reranking for Calibrated Sequential Recommendation,https://arxiv.org/abs/2408.02156,2024-08-04,2024-08-06
+ARVO - Atlas of Reproducible Vulnerabilities for Open Source Software,https://arxiv.org/abs/2408.02153,2024-08-04,2024-08-06
+Generative Retrieval with Few-shot Indexing,https://arxiv.org/abs/2408.02152,2024-08-04,2024-08-06
+Environment Complexity and Nash Equilibria in a Sequential Social Dilemma,https://arxiv.org/abs/2408.02148,2024-08-04,2024-08-06
+Analyzing Cultural Representations of Emotions in LLMs through Mixed Emotion Survey,https://arxiv.org/abs/2408.02143,2024-08-04,2024-08-06
+VidModEx - Interpretable and Efficient Black Box Model Extraction for High-Dimensional Spaces,https://arxiv.org/abs/2408.02140,2024-08-04,2024-08-06
+Model Hijacking Attack in Federated Learning,https://arxiv.org/abs/2408.02131,2024-08-04,2024-08-06
+Table Transformers for Imputing Textual Attributes,https://arxiv.org/abs/2408.02128,2024-08-04,2024-08-06
+FovEx - Human-inspired Explanations for Vision Transformers and Convolutional Neural Networks,https://arxiv.org/abs/2408.02123,2024-08-04,2024-08-06
+Value-Based Rationales Improve Social Experience - A Multiagent Simulation Study,https://arxiv.org/abs/2408.02117,2024-08-04,2024-08-06
+Recent Advances in Multi-Choice Machine Reading Comprehension - A Survey on Methods and Datasets,https://arxiv.org/abs/2408.02114,2024-08-04,2024-08-06
+Diseño de sonido para producciones audiovisuales e historias sonoras en el aula. Hacia una docencia creativa mediante el uso de herramientas inteligentes,https://arxiv.org/abs/2408.02113,2024-08-04,2024-08-06
+Effective Demonstration Annotation for In-Context Learning via Language Model-Based Determinantal Point Process,https://arxiv.org/abs/2408.02103,2024-08-04,2024-08-06
+KAN-RCBEVDepth - A multi-modal fusion algorithm in object detection for autonomous driving,https://arxiv.org/abs/2408.02088,2024-08-04,2024-08-06
+Unleashing the Power of Data Tsunami - A Comprehensive Survey on Data Assessment and Selection for Instruction Tuning of Language Models,https://arxiv.org/abs/2408.02085,2024-08-04,2024-08-06
+A Multi-class Ride-hailing Service Subsidy System Utilizing Deep Causal Networks,https://arxiv.org/abs/2408.02065,2024-08-04,2024-08-06
+Winners with Confidence - Discrete Argmin Inference with an Application to Model Selection,https://arxiv.org/abs/2408.02060,2024-08-04,2024-08-06
+EOL - Transductive Few-Shot Open-Set Recognition by Enhancing Outlier Logits,https://arxiv.org/abs/2408.02052,2024-08-04,2024-08-06
+Recovering the state and dynamics of autonomous system with partial states solution using neural networks,https://arxiv.org/abs/2408.02050,2024-08-04,2024-08-06
+3D Single-object Tracking in Point Clouds with High Temporal Variation,https://arxiv.org/abs/2408.02049,2024-08-04,2024-08-06
+Latency-Aware Resource Allocation for Mobile Edge Generation and Computing via Deep Reinforcement Learning,https://arxiv.org/abs/2408.02047,2024-08-04,2024-08-06
+DNA-SE - Towards Deep Neural-Nets Assisted Semiparametric Estimation,https://arxiv.org/abs/2408.02045,2024-08-04,2024-08-06
+Fine-tuning multilingual language models in Twitter/X sentiment analysis - a study on Eastern-European V4 languages,https://arxiv.org/abs/2408.02044,2024-08-04,2024-08-06
+Enhancing Human Action Recognition and Violence Detection Through Deep Learning Audiovisual Fusion,https://arxiv.org/abs/2408.02033,2024-08-04,2024-08-06
+Self-Introspective Decoding - Alleviating Hallucinations for Large Vision-Language Models,https://arxiv.org/abs/2408.02032,2024-08-04,2024-08-06
+Mining Path Association Rules in Large Property Graphs (with Appendix),https://arxiv.org/abs/2408.02029,2024-08-04,2024-08-06
+Contrastive Learning-based Chaining-Cluster for Multilingual Voice-Face Association,https://arxiv.org/abs/2408.02025,2024-08-04,2024-08-06
+Individualized multi-horizon MRI trajectory prediction for Alzheimer's Disease,https://arxiv.org/abs/2408.02018,2024-08-04,2024-08-06
+Unsupervised Representation Learning by Balanced Self Attention Matching,https://arxiv.org/abs/2408.02014,2024-08-04,2024-08-06
+Joint Learning of Emotions in Music and Generalized Sounds,https://arxiv.org/abs/2408.02009,2024-08-04,2024-08-06
+LLaSA - Large Language and E-Commerce Shopping Assistant,https://arxiv.org/abs/2408.02006,2024-08-04,2024-08-06
+Reinforcement Learning for an Efficient and Effective Malware Investigation during Cyber Incident Response,https://arxiv.org/abs/2408.01999,2024-08-04,2024-08-06
+MetaWearS - A Shortcut in Wearable Systems Lifecycle with Only a Few Shots,https://arxiv.org/abs/2408.01988,2024-08-04,2024-08-06
+DeMansia - Mamba Never Forgets Any Tokens,https://arxiv.org/abs/2408.01986,2024-08-04,2024-08-06
+Multiview learning with twin parametric margin SVM,https://arxiv.org/abs/2408.01981,2024-08-04,2024-08-06
+"Shaping Rewards, Shaping Routes - On Multi-Agent Deep Q-Networks for Routing in Satellite Constellation Networks",https://arxiv.org/abs/2408.01979,2024-08-04,2024-08-06
+RVI-SAC - Average Reward Off-Policy Deep Reinforcement Learning,https://arxiv.org/abs/2408.01972,2024-08-04,2024-08-06
+SR-CIS - Self-Reflective Incremental System with Decoupled Memory and Reasoning,https://arxiv.org/abs/2408.01970,2024-08-04,2024-08-06
+Optimal and efficient text counterfactuals using Graph Neural Networks,https://arxiv.org/abs/2408.01969,2024-08-04,2024-08-06
+A multi-task deep learning approach for lane-level pavement performance prediction with segment-level data,https://arxiv.org/abs/2408.01967,2024-08-04,2024-08-06
+ML-EAT - A Multilevel Embedding Association Test for Interpretable and Transparent Social Science,https://arxiv.org/abs/2408.01966,2024-08-04,2024-08-06
+Top K Enhanced Reinforcement Learning Attacks on Heterogeneous Graph Node Classification,https://arxiv.org/abs/2408.01964,2024-08-04,2024-08-06
+A Novel Metric for Measuring the Robustness of Large Language Models in Non-adversarial Scenarios,https://arxiv.org/abs/2408.01963,2024-08-04,2024-08-06
+The Implications of Open Generative Models in Human-Centered Data Science Work - A Case Study with Fact-Checking Organizations,https://arxiv.org/abs/2408.01962,2024-08-04,2024-08-06
+"Representation Bias of Adolescents in AI - A Bilingual, Bicultural Study",https://arxiv.org/abs/2408.01961,2024-08-04,2024-08-06
+AnomalySD - Few-Shot Multi-Class Anomaly Detection with Stable Diffusion Model,https://arxiv.org/abs/2408.01960,2024-08-04,2024-08-06
+Why Perturbing Symbolic Music is Necessary - Fitting the Distribution of Never-used Notes through a Joint Probabilistic Diffusion Model,https://arxiv.org/abs/2408.01950,2024-08-04,2024-08-06
+Visual Grounding for Object-Level Generalization in Reinforcement Learning,https://arxiv.org/abs/2408.01942,2024-08-04,2024-08-06
+Defining and Evaluating Decision and Composite Risk in Language Models Applied to Natural Language Inference,https://arxiv.org/abs/2408.01935,2024-08-04,2024-08-06
+A Semi-supervised Multi-channel Graph Convolutional Network for Query Classification in E-commerce,https://arxiv.org/abs/2408.01928,2024-08-04,2024-08-06
+Efficient Decision Trees for Tensor Regressions,https://arxiv.org/abs/2408.01926,2024-08-04,2024-08-06
+Self-Supervised Pretrained Models and Latent Feature Distribution Optimization,https://arxiv.org/abs/2408.01920,2024-08-04,2024-08-06
+MAO - A Framework for Process Model Generation with Multi-Agent Orchestration,https://arxiv.org/abs/2408.01916,2024-08-04,2024-08-06
+The Artificial Intelligence Disclosure (AID) Framework - An Introduction,https://arxiv.org/abs/2408.01904,2024-08-04,2024-08-06
+Re-ENACT - Reinforcement Learning for Emotional Speech Generation using Actor-Critic Strategy,https://arxiv.org/abs/2408.01892,2024-08-04,2024-08-06
+Cross-layer Attention Sharing for Large Language Models,https://arxiv.org/abs/2408.01890,2024-08-04,2024-08-06
+Walk Wisely on Graph - Knowledge Graph Reasoning with Dual Agents via Efficient Guidance-Exploration,https://arxiv.org/abs/2408.01880,2024-08-03,2024-08-06
+Re-Invoke - Tool Invocation Rewriting for Zero-Shot Tool Retrieval,https://arxiv.org/abs/2408.01875,2024-08-03,2024-08-06
+Safe Semi-Supervised Contrastive Learning Using In-Distribution Data as Positive Examples,https://arxiv.org/abs/2408.01872,2024-08-03,2024-08-06
+Meta-Posterior Consistency for the Bayesian Inference of Metastable System,https://arxiv.org/abs/2408.01868,2024-08-03,2024-08-06
+Efficient Solutions For An Intriguing Failure of LLMs - Long Context Window Does Not Mean LLMs Can Analyze Long Sequences Flawlessly,https://arxiv.org/abs/2408.01866,2024-08-03,2024-08-06
+Batch Active Learning in Gaussian Process Regression using Derivatives,https://arxiv.org/abs/2408.01861,2024-08-03,2024-08-06
+Using Linearized Optimal Transport to Predict the Evolution of Stochastic Particle Systems,https://arxiv.org/abs/2408.01857,2024-08-03,2024-08-06
+Sólo Escúchame - Spanish Emotional Accompaniment Chatbot,https://arxiv.org/abs/2408.01852,2024-08-03,2024-08-06
+Complexity of Minimizing Projected-Gradient-Dominated Functions with Stochastic First-order Oracles,https://arxiv.org/abs/2408.01839,2024-08-03,2024-08-06
+Tracking Emotional Dynamics in Chat Conversations - A Hybrid Approach using DistilBERT and Emoji Sentiment Analysis,https://arxiv.org/abs/2408.01838,2024-08-03,2024-08-06
+Neural Network Enumerator for Atmospheric Chemical ODE,https://arxiv.org/abs/2408.01829,2024-08-03,2024-08-06
+ST-SACLF - Style Transfer Informed Self-Attention Classifier for Bias-Aware Painting Classification,https://arxiv.org/abs/2408.01827,2024-08-03,2024-08-06
+ALIF - Low-Cost Adversarial Audio Attacks on Black-Box Speech Platforms using Linguistic Features,https://arxiv.org/abs/2408.01808,2024-08-03,2024-08-06
+STBLLM - Breaking the 1-Bit Barrier with Structured Binary LLMs,https://arxiv.org/abs/2408.01803,2024-08-03,2024-08-06
+Review of Cloud Service Composition for Intelligent Manufacturing,https://arxiv.org/abs/2408.01795,2024-08-03,2024-08-06
+Towards an ontology of state actors in cyberspace,https://arxiv.org/abs/2408.01787,2024-08-03,2024-08-06
+MathLearner - A Large Language Model Agent Framework for Learning to Solve Mathematical Problems,https://arxiv.org/abs/2408.01779,2024-08-03,2024-08-06
+Comparison of Embedded Spaces for Deep Learning Classification,https://arxiv.org/abs/2408.01767,2024-08-03,2024-08-06
+Joint Model Pruning and Resource Allocation for Wireless Time-triggered Federated Learning,https://arxiv.org/abs/2408.01765,2024-08-03,2024-08-06
+Opinion Dynamics with Set-Based Confidence - Convergence Criteria and Periodic Solutions,https://arxiv.org/abs/2408.01753,2024-08-03,2024-08-06
+Advancing Green AI - Efficient and Accurate Lightweight CNNs for Rice Leaf Disease Identification,https://arxiv.org/abs/2408.01752,2024-08-03,2024-08-06
+Discovery of Rare Causal Knowledge from Financial Statement Summaries,https://arxiv.org/abs/2408.01748,2024-08-03,2024-08-06
+Classical Machine Learning - Seventy Years of Algorithmic Learning Evolution,https://arxiv.org/abs/2408.01747,2024-08-03,2024-08-06
+Summarization of Investment Reports Using Pre-trained Model,https://arxiv.org/abs/2408.01744,2024-08-03,2024-08-06
+LAM3D - Leveraging Attention for Monocular 3D Object Detection,https://arxiv.org/abs/2408.01739,2024-08-03,2024-08-06
+Can LLMs predict the convergence of Stochastic Gradient Descent?,https://arxiv.org/abs/2408.01736,2024-08-03,2024-08-06
+Landmark-guided Diffusion Model for High-fidelity and Temporally Coherent Talking Head Generation,https://arxiv.org/abs/2408.01732,2024-08-03,2024-08-06
+Real-time Hybrid System Identification with Online Deterministic Annealing,https://arxiv.org/abs/2408.01730,2024-08-03,2024-08-06
+Survey on Emotion Recognition through Posture Detection and the possibility of its application in Virtual Reality,https://arxiv.org/abs/2408.01728,2024-08-03,2024-08-06
+Intuitionistic Fuzzy Generalized Eigenvalue Proximal Support Vector Machine,https://arxiv.org/abs/2408.01713,2024-08-03,2024-08-06
+Downstream Transfer Attack - Adversarial Attacks on Downstream Models with Pre-trained Vision Transformers,https://arxiv.org/abs/2408.01705,2024-08-03,2024-08-06
+Integrating Large Language Models and Knowledge Graphs for Extraction and Validation of Textual Test Data,https://arxiv.org/abs/2408.01700,2024-08-03,2024-08-06
+Invariant Graph Learning Meets Information Bottleneck for Out-of-Distribution Generalization,https://arxiv.org/abs/2408.01697,2024-08-03,2024-08-06
+Generating High-quality Symbolic Music Using Fine-grained Discriminators,https://arxiv.org/abs/2408.01696,2024-08-03,2024-08-06
+TreeCSS - An Efficient Framework for Vertical Federated Learning,https://arxiv.org/abs/2408.01691,2024-08-03,2024-08-06
+IDNet - A Novel Dataset for Identity Document Analysis and Fraud Detection,https://arxiv.org/abs/2408.01690,2024-08-03,2024-08-06
+Controllable Unlearning for Image-to-Image Generative Models via $\varepsilon$-Constrained Optimization,https://arxiv.org/abs/2408.01689,2024-08-03,2024-08-06
+MMPKUBase - A Comprehensive and High-quality Chinese Multi-modal Knowledge Graph,https://arxiv.org/abs/2408.01679,2024-08-03,2024-08-06
+radarODE - An ODE-Embedded Deep Learning Model for Contactless ECG Reconstruction from Millimeter-Wave Radar,https://arxiv.org/abs/2408.01672,2024-08-03,2024-08-06
+SAT3D - Image-driven Semantic Attribute Transfer in 3D,https://arxiv.org/abs/2408.01664,2024-08-03,2024-08-06
+Principal component analysis balancing prediction and approximation accuracy for spatial data,https://arxiv.org/abs/2408.01662,2024-08-03,2024-08-06
+Deep Reinforcement Learning for Dynamic Order Picking in Warehouse Operations,https://arxiv.org/abs/2408.01656,2024-08-03,2024-08-06
+Stimulating Imagination - Towards General-purpose Object Rearrangement,https://arxiv.org/abs/2408.01655,2024-08-03,2024-08-06
+Music2P - A Multi-Modal AI-Driven Tool for Simplifying Album Cover Design,https://arxiv.org/abs/2408.01651,2024-08-03,2024-08-06
+Neural Term Structure of Additive Process for Option Pricing,https://arxiv.org/abs/2408.01642,2024-08-03,2024-08-06
+Coordinating Planning and Tracking in Layered Control Policies via Actor-Critic Learning,https://arxiv.org/abs/2408.01639,2024-08-03,2024-08-06
+Transforming Slot Schema Induction with Generative Dialogue State Inference,https://arxiv.org/abs/2408.01638,2024-08-03,2024-08-06
+Self-Emotion Blended Dialogue Generation in Social Simulation Agents,https://arxiv.org/abs/2408.01633,2024-08-03,2024-08-06
+A Comparative Analysis of Wealth Index Predictions in Africa between three Multi-Source Inference Models,https://arxiv.org/abs/2408.01631,2024-08-03,2024-08-06
+Fair Risk Minimization under Causal Path-Specific Effect Constraints,https://arxiv.org/abs/2408.01630,2024-08-03,2024-08-06
+Dialog Flow Induction for Constrainable LLM-Based Chatbots,https://arxiv.org/abs/2408.01623,2024-08-03,2024-08-06
+Positive-Unlabeled Constraint Learning (PUCL) for Inferring Nonlinear Continuous Constraints Functions from Expert Demonstrations,https://arxiv.org/abs/2408.01622,2024-08-03,2024-08-06
+Advancing Mental Health Pre-Screening - A New Custom GPT for Psychological Distress Assessment,https://arxiv.org/abs/2408.01614,2024-08-03,2024-08-06
+Data-Driven Machine Learning Approaches for Predicting In-Hospital Sepsis Mortality,https://arxiv.org/abs/2408.01612,2024-08-03,2024-08-06
+Neural Machine Translation without Embeddings,https://arxiv.org/abs/2008.09396,2020-08-21,2024-08-06
+From pixels to planning - scale-free active inference,https://arxiv.org/abs/2407.20292,2024-07-27,2024-08-07
+LLaVA-OneVision - Easy Visual Task Transfer,https://arxiv.org/abs/2408.03326,2024-08-06,2024-08-07
+CoverBench - A Challenging Benchmark for Complex Claim Verification,https://arxiv.org/abs/2408.03325,2024-08-06,2024-08-07
+Hedge Fund Portfolio Construction Using PolyModel Theory and iTransformer,https://arxiv.org/abs/2408.03320,2024-08-06,2024-08-07
+Training LLMs to Recognize Hedges in Spontaneous Narratives,https://arxiv.org/abs/2408.03319,2024-08-06,2024-08-07
+Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters,https://arxiv.org/abs/2408.03314,2024-08-06,2024-08-07
+Pre-training and in-context learning IS Bayesian inference a la De Finetti,https://arxiv.org/abs/2408.03307,2024-08-06,2024-08-07
+Fusing Forces - Deep-Human-Guided Refinement of Segmentation Masks,https://arxiv.org/abs/2408.03304,2024-08-06,2024-08-07
+KaPO - Knowledge-aware Preference Optimization for Controllable Knowledge Selection in Retrieval-Augmented Language Models,https://arxiv.org/abs/2408.03297,2024-08-06,2024-08-07
+Static IR Drop Prediction with Attention U-Net and Saliency-Based Explainability,https://arxiv.org/abs/2408.03292,2024-08-06,2024-08-07
+SARA - Singular-Value Based Adaptive Low-Rank Adaption,https://arxiv.org/abs/2408.03290,2024-08-06,2024-08-07
+Malicious Internet Entity Detection Using Local Graph Inference,https://arxiv.org/abs/2408.03287,2024-08-06,2024-08-07
+StructEval - Deepen and Broaden Large Language Model Assessment via Structured Evaluation,https://arxiv.org/abs/2408.03281,2024-08-06,2024-08-07
+Compress and Compare - Interactively Evaluating Efficiency and Behavior Across ML Model Compression Experiments,https://arxiv.org/abs/2408.03274,2024-08-06,2024-08-07
+Synthesizing Text-to-SQL Data from Weak and Strong LLMs,https://arxiv.org/abs/2408.03256,2024-08-06,2024-08-07
+Unveiling Factual Recall Behaviors of Large Language Models through Knowledge Neurons,https://arxiv.org/abs/2408.03247,2024-08-06,2024-08-07
+Making Long-Context Language Models Better Multi-Hop Reasoners,https://arxiv.org/abs/2408.03246,2024-08-06,2024-08-07
+Analysis of Partially-Calibrated Sparse Subarrays for Direction Finding with Extended Degrees of Freedom,https://arxiv.org/abs/2408.03236,2024-08-06,2024-08-07
+Don't Think It Twice - Exploit Shift Invariance for Efficient Online Streaming Inference of CNNs,https://arxiv.org/abs/2408.03223,2024-08-06,2024-08-07
+Masked Random Noise for Communication Efficient Federaetd Learning,https://arxiv.org/abs/2408.03220,2024-08-06,2024-08-07
+FedBAT - Communication-Efficient Federated Learning via Learnable Binarization,https://arxiv.org/abs/2408.03215,2024-08-06,2024-08-07
+A Debiased Nearest Neighbors Framework for Multi-Label Text Classification,https://arxiv.org/abs/2408.03202,2024-08-06,2024-08-07
+Convergence Conditions for Stochastic Line Search Based Optimization of Over-parametrized Models,https://arxiv.org/abs/2408.03199,2024-08-06,2024-08-07
+RELIEF - Reinforcement Learning Empowered Graph Feature Prompt Tuning,https://arxiv.org/abs/2408.03195,2024-08-06,2024-08-07
+An Object is Worth 64x64 Pixels - Generating 3D Object via Image Diffusion,https://arxiv.org/abs/2408.03178,2024-08-06,2024-08-07
+Leveraging Parameter Efficient Training Methods for Low Resource Text Classification - A Case Study in Marathi,https://arxiv.org/abs/2408.03172,2024-08-06,2024-08-07
+Dilated Convolution with Learnable Spacings makes visual models more aligned with humans - a Grad-CAM study,https://arxiv.org/abs/2408.03164,2024-08-06,2024-08-07
+TSC - A Simple Two-Sided Constraint against Over-Smoothing,https://arxiv.org/abs/2408.03152,2024-08-06,2024-08-07
+Conditioning LLMs with Emotion in Neural Machine Translation,https://arxiv.org/abs/2408.03150,2024-08-06,2024-08-07
+Leveraging Entity Information for Cross-Modality Correlation Learning - The Entity-Guided Multimodal Summarization,https://arxiv.org/abs/2408.03149,2024-08-06,2024-08-07
+Active Learning for Level Set Estimation Using Randomized Straddle Algorithms,https://arxiv.org/abs/2408.03144,2024-08-06,2024-08-07
+Predictive Performance Test based on the Exhaustive Nested Cross-Validation for High-dimensional data,https://arxiv.org/abs/2408.03138,2024-08-06,2024-08-07
+"Inference Optimizations for Large Language Models - Effects, Challenges, and Practical Considerations",https://arxiv.org/abs/2408.03130,2024-08-06,2024-08-07
+Lisbon Computational Linguists at SemEval-2024 Task 2 - Using A Mistral 7B Model and Data Augmentation,https://arxiv.org/abs/2408.03127,2024-08-06,2024-08-07
+COMMENTATOR - A Code-mixed Multilingual Text Annotation Framework,https://arxiv.org/abs/2408.03125,2024-08-06,2024-08-07
+Evaluating the Translation Performance of Large Language Models Based on Euas-20,https://arxiv.org/abs/2408.03119,2024-08-06,2024-08-07
+Topic Modeling with Fine-tuning LLMs and Bag of Sentences,https://arxiv.org/abs/2408.03099,2024-08-06,2024-08-07
+500xCompressor - Generalized Prompt Compression for Large Language Models,https://arxiv.org/abs/2408.03094,2024-08-06,2024-08-07
+Learning Provably Robust Policies in Uncertain Parametric Environments,https://arxiv.org/abs/2408.03093,2024-08-06,2024-08-07
+Extend Model Merging from Fine-Tuned to Pre-Trained Large Language Models via Weight Disentanglement,https://arxiv.org/abs/2408.03092,2024-08-06,2024-08-07
+Enhancing Complex Causality Extraction via Improved Subtask Interaction and Knowledge Fusion,https://arxiv.org/abs/2408.03079,2024-08-06,2024-08-07
+Solving QUBO on the Loihi 2 Neuromorphic Processor,https://arxiv.org/abs/2408.03076,2024-08-06,2024-08-07
+Towards an Analysis of Discourse and Interactional Pragmatic Reasoning Capabilities of Large Language Models,https://arxiv.org/abs/2408.03074,2024-08-06,2024-08-07
+Probing structural constraints of negation in Pretrained Language Models,https://arxiv.org/abs/2408.03070,2024-08-06,2024-08-07
+Analysis of Argument Structure Constructions in a Deep Recurrent Language Model,https://arxiv.org/abs/2408.03062,2024-08-06,2024-08-07
+OpenOmni - A Collaborative Open Source Tool for Building Future-Ready Multimodal Conversational Agents,https://arxiv.org/abs/2408.03047,2024-08-06,2024-08-07
+L3iTC at the FinLLM Challenge Task - Quantization for Financial Text Classification & Summarization,https://arxiv.org/abs/2408.03033,2024-08-06,2024-08-07
+Highly Efficient Self-Adaptive Reward Shaping for Reinforcement Learning,https://arxiv.org/abs/2408.03029,2024-08-06,2024-08-07
+Integrating Controllable Motion Skills from Demonstrations,https://arxiv.org/abs/2408.03018,2024-08-06,2024-08-07
+NeurDB - On the Design and Implementation of an AI-powered Autonomous Database,https://arxiv.org/abs/2408.03013,2024-08-06,2024-08-07
+LLMs as Probabilistic Minimally Adequate Teachers for DFA Learning,https://arxiv.org/abs/2408.02999,2024-08-06,2024-08-07
+A Differential Smoothness-based Compact-Dynamic Graph Convolutional Network for Spatiotemporal Signal Recovery,https://arxiv.org/abs/2408.02987,2024-08-06,2024-08-07
+ASR-enhanced Multimodal Representation Learning for Cross-Domain Product Retrieval,https://arxiv.org/abs/2408.02978,2024-08-06,2024-08-07
+Empathy Level Alignment via Reinforcement Learning for Empathetic Response Generation,https://arxiv.org/abs/2408.02976,2024-08-06,2024-08-07
+Wave Interpolation Neural Operator - Interpolated Prediction of Electric Fields Across Untrained Wavelengths,https://arxiv.org/abs/2408.02971,2024-08-06,2024-08-07
+EC-Guide - A Comprehensive E-Commerce Guide for Instruction Tuning and Quantization,https://arxiv.org/abs/2408.02970,2024-08-06,2024-08-07
+Data-Driven Stochastic Closure Modeling via Conditional Diffusion Model and Neural Operator,https://arxiv.org/abs/2408.02965,2024-08-06,2024-08-07
+Synaptic Modulation using Interspike Intervals Increases Energy Efficiency of Spiking Neural Networks,https://arxiv.org/abs/2408.02961,2024-08-06,2024-08-07
+Anytime Multi-Agent Path Finding with an Adaptive Delay-Based Heuristic,https://arxiv.org/abs/2408.02960,2024-08-06,2024-08-07
+Kolmogorov-Arnold PointNet - Deep learning for prediction of fluid fields on irregular geometries,https://arxiv.org/abs/2408.02950,2024-08-06,2024-08-07
+Few-shot Scooping Under Domain Shift via Simulated Maximal Deployment Gaps,https://arxiv.org/abs/2408.02949,2024-08-06,2024-08-07
+Scaling Laws for Data Poisoning in LLMs,https://arxiv.org/abs/2408.02946,2024-08-06,2024-08-07
+Self-Supervised Learning for Multi-Channel Neural Transducer,https://arxiv.org/abs/2408.02945,2024-08-06,2024-08-07
+LLM-Empowered Resource Allocation in Wireless Communications Systems,https://arxiv.org/abs/2408.02944,2024-08-06,2024-08-07
+Achieving More with Less - A Tensor-Optimization-Powered Ensemble Method,https://arxiv.org/abs/2408.02936,2024-08-06,2024-08-07
+Doubly Stochastic Adaptive Neighbors Clustering via the Marcus Mapping,https://arxiv.org/abs/2408.02932,2024-08-06,2024-08-07
+The Need for a Big World Simulator - A Scientific Challenge for Continual Learning,https://arxiv.org/abs/2408.02930,2024-08-06,2024-08-07
+HARMONIC - Harnessing LLMs for Tabular Data Synthesis and Privacy Protection,https://arxiv.org/abs/2408.02927,2024-08-06,2024-08-07
+Intermediate direct preference optimization,https://arxiv.org/abs/2408.02923,2024-08-06,2024-08-07
+A Taxonomy of Architecture Options for Foundation Model-based Agents - Analysis and Decision Model,https://arxiv.org/abs/2408.02920,2024-08-06,2024-08-07
+Data Checklist - On Unit-Testing Datasets with Usable Information,https://arxiv.org/abs/2408.02919,2024-08-06,2024-08-07
+Leveraging Inter-Chunk Interactions for Enhanced Retrieval in Large Language Model-Based Question Answering,https://arxiv.org/abs/2408.02907,2024-08-06,2024-08-07
+Lighthouse - A User-Friendly Library for Reproducible Video Moment Retrieval and Highlight Detection,https://arxiv.org/abs/2408.02901,2024-08-06,2024-08-07
+A Metric Driven Approach to Mixed Precision Training,https://arxiv.org/abs/2408.02897,2024-08-06,2024-08-07
+VizECGNet - Visual ECG Image Network for Cardiovascular Diseases Classification with Multi-Modal Training and Knowledge Distillation,https://arxiv.org/abs/2408.02888,2024-08-06,2024-08-07
+Compromising Embodied Agents with Contextual Backdoor Attacks,https://arxiv.org/abs/2408.02882,2024-08-06,2024-08-07
+Hide and Seek - Fingerprinting Large Language Models with Evolutionary Learning,https://arxiv.org/abs/2408.02871,2024-08-06,2024-08-07
+Self-Compressing Neural Networks,https://arxiv.org/abs/2301.13142,2023-01-30,2024-08-07
+SLIM-RAFT - A Novel Fine-Tuning Approach to Improve Cross-Linguistic Performance for Mercosur Common Nomenclature,https://arxiv.org/abs/2408.03936,2024-08-07,2024-08-08
+From Words to Worth - Newborn Article Impact Prediction with LLM,https://arxiv.org/abs/2408.03934,2024-08-07,2024-08-08
+Hard to Explain - On the Computational Hardness of In-Distribution Model Interpretation,https://arxiv.org/abs/2408.03915,2024-08-07,2024-08-08
+AdapMTL - Adaptive Pruning Framework for Multitask Learning Model,https://arxiv.org/abs/2408.03913,2024-08-07,2024-08-08
+CodexGraph - Bridging Large Language Models and Code Repositories via Code Graph Databases,https://arxiv.org/abs/2408.03910,2024-08-07,2024-08-08
+LaFA - Latent Feature Attacks on Non-negative Matrix Factorization,https://arxiv.org/abs/2408.03909,2024-08-07,2024-08-08
+Lightweight Video Denoising Using a Classic Bayesian Backbone,https://arxiv.org/abs/2408.03904,2024-08-07,2024-08-08
+Speech-MASSIVE - A Multilingual Speech Dataset for SLU and Beyond,https://arxiv.org/abs/2408.03900,2024-08-07,2024-08-08
+Simplifying Scholarly Abstracts for Accessible Digital Libraries,https://arxiv.org/abs/2408.03899,2024-08-07,2024-08-08
+MORTAR - A Model-based Runtime Action Repair Framework for AI-enabled Cyber-Physical Systems,https://arxiv.org/abs/2408.03892,2024-08-07,2024-08-08
+Knowledge Probing for Graph Representation Learning,https://arxiv.org/abs/2408.03877,2024-08-07,2024-08-08
+Personalized Clinical Note Generation from Doctor-Patient Conversations,https://arxiv.org/abs/2408.03874,2024-08-07,2024-08-08
+BeeManc at the PLABA Track of TAC-2023 - Investigating LLMs and Controllable Attributes for Improving Biomedical Text Readability,https://arxiv.org/abs/2408.03871,2024-08-07,2024-08-08
+PackMamba - Efficient Processing of Variable-Length Sequences in Mamba training,https://arxiv.org/abs/2408.03865,2024-08-07,2024-08-08
+Why transformers are obviously good models of language,https://arxiv.org/abs/2408.03855,2024-08-07,2024-08-08
+MaxMind - A Memory Loop Network to Enhance Software Productivity based on Large Language Models,https://arxiv.org/abs/2408.03841,2024-08-07,2024-08-08
+WalledEval - A Comprehensive Safety Evaluation Toolkit for Large Language Models,https://arxiv.org/abs/2408.03837,2024-08-07,2024-08-08
+Target Prompting for Information Extraction with Vision Language Model,https://arxiv.org/abs/2408.03834,2024-08-07,2024-08-08
+Automated Code Fix Suggestions for Accessibility Issues in Mobile Apps,https://arxiv.org/abs/2408.03827,2024-08-07,2024-08-08
+Leveraging Variation Theory in Counterfactual Data Augmentation for Optimized Active Learning,https://arxiv.org/abs/2408.03819,2024-08-07,2024-08-08
+Generative Language Models with Retrieval Augmented Generation for Automated Short Answer Scoring,https://arxiv.org/abs/2408.03811,2024-08-07,2024-08-08
+Navigating the Human Maze - Real-Time Robot Pathfinding with Generative Imitation Learning,https://arxiv.org/abs/2408.03807,2024-08-07,2024-08-08
+"Trustworthy Image Semantic Communication with GenAI - Explainablity, Controllability, and Efficiency",https://arxiv.org/abs/2408.03806,2024-08-07,2024-08-08
+Frank's triangular norms in Piaget's logical proportions,https://arxiv.org/abs/2408.03795,2024-08-07,2024-08-08
+Relevance meets Diversity - A User-Centric Framework for Knowledge Exploration through Recommendations,https://arxiv.org/abs/2408.03772,2024-08-07,2024-08-08
+Nadaraya-Watson kernel smoothing as a random energy model,https://arxiv.org/abs/2408.03769,2024-08-07,2024-08-08
+Reliable Node Similarity Matrix Guided Contrastive Graph Clustering,https://arxiv.org/abs/2408.03765,2024-08-07,2024-08-08
+'Finance Wizard' at the FinLLM Challenge Task - Financial Text Summarization,https://arxiv.org/abs/2408.03762,2024-08-07,2024-08-08
+Flexible Bayesian Last Layer Models Using Implicit Priors and Diffusion Posterior Sampling,https://arxiv.org/abs/2408.03746,2024-08-07,2024-08-08
+Intuitionistic Fuzzy Cognitive Maps for Interpretable Image Classification,https://arxiv.org/abs/2408.03745,2024-08-07,2024-08-08
+Advancing Multimodal Large Language Models with Quantization-Aware Scale Learning for Efficient Adaptation,https://arxiv.org/abs/2408.03735,2024-08-07,2024-08-08
+Bayes-optimal learning of an extensive-width neural network from quadratically many samples,https://arxiv.org/abs/2408.03733,2024-08-07,2024-08-08
+Question Rephrasing for Quantifying Uncertainty in Large Language Models - Applications in Molecular Chemistry Tasks,https://arxiv.org/abs/2408.03732,2024-08-07,2024-08-08
+A Convex-optimization-based Layer-wise Post-training Pruner for Large Language Models,https://arxiv.org/abs/2408.03728,2024-08-07,2024-08-08
+Local Topology Measures of Contextual Language Model Latent Spaces With Applications to Dialogue Term Extraction,https://arxiv.org/abs/2408.03706,2024-08-07,2024-08-08
+A Blockchain-based Reliable Federated Meta-learning for Metaverse - A Dual Game Framework,https://arxiv.org/abs/2408.03694,2024-08-07,2024-08-08
+Asynchronous Credit Assignment Framework for Multi-Agent Reinforcement Learning,https://arxiv.org/abs/2408.03692,2024-08-07,2024-08-08
+Generative Design of Periodic Orbits in the Restricted Three-Body Problem,https://arxiv.org/abs/2408.03691,2024-08-07,2024-08-08
+RL-ADN - A High-Performance Deep Reinforcement Learning Environment for Optimal Energy Storage Systems Dispatch in Active Distribution Networks,https://arxiv.org/abs/2408.03685,2024-08-07,2024-08-08
+NACL - A General and Effective KV Cache Eviction Framework for LLMs at Inference Time,https://arxiv.org/abs/2408.03675,2024-08-07,2024-08-08
+Beyond Over-smoothing - Uncovering the Trainability Challenges in Deep Graph Neural Networks,https://arxiv.org/abs/2408.03669,2024-08-07,2024-08-08
+AI-Driven approach for sustainable extraction of earth's subsurface renewable energy while minimizing seismic activity,https://arxiv.org/abs/2408.03664,2024-08-07,2024-08-08
+Consumer Transactions Simulation through Generative Adversarial Networks,https://arxiv.org/abs/2408.03655,2024-08-07,2024-08-08
+mucAI at WojoodNER 2024 - Arabic Named Entity Recognition with Nearest Neighbor Search,https://arxiv.org/abs/2408.03652,2024-08-07,2024-08-08
+HiQuE - Hierarchical Question Embedding Network for Multimodal Depression Detection,https://arxiv.org/abs/2408.03648,2024-08-07,2024-08-08
+Time is Not Enough - Time-Frequency based Explanation for Time-Series Black-Box Models,https://arxiv.org/abs/2408.03636,2024-08-07,2024-08-08
+CARE - A Clue-guided Assistant for CSRs to Read User Manuals,https://arxiv.org/abs/2408.03633,2024-08-07,2024-08-08
+Concept Conductor - Orchestrating Multiple Personalized Concepts in Text-to-Image Synthesis,https://arxiv.org/abs/2408.03632,2024-08-07,2024-08-08
+Large Language Models for Base Station Siting - Intelligent Deployment based on Prompt or Agent,https://arxiv.org/abs/2408.03631,2024-08-07,2024-08-08
+On the choice of the non-trainable internal weights in random feature maps,https://arxiv.org/abs/2408.03626,2024-08-07,2024-08-08
+Making Robust Generalizers Less Rigid with Soft Ascent-Descent,https://arxiv.org/abs/2408.03619,2024-08-07,2024-08-08
+A Logical Fallacy-Informed Framework for Argument Generation,https://arxiv.org/abs/2408.03618,2024-08-07,2024-08-08
+Is Child-Directed Speech Effective Training Data for Language Models?,https://arxiv.org/abs/2408.03617,2024-08-07,2024-08-08
+Optimus-1 - Hybrid Multimodal Memory Empowered Agents Excel in Long-Horizon Tasks,https://arxiv.org/abs/2408.03615,2024-08-07,2024-08-08
+JARViS - Detecting Actions in Video Using Unified Actor-Scene Context Relation Modeling,https://arxiv.org/abs/2408.03612,2024-08-07,2024-08-08
+InPer - Whole-Process Domain Generalization via Causal Intervention and Perturbation,https://arxiv.org/abs/2408.03608,2024-08-07,2024-08-08
+EnJa - Ensemble Jailbreak on Large Language Models,https://arxiv.org/abs/2408.03603,2024-08-07,2024-08-08
+Activations Through Extensions - A Framework To Boost Performance Of Neural Networks,https://arxiv.org/abs/2408.03599,2024-08-07,2024-08-08
+"Focal Depth Estimation - A Calibration-Free, Subject- and Daytime Invariant Approach",https://arxiv.org/abs/2408.03591,2024-08-07,2024-08-08
+Sensitivity analysis using the Metamodel of Optimal Prognosis,https://arxiv.org/abs/2408.03590,2024-08-07,2024-08-08
+Facing the Music - Tackling Singing Voice Separation in Cinematic Audio Source Separation,https://arxiv.org/abs/2408.03588,2024-08-07,2024-08-08
+Hierarchical Neural Constructive Solver for Real-world TSP Scenarios,https://arxiv.org/abs/2408.03585,2024-08-07,2024-08-08
+Teach CLIP to Develop a Number Sense for Ordinal Regression,https://arxiv.org/abs/2408.03574,2024-08-07,2024-08-08
+Active Testing of Large Language Model via Multi-Stage Sampling,https://arxiv.org/abs/2408.03573,2024-08-07,2024-08-08
+2D-OOB - Attributing Data Contribution through Joint Valuation Framework,https://arxiv.org/abs/2408.03572,2024-08-07,2024-08-08
+Maximum a Posteriori Estimation for Linear Structural Dynamics Models Using Bayesian Optimization with Rational Polynomial Chaos Expansions,https://arxiv.org/abs/2408.03569,2024-08-07,2024-08-08
+A comparative study of generative adversarial networks for image recognition algorithms based on deep learning and traditional methods,https://arxiv.org/abs/2408.03568,2024-08-07,2024-08-08
+A Comparison of LLM Finetuning Methods & Evaluation Metrics with Travel Chatbot Use Case,https://arxiv.org/abs/2408.03562,2024-08-07,2024-08-08
+MPC-Minimized Secure LLM Inference,https://arxiv.org/abs/2408.03561,2024-08-07,2024-08-08
+In2Core - Leveraging Influence Functions for Coreset Selection in Instruction Finetuning of Large Language Models,https://arxiv.org/abs/2408.03560,2024-08-07,2024-08-08
+D2Styler - Advancing Arbitrary Style Transfer with Discrete Diffusion Methods,https://arxiv.org/abs/2408.03558,2024-08-07,2024-08-08
+Empirical Analysis of Large Vision-Language Models against Goal Hijacking via Visual Prompt Injection,https://arxiv.org/abs/2408.03554,2024-08-07,2024-08-08
+Unlocking the Non-Native Language Context Limitation - Native Language Prompting Facilitates Knowledge Elicitation,https://arxiv.org/abs/2408.03544,2024-08-07,2024-08-08
+EXAONE 3.0 7.8B Instruction Tuned Language Model,https://arxiv.org/abs/2408.03541,2024-08-07,2024-08-08
+Deep Reinforcement Learning for Robotics - A Survey of Real-World Successes,https://arxiv.org/abs/2408.03539,2024-08-07,2024-08-08
+NeurAM - nonlinear dimensionality reduction for uncertainty quantification through neural active manifolds,https://arxiv.org/abs/2408.03534,2024-08-07,2024-08-08
+Lifelong Personalized Low-Rank Adaptation of Large Language Models for Recommendation,https://arxiv.org/abs/2408.03533,2024-08-07,2024-08-08
+Exploring the extent of similarities in software failures across industries using LLMs,https://arxiv.org/abs/2408.03528,2024-08-07,2024-08-08
+Hierarchical learning control for autonomous robots inspired by central nervous system,https://arxiv.org/abs/2408.03525,2024-08-07,2024-08-08
+EgyBERT - A Large Language Model Pretrained on Egyptian Dialect Corpora,https://arxiv.org/abs/2408.03524,2024-08-07,2024-08-08
+RepoMasterEval - Evaluating Code Completion via Real-World Repositories,https://arxiv.org/abs/2408.03519,2024-08-07,2024-08-08
+Leveraging LLMs for Enhanced Open-Vocabulary 3D Scene Understanding in Autonomous Driving,https://arxiv.org/abs/2408.03516,2024-08-07,2024-08-08
+A Study on Prompt Injection Attack Against LLM-Integrated Mobile Robotic Systems,https://arxiv.org/abs/2408.03515,2024-08-07,2024-08-08
+MoExtend - Tuning New Experts for Modality and Task Extension,https://arxiv.org/abs/2408.03511,2024-08-07,2024-08-08
+"1.5-Pints Technical Report - Pretraining in Days, Not Months -- Your Language Model Thrives on Quality Data",https://arxiv.org/abs/2408.03506,2024-08-07,2024-08-08
+Optimus - Accelerating Large-Scale Multi-Modal LLM Training by Bubble Exploitation,https://arxiv.org/abs/2408.03505,2024-08-07,2024-08-08
+"Advanced User Credit Risk Prediction Model using LightGBM, XGBoost and Tabnet with SMOTEENN",https://arxiv.org/abs/2408.03497,2024-08-07,2024-08-08
+Automated Theorem Provers Help Improve Large Language Model Reasoning,https://arxiv.org/abs/2408.03492,2024-08-07,2024-08-08
+Simultaneous and Meshfree Topology Optimization with Physics-informed Gaussian Processes,https://arxiv.org/abs/2408.03490,2024-08-07,2024-08-08
+Harnessing the Power of LLMs in Source Code Vulnerability Detection,https://arxiv.org/abs/2408.03489,2024-08-07,2024-08-08
+Automated mapping of virtual environments with visual predictive coding,https://arxiv.org/abs/2308.10913,2023-08-20,2024-08-09
+Arctic-TILT. Business Document Understanding at Sub-Billion Scale,https://arxiv.org/abs/2408.04632,2024-08-08,2024-08-09
+Puppet-Master - Scaling Interactive Video Generation as a Motion Prior for Part-Level Dynamics,https://arxiv.org/abs/2408.04631,2024-08-08,2024-08-09
+LogogramNLP - Comparing Visual and Textual Representations of Ancient Logographic Writing Systems for NLP,https://arxiv.org/abs/2408.04628,2024-08-08,2024-08-09
+Transformer Explainer - Interactive Learning of Text-Generative Models,https://arxiv.org/abs/2408.04619,2024-08-08,2024-08-09
+Better Alignment with Instruction Back-and-Forth Translation,https://arxiv.org/abs/2408.04614,2024-08-08,2024-08-09
+Risk and cross validation in ridge regression with correlated samples,https://arxiv.org/abs/2408.04607,2024-08-08,2024-08-09
+Code-switching in text and speech reveals information-theoretic audience design,https://arxiv.org/abs/2408.04596,2024-08-08,2024-08-09
+Img-Diff - Contrastive Data Synthesis for Multimodal Large Language Models,https://arxiv.org/abs/2408.04594,2024-08-08,2024-08-09
+HiLo - A Learning Framework for Generalized Category Discovery Robust to Domain Shifts,https://arxiv.org/abs/2408.04591,2024-08-08,2024-08-09
+Learn To Learn More Precisely,https://arxiv.org/abs/2408.04590,2024-08-08,2024-08-09
+Sampling for View Synthesis - From Local Light Field Fusion to Neural Radiance Fields and Beyond,https://arxiv.org/abs/2408.04586,2024-08-08,2024-08-09
+"Towards Resilient and Efficient LLMs - A Comparative Study of Efficiency, Performance, and Adversarial Robustness",https://arxiv.org/abs/2408.04585,2024-08-08,2024-08-09
+Unveiling the Power of Sparse Neural Networks for Feature Selection,https://arxiv.org/abs/2408.04583,2024-08-08,2024-08-09
+SCENE - Evaluating Explainable AI Techniques Using Soft Counterfactuals,https://arxiv.org/abs/2408.04575,2024-08-08,2024-08-09
+Mathematical Programming For Adaptive Experiments,https://arxiv.org/abs/2408.04570,2024-08-08,2024-08-09
+Activation thresholds and expressiveness of polynomial neural networks,https://arxiv.org/abs/2408.04569,2024-08-08,2024-08-09
+Learning Fine-Grained Grounded Citations for Attributed Large Language Models,https://arxiv.org/abs/2408.04568,2024-08-08,2024-08-09
+Conversational Prompt Engineering,https://arxiv.org/abs/2408.04560,2024-08-08,2024-08-09
+Bias-Aware Low-Rank Adaptation - Mitigating Catastrophic Inheritance of Large Language Models,https://arxiv.org/abs/2408.04556,2024-08-08,2024-08-09
+Molyé - A Corpus-based Approach to Language Contact in Colonial France,https://arxiv.org/abs/2408.04554,2024-08-08,2024-08-09
+Learning Fair Cooperation in Mixed-Motive Games with Indirect Reciprocity,https://arxiv.org/abs/2408.04549,2024-08-08,2024-08-09
+MemeMind at ArAIEval Shared Task - Spotting Persuasive Spans in Arabic Text with Persuasion Techniques Identification,https://arxiv.org/abs/2408.04540,2024-08-08,2024-08-09
+Synchronous Multi-modal Semantic CommunicationSystem with Packet-level Coding,https://arxiv.org/abs/2408.04535,2024-08-08,2024-08-09
+How Transformers Utilize Multi-Head Attention in In-Context Learning? A Case Study on Sparse Linear Regression,https://arxiv.org/abs/2408.04532,2024-08-08,2024-08-09
+AExGym - Benchmarks and Environments for Adaptive Experimentation,https://arxiv.org/abs/2408.04531,2024-08-08,2024-08-09
+Reasoning about Study Regulations in Answer Set Programming,https://arxiv.org/abs/2408.04528,2024-08-08,2024-08-09
+Hybrid Reinforcement Learning Breaks Sample Size Barriers in Linear MDPs,https://arxiv.org/abs/2408.04526,2024-08-08,2024-08-09
+Compromesso! Italian Many-Shot Jailbreaks Undermine the Safety of Large Language Models,https://arxiv.org/abs/2408.04522,2024-08-08,2024-08-09
+Emergence in Multi-Agent Systems - A Safety Perspective,https://arxiv.org/abs/2408.04514,2024-08-08,2024-08-09
+Knowledge-Aided Semantic Communication Leveraging Probabilistic Graphical Modeling,https://arxiv.org/abs/2408.04499,2024-08-08,2024-08-09
+Model-Based Transfer Learning for Contextual Reinforcement Learning,https://arxiv.org/abs/2408.04498,2024-08-08,2024-08-09
+Towards Synergistic Deep Learning Models for Volumetric Cirrhotic Liver Segmentation in MRIs,https://arxiv.org/abs/2408.04491,2024-08-08,2024-08-09
+Statistical Framework for Clustering MU-MIMO Wireless via Second Order Statistics,https://arxiv.org/abs/2408.04484,2024-08-08,2024-08-09
+SegXAL - Explainable Active Learning for Semantic Segmentation in Driving Scene Scenarios,https://arxiv.org/abs/2408.04482,2024-08-08,2024-08-09
+Can LLMs Beat Humans in Debating? A Dynamic Multi-agent Framework for Competitive Debate,https://arxiv.org/abs/2408.04472,2024-08-08,2024-08-09
+Crowd Intelligence for Early Misinformation Prediction on Social Media,https://arxiv.org/abs/2408.04463,2024-08-08,2024-08-09
+Random Walk Diffusion for Efficient Large-Scale Graph Generation,https://arxiv.org/abs/2408.04461,2024-08-08,2024-08-09
+An experimental comparative study of backpropagation and alternatives for training binary neural networks for image classification,https://arxiv.org/abs/2408.04460,2024-08-08,2024-08-09
+RiskAwareBench - Towards Evaluating Physical Risk Awareness for High-level Planning of LLM-based Embodied Agents,https://arxiv.org/abs/2408.04449,2024-08-08,2024-08-09
+FedAD-Bench - A Unified Benchmark for Federated Unsupervised Anomaly Detection in Tabular Data,https://arxiv.org/abs/2408.04442,2024-08-08,2024-08-09
+Deep Learning for identifying systolic complexes in SCG traces - a cross-dataset analysis,https://arxiv.org/abs/2408.04439,2024-08-08,2024-08-09
+AcrosticSleuth - Probabilistic Identification and Ranking of Acrostics in Multilingual Corpora,https://arxiv.org/abs/2408.04427,2024-08-08,2024-08-09
+Detection of Animal Movement from Weather Radar using Self-Supervised Learning,https://arxiv.org/abs/2408.04424,2024-08-08,2024-08-09
+Recognizing Emotion Regulation Strategies from Human Behavior with Large Language Models,https://arxiv.org/abs/2408.04420,2024-08-08,2024-08-09
+Enhancing Robustness of Retrieval-Augmented Language Models with In-Context Learning,https://arxiv.org/abs/2408.04414,2024-08-08,2024-08-09
+Deeploy - Enabling Energy-Efficient Deployment of Small Language Models On Heterogeneous Microcontrollers,https://arxiv.org/abs/2408.04413,2024-08-08,2024-08-09
+Clutter Classification Using Deep Learning in Multiple Stages,https://arxiv.org/abs/2408.04407,2024-08-08,2024-08-09
+Finite sample learning of moving targets,https://arxiv.org/abs/2408.04406,2024-08-08,2024-08-09
+Probabilistic energy forecasting through quantile regression in reproducing kernel Hilbert spaces,https://arxiv.org/abs/2408.04405,2024-08-08,2024-08-09
+Exploring Reasoning Biases in Large Language Models Through Syllogism - Insights from the NeuBAROCO Dataset,https://arxiv.org/abs/2408.04403,2024-08-08,2024-08-09
+DIVE - Subgraph Disagreement for Graph Out-of-Distribution Generalization,https://arxiv.org/abs/2408.04400,2024-08-08,2024-08-09
+Automated Educational Question Generation at Different Bloom's Skill Levels using Large Language Models - Strategies and Evaluation,https://arxiv.org/abs/2408.04394,2024-08-08,2024-08-09
+Open-domain Implicit Format Control for Large Language Model Generation,https://arxiv.org/abs/2408.04392,2024-08-08,2024-08-09
+Robustness investigation of quality measures for the assessment of machine learning models,https://arxiv.org/abs/2408.04391,2024-08-08,2024-08-09
+MM-Forecast - A Multimodal Approach to Temporal Event Forecasting with Large Language Models,https://arxiv.org/abs/2408.04388,2024-08-08,2024-08-09
+Non-maximizing policies that fulfill multi-criterion aspirations in expectation,https://arxiv.org/abs/2408.04385,2024-08-08,2024-08-09
+Judgment2vec - Apply Graph Analytics to Searching and Recommendation of Similar Judgments,https://arxiv.org/abs/2408.04382,2024-08-08,2024-08-09
+Anomaly Prediction - A Novel Approach with Explicit Delay and Horizon,https://arxiv.org/abs/2408.04377,2024-08-08,2024-08-09
+Deep Reinforcement Learning for the Design of Metamaterial Mechanisms with Functional Compliance Control,https://arxiv.org/abs/2408.04376,2024-08-08,2024-08-09
+Analyzing Consumer Reviews for Understanding Drivers of Hotels Ratings - An Indian Perspective,https://arxiv.org/abs/2408.04369,2024-08-08,2024-08-09
+Simulating Articulatory Trajectories with Phonological Feature Interpolation,https://arxiv.org/abs/2408.04363,2024-08-08,2024-08-09
+Towards Explainable Network Intrusion Detection using Large Language Models,https://arxiv.org/abs/2408.04342,2024-08-08,2024-08-09
+Self-Supervised Contrastive Graph Clustering Network via Structural Information Fusion,https://arxiv.org/abs/2408.04339,2024-08-08,2024-08-09
+KnowPC - Knowledge-Driven Programmatic Reinforcement Learning for Zero-shot Coordination,https://arxiv.org/abs/2408.04336,2024-08-08,2024-08-09
+Enhancing Journalism with AI - A Study of Contextualized Image Captioning for News Articles using LLMs and LMMs,https://arxiv.org/abs/2408.04331,2024-08-08,2024-08-09
+HydraFormer - One Encoder For All Subsampling Rates,https://arxiv.org/abs/2408.04325,2024-08-08,2024-08-09
+Federated Cubic Regularized Newton Learning with Sparsification-amplified Differential Privacy,https://arxiv.org/abs/2408.04315,2024-08-08,2024-08-09
+Better Locally Private Sparse Estimation Given Multiple Samples Per User,https://arxiv.org/abs/2408.04313,2024-08-08,2024-08-09
+TheGlueNote - Learned Representations for Robust and Flexible Note Alignment,https://arxiv.org/abs/2408.04309,2024-08-08,2024-08-09
+Partial Experts Checkpoint - Efficient Fault Tolerance for Sparse Mixture-of-Experts Model Training,https://arxiv.org/abs/2408.04307,2024-08-08,2024-08-09
+Learning with Digital Agents - An Analysis based on the Activity Theory,https://arxiv.org/abs/2408.04304,2024-08-08,2024-08-09
+Trans-Tokenization and Cross-lingual Vocabulary Transfers - Language Adaptation of LLMs for Low-Resource NLP,https://arxiv.org/abs/2408.04303,2024-08-08,2024-08-09
+Tackling Noisy Clients in Federated Learning with End-to-end Label Correction,https://arxiv.org/abs/2408.04301,2024-08-08,2024-08-09
+Assigning Credit with Partial Reward Decoupling in Multi-Agent Proximal Policy Optimization,https://arxiv.org/abs/2408.04295,2024-08-08,2024-08-09
+Dual-branch PolSAR Image Classification Based on GraphMAE and Local Feature Extraction,https://arxiv.org/abs/2408.04294,2024-08-08,2024-08-09
+Efficient and Accurate Pneumonia Detection Using a Novel Multi-Scale Transformer Approach,https://arxiv.org/abs/2408.04290,2024-08-08,2024-08-09
+EMTeC - A Corpus of Eye Movements on Machine-Generated Texts,https://arxiv.org/abs/2408.04289,2024-08-08,2024-08-09
+LLM-DetectAIve - a Tool for Fine-Grained Machine-Generated Text Detection,https://arxiv.org/abs/2408.04284,2024-08-08,2024-08-09
+AI-Driven Chatbot for Intrusion Detection in Edge Networks - Enhancing Cybersecurity with Ethical User Consent,https://arxiv.org/abs/2408.04281,2024-08-08,2024-08-09
+LaDiMo - Layer-wise Distillation Inspired MoEfier,https://arxiv.org/abs/2408.04278,2024-08-08,2024-08-09
+Stability Analysis of Equivariant Convolutional Representations Through The Lens of Equivariant Multi-layered CKNs,https://arxiv.org/abs/2408.04277,2024-08-08,2024-08-09
+Analysis of Argument Structure Constructions in the Large Language Model BERT,https://arxiv.org/abs/2408.04270,2024-08-08,2024-08-09
+Unveiling Hidden Visual Information - A Reconstruction Attack Against Adversarial Visual Information Hiding,https://arxiv.org/abs/2408.04261,2024-08-08,2024-08-09
+EfficientRAG - Efficient Retriever for Multi-Hop Question Answering,https://arxiv.org/abs/2408.04259,2024-08-08,2024-08-09
+Generating Fine-Grained Causality in Climate Time Series Data for Forecasting and Anomaly Detection,https://arxiv.org/abs/2408.04254,2024-08-08,2024-08-09
+Cooperative Multi-Agent Deep Reinforcement Learning in Content Ranking Optimization,https://arxiv.org/abs/2408.04251,2024-08-08,2024-08-09
+Explicating the Implicit - Argument Detection Beyond Sentence Boundaries,https://arxiv.org/abs/2408.04246,2024-08-08,2024-08-09
+Scalable Transformer for High Dimensional Multivariate Time Series Forecasting,https://arxiv.org/abs/2408.04245,2024-08-08,2024-08-09
+The Ungrounded Alignment Problem,https://arxiv.org/abs/2408.04242,2024-08-08,2024-08-09
+Learning to Rewrite - Generalized LLM-Generated Text Detection,https://arxiv.org/abs/2408.04237,2024-08-08,2024-08-09
+Cluster-Wide Task Slowdown Detection in Cloud System,https://arxiv.org/abs/2408.04236,2024-08-08,2024-08-09
+Enhanced Traffic Flow Prediction with Multi-Segment Fusion Tensor Graph Convolutional Networks,https://arxiv.org/abs/2408.04232,2024-08-08,2024-08-09
+Probabilistic Circuits for Cumulative Distribution Functions,https://arxiv.org/abs/2408.04229,2024-08-08,2024-08-09
+Evaluating Language Model Math Reasoning via Grounding in Educational Curricula,https://arxiv.org/abs/2408.04226,2024-08-08,2024-08-09
+VideoQA in the Era of LLMs - An Empirical Study,https://arxiv.org/abs/2408.04223,2024-08-08,2024-08-09
+Connective Viewpoints of Signal-to-Noise Diffusion Models,https://arxiv.org/abs/2408.04221,2024-08-08,2024-08-09
+Diffusion Guided Language Modeling,https://arxiv.org/abs/2408.04220,2024-08-08,2024-08-09
+Simplifying Translations for Children - Iterative Simplification Considering Age of Acquisition with LLMs,https://arxiv.org/abs/2408.04217,2024-08-08,2024-08-09
+Attention Mechanism and Context Modeling System for Text Mining Machine Translation,https://arxiv.org/abs/2408.04216,2024-08-08,2024-08-09
+MMREC - LLM Based Multi-Modal Recommender System,https://arxiv.org/abs/2408.04211,2024-08-08,2024-08-09
+DC Algorithm for Estimation of Sparse Gaussian Graphical Models,https://arxiv.org/abs/2408.04206,2024-08-08,2024-08-09
+MMRole - A Comprehensive Framework for Developing and Evaluating Multimodal Role-Playing Agents,https://arxiv.org/abs/2408.04203,2024-08-08,2024-08-09
+Pairwise Judgment Formulation for Semantic Embedding Model in Web Search,https://arxiv.org/abs/2408.04197,2024-08-08,2024-08-09
+Uncertainty-Aware Crime Prediction With Spatial Temporal Multivariate Graph Neural Networks,https://arxiv.org/abs/2408.04193,2024-08-08,2024-08-09
+Listwise Reward Estimation for Offline Preference-based Reinforcement Learning,https://arxiv.org/abs/2408.04190,2024-08-08,2024-08-09
+EdgeShield - A Universal and Efficient Edge Computing Framework for Robust AI,https://arxiv.org/abs/2408.04181,2024-08-08,2024-08-09
+An Upper Confidence Bound Approach to Estimating the Maximum Mean,https://arxiv.org/abs/2408.04179,2024-08-08,2024-08-09
+pyBregMan - A Python library for Bregman Manifolds,https://arxiv.org/abs/2408.04175,2024-08-08,2024-08-09
+wav2graph - A Framework for Supervised Learning Knowledge Graph from Speech,https://arxiv.org/abs/2408.04174,2024-08-08,2024-08-09
+"Perceive, Reflect, and Plan - Designing LLM Agent for Goal-Directed City Navigation without Instructions",https://arxiv.org/abs/2408.04168,2024-08-08,2024-08-09
+mbrs - A Library for Minimum Bayes Risk Decoding,https://arxiv.org/abs/2408.04167,2024-08-08,2024-08-09
+Semantics or spelling? Probing contextual word embeddings with orthographic noise,https://arxiv.org/abs/2408.04162,2024-08-08,2024-08-09
+The Data Addition Dilemma,https://arxiv.org/abs/2408.04154,2024-08-08,2024-08-09
+A tutorial on the dynamic Laplacian,https://arxiv.org/abs/2408.04149,2024-08-08,2024-08-09
+UNLEARN Efficient Removal of Knowledge in Large Language Models,https://arxiv.org/abs/2408.04140,2024-08-08,2024-08-09
+Step Saver - Predicting Minimum Denoising Steps for Diffusion Model Image Generation,https://arxiv.org/abs/2408.02054v1,2024-08-04,2024-08-09
+Climbing the Complexity Ladder with Expressive Attention,https://arxiv.org/abs/2407.18601v1,2024-07-26,2024-08-09
+Longhorn - State Space Models are Amortized Online Learners,https://arxiv.org/abs/2407.14207v3,2024-07-19,2024-08-09
+Vision language models are blind,https://arxiv.org/abs/2407.06581v5,2024-07-09,2024-08-09
+Developing Safe and Responsible Large Language Model  - Can We Balance Bias Reduction and Language Understanding in Large Language Models -,https://arxiv.org/abs/2404.01399v4,2024-04-01,2024-08-09
+LLMs' Understanding of Natural Language Revealed,https://arxiv.org/abs/2407.19630v1,2024-07-29,2024-08-09
+Decoupled Vocabulary Learning Enables Zero-Shot Translation from Unseen Languages,https://arxiv.org/abs/2408.02290v1,2024-08-05,2024-08-09
+Mixture of Modular Experts - Distilling Knowledge from a Multilingual Teacher into Specialized Modular Language Models,https://arxiv.org/abs/2407.19610v1,2024-07-28,2024-08-09
+Bigger is not Always Better - Scaling Properties of Latent Diffusion Models,https://arxiv.org/abs/2404.01367,2024-04-01,2024-08-09
+Mixture-of-Depths - Dynamically allocating compute in transformer-based language models,https://arxiv.org/abs/2404.02258,2024-04-02,2024-08-09
+Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters,https://arxiv.org/abs/2408.03314,2024-08-06,2024-08-09
+Self-Taught Evaluators,https://arxiv.org/abs/2408.02666,2024-08-05,2024-08-09
+POA - Pre-training Once for Models of All Sizes,https://arxiv.org/abs/2408.01031,2024-08-02,2024-08-09
+Language Model Can Listen While Speaking,https://arxiv.org/abs/2408.02622,2024-08-05,2024-08-09
+Autoencoders in Function Space,https://arxiv.org/abs/2408.01362,2024-08-02,2024-08-09
+Transformers are Universal In-context Learners,https://arxiv.org/abs/2408.01367,2024-08-02,2024-08-09
+EXAONE 3.0 7.8B Instruction Tuned Language Model,https://arxiv.org/abs/2408.03541,2024-08-07,2024-08-09
