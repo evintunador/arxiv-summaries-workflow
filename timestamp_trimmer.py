@@ -51,4 +51,4 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Trimm the shortest (time length) youtube timestamps from a text file")
     parser.add_argument('timestamps_file', type=str, help='Path to the timestamps file.')
     args = parser.parse_args()
-    main(args.timestamps_File)
+    main(args.timestamps_file)

@@ -16,7 +16,7 @@ def open_file(filepath):
     with open(filepath, 'r', encoding='utf-8', errors='ignore') as infile:
         return infile.read()
     
-def chatbot(conversation, model="gpt-3.5-turbo-16k", temperature=0.7):
+def chatbot(conversation, model="gpt-4o-mini", temperature=0.7):
     max_retry = 3
     retry = 0
     while True:
@@ -74,7 +74,7 @@ if __name__ == '__main__':
     # Write the message
     with open('newsletter.txt', 'w') as outfile:
         outfile.write(f"Welcome to Tunadorable's weekly AI newsletter, where we summarize his favorite articles of the week that he plans to read."
-                      f"\nThis article was written by gpt-3.5-turbo-16k on {today}.")
+                      f"\nThis article was written by gpt-4o-mini on {today}.")
 
     # Get list of all PDF files in the input folder
     pdf_files = [f for f in os.listdir('pdfs-to-summarize/') if f.endswith('.pdf')]
@@ -108,9 +108,9 @@ if __name__ == '__main__':
             print(f"Error reading file: {pdf_file}")
             continue
         
-        # make sure it's not too long for GPT3.5's context window
-        if len(paper) > 22000:
-            paper = paper[0:22000]
+        # make sure it's not too long for GPT-4o-mini's context window
+        if len(paper) > 176000:
+            paper = paper[0:176000]
         
         # the actual API calls
         ALL_MESSAGES = [{'role':'system', 'content': paper}]

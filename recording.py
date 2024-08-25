@@ -21,9 +21,9 @@ def extract_arxiv_id(url):
 
 def open_links(arxiv_id, original_link):
     links_to_open = [
+        f"https://bytez.com/docs/arxiv/{arxiv_id}",
         f"https://alphaxiv.org/abs/{arxiv_id}",
-        original_link,
-        f"https://bytez.com/docs/arxiv/{arxiv_id}"
+        original_link
     ] if arxiv_id else [original_link]
     
     for link in links_to_open:

@@ -127,3 +127,18 @@ ReST-MCTS - - LLM Self-Training via Process Reward Guided Tree Search,https://ar
 Layerwise Recurrent Router for Mixture-of-Experts,https://arxiv.org/abs/2408.06793,2024-08-13,2024-08-14
 Understanding Learning through the Lens of Dynamical Invariants,https://arxiv.org/abs/2401.10428,2024-01-19,2024-08-12
 Reciprocal Learning,https://arxiv.org/abs/2408.06257,2024-08-12,2024-08-13
+Tree Attention - Topology-aware Decoding for Long-Context Attention on GPU clusters,https://arxiv.org/abs/2408.04093,2024-08-07,2024-08-11
+Tree Attention - Topology-aware Decoding for Long-Context Attention on GPU clusters,https://arxiv.org/abs/2408.04093,2024-08-07,2024-08-11
+Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution,https://arxiv.org/abs/2310.16834,2023-10-25,2024-08-23
+Recurrent Neural Networks Learn to Store and Generate Sequences using Non-Linear Representations,https://arxiv.org/abs/2408.10920,2024-08-20,2024-08-22
+From pixels to planning - scale-free active inference,https://arxiv.org/abs/2407.20292,2024-07-27,2024-08-07
+Transfusion - Predict the Next Token and Diffuse Images with One Multi-Modal Model,https://arxiv.org/abs/2408.11039,2024-08-20,2024-08-21
+Beyond English-Centric LLMs - What Language Do Multilingual Language Models Think in?,https://arxiv.org/abs/2408.10811,2024-08-20,2024-08-22
+Scaling Laws with Vocabulary - Larger Models Deserve Larger Vocabularies,https://arxiv.org/abs/2407.13623,2024-07-18,2024-08-23
+Machine Learning with Physics Knowledge for Prediction - A Survey,https://arxiv.org/abs/2408.09840,2024-08-20,2024-08-22
+Scaling Law with Learning Rate Annealing,https://arxiv.org/abs/2408.11029,2024-08-20,2024-08-21
+The Exploration-Exploitation Dilemma Revisited - An Entropy Perspective,https://arxiv.org/abs/2408.09974,2024-08-20,2024-08-22
+HMoE - Heterogeneous Mixture of Experts for Language Modeling,https://arxiv.org/abs/2408.10681,2024-08-20,2024-08-22
+Learning Randomized Algorithms with Transformers,https://arxiv.org/abs/2408.10818,2024-08-20,2024-08-22
+SMILE - Zero-Shot Sparse Mixture of Low-Rank Experts Construction From Pre-Trained Foundation Models,https://arxiv.org/abs/2408.10174,2024-08-20,2024-08-22
+KAN 2.0 - Kolmogorov-Arnold Networks Meet Science,https://arxiv.org/abs/2408.10205,2024-08-19,2024-08-20

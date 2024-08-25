@@ -493,3 +493,95 @@ Language Model Can Listen While Speaking,https://arxiv.org/abs/2408.02622,2024-0
 Autoencoders in Function Space,https://arxiv.org/abs/2408.01362,2024-08-02,2024-08-09
 Transformers are Universal In-context Learners,https://arxiv.org/abs/2408.01367,2024-08-02,2024-08-09
 EXAONE 3.0 7.8B Instruction Tuned Language Model,https://arxiv.org/abs/2408.03541,2024-08-07,2024-08-09
+Tree Attention - Topology-aware Decoding for Long-Context Attention on GPU clusters,https://arxiv.org/abs/2408.04093,2024-08-07,2024-08-11
+Language Models Don't Always Say What They Think - Unfaithful Explanations in Chain-of-Thought Prompting,https://arxiv.org/abs/2305.04388,2023-05-07,2024-08-11
+OTCE - Hybrid SSM and Attention with Cross Domain Mixture of Experts to construct Observer-Thinker-Conceiver-Expresser,https://arxiv.org/abs/2406.16495,2024-06-24,2024-08-11
+LoRA-Pro - Are Low-Rank Adapters Properly Optimized -,https://arxiv.org/abs/2407.18242,2024-07-25,2024-08-11
+Rewrite the Stars,https://arxiv.org/abs/2403.19967,2024-03-29,2024-08-11
+Tree Cross Attention,https://arxiv.org/abs/2309.17388,2023-09-29,2024-08-11
+ReST-MCTS - - LLM Self-Training via Process Reward Guided Tree Search,https://arxiv.org/abs/2406.03816,2024-06-06,2024-08-12
+Can Turing machine be curious about its Turing test results - Three informal lectures on physics of intelligence,https://arxiv.org/abs/1606.08109,2016-06-27,2024-08-12
+The Physics of Learning - From Autoencoders to Truly Autonomous Learning Machines,https://arxiv.org/abs/2407.04700,2024-02-12,2024-08-12
+Understanding Learning through the Lens of Dynamical Invariants,https://arxiv.org/abs/2401.10428,2024-01-19,2024-08-12
+Gemma Scope - Open Sparse Autoencoders Everywhere All At Once on Gemma 2,https://arxiv.org/abs/2408.05147,2024-08-10,2024-08-12
+"Generalisation First, Memorisation Second? Memorisation Localisation for Natural Language Classification Tasks",https://arxiv.org/abs/2408.04965,2024-08-10,2024-08-12
+On the Geometry of Deep Learning,https://arxiv.org/abs/2408.04809,2024-08-10,2024-08-12
+Liquid Time-constant Networks,https://arxiv.org/abs/2006.04439,2020-06-08,2024-08-13
+"Animate, or Inanimate, That is the Question for Large Language Models",https://arxiv.org/abs/2408.06332,2024-08-12,2024-08-13
+Reciprocal Learning,https://arxiv.org/abs/2408.06257,2024-08-12,2024-08-13
+"A Single Goal is All You Need - Skills and Exploration Emerge from Contrastive RL without Rewards, Demonstrations, or Subgoals",https://arxiv.org/abs/2408.05804,2024-08-12,2024-08-13
+Predicting Chaotic System Behavior using Machine Learning Techniques,https://arxiv.org/abs/2408.05702,2024-08-12,2024-08-13
+Scaling Laws for Reward Model Overoptimization in Direct Alignment Algorithms,https://arxiv.org/abs/2406.02900,2024-06-05,2024-08-14
+Liquid Structural State-Space Models,https://arxiv.org/abs/2209.12951,2022-09-26,2024-08-14
+LLMs can Schedule,https://arxiv.org/abs/2408.06993,2024-08-13,2024-08-14
+Layerwise Recurrent Router for Mixture-of-Experts,https://arxiv.org/abs/2408.06793,2024-08-13,2024-08-14
+OpenEP - Open-Ended Future Event Prediction,https://arxiv.org/abs/2408.06578,2024-08-13,2024-08-14
+AquilaMoE - Efficient Training for MoE Models with Scale-Up and Scale-Out Strategies,https://arxiv.org/abs/2408.06567,2024-08-13,2024-08-14
+Introducing the NewsPaLM MBR and QE Dataset - LLM-Generated High-Quality Parallel Data Outperforms Traditional Web-Crawled Data,https://arxiv.org/abs/2408.06537,2024-08-13,2024-08-14
+Longhorn - State Space Models are Amortized Online Learners,https://arxiv.org/abs/2407.14207,2024-07-19,2024-08-14
+Hierarchical Working Memory and a New Magic Number,https://arxiv.org/abs/2408.07637,2024-08-14,2024-08-15
+VideoLLaMA 2 - Advancing Spatial-Temporal Modeling and Audio Understanding in Video-LLMs,https://arxiv.org/abs/2406.07476,2024-06-11,2024-08-16
+Diversity Empowers Intelligence - Integrating Expertise of Software Engineering Agents,https://www.arxiv.org/abs/2408.07060,2024-08-13,2024-08-16
+Step Saver - Predicting Minimum Denoising Steps for Diffusion Model Image Generation,https://arxiv.org/abs/2408.02054v1,2024-08-04,2024-08-16
+Pre-trained Language Models Improve the Few-shot Prompt Ability of Decision Transformer,https://arxiv.org/abs/2408.01402v1,2024-08-02,2024-08-16
+Improving Text Embeddings for Smaller Language Models Using Contrastive Fine-tuning,https://arxiv.org/abs/2408.00690v2,2024-08-01,2024-08-16
+One-Shot Collaborative Data Distillation,https://arxiv.org/abs/2408.02266v1,2024-08-05,2024-08-16
+Convergence Conditions for Stochastic Line Search Based Optimization of Over-parametrized Models,https://www.arxiv.org/abs/2408.03199,2024-08-06,2024-08-16
+An Empirical Analysis of Compute-Optimal Inference for Problem-Solving with Language Models,https://arxiv.org/abs/2408.00724,2024-08-01,2024-08-16
+Patch-Level Training for Large Language Models,https://arxiv.org/abs/2407.12665,2024-07-17,2024-08-16
+The ShareLM Collection and Plugin - Contributing Human-Model Chats for the Benefit of the Community,https://arxiv.org/abs/2408.08291,2024-08-15,2024-08-16
+BAM! Just Like That - Simple and Efficient Parameter Upcycling for Mixture of Experts,https://arxiv.org/abs/2408.08274,2024-08-15,2024-08-16
+Not Every Image is Worth a Thousand Words - Quantifying Originality in Stable Diffusion,https://arxiv.org/abs/2408.08184,2024-08-15,2024-08-16
+Extracting Sentence Embeddings from Pretrained Transformer Models,https://arxiv.org/abs/2408.08073,2024-08-15,2024-08-16
+The Clever Hans Effect in Unsupervised Learning,https://arxiv.org/abs/2408.08041,2024-08-15,2024-08-16
+Instruct Large Language Models to Generate Scientific Literature Survey Step by Step,https://arxiv.org/abs/2408.07884,2024-08-15,2024-08-16
+Capturing the Complexity of Human Strategic Decision-Making with Machine Learning,https://arxiv.org/abs/2408.07865,2024-08-15,2024-08-16
+MoFO - Momentum-Filtered Optimizer for Mitigating Forgetting in LLM Fine-Tuning,https://arxiv.org/abs/2407.20999,2024-07-30,2024-08-18
+Tree Attention - Topology-aware Decoding for Long-Context Attention on GPU clusters,https://arxiv.org/abs/2408.04093,2024-08-07,2024-08-18
+MoFO - Momentum-Filtered Optimizer for Mitigating Forgetting in LLM Fine-Tuning,https://arxiv.org/abs/2407.20999,2024-07-30,2024-08-18
+Multi-Meta-RAG - Improving RAG for Multi-Hop Queries using Database Filtering with LLM-Extracted Metadata,https://arxiv.org/abs/2406.13213,2024-06-19,2024-08-19
+xGen-MM (BLIP-3) - A Family of Open Large Multimodal Models,https://arxiv.org/abs/2408.08872,2024-08-16,2024-08-19
+Automated Design of Agentic Systems,https://arxiv.org/abs/2408.08435,2024-08-15,2024-08-19
+KAN 2.0 - Kolmogorov-Arnold Networks Meet Science,https://arxiv.org/abs/2408.10205,2024-08-19,2024-08-20
+Solving a Rubik's Cube Using its Local Graph Structure,https://arxiv.org/abs/2408.07945,2024-08-15,2024-08-20
+Transfusion - Predict the Next Token and Diffuse Images with One Multi-Modal Model,https://arxiv.org/abs/2408.11039,2024-08-20,2024-08-21
+Scaling Law with Learning Rate Annealing,https://arxiv.org/abs/2408.11029,2024-08-20,2024-08-21
+Hybrid Recurrent Models Support Emergent Descriptions for Hierarchical Planning and Control,https://arxiv.org/abs/2408.10970,2024-08-20,2024-08-21
+Recurrent Neural Networks Learn to Store and Generate Sequences using Non-Linear Representations,https://arxiv.org/abs/2408.10920,2024-08-20,2024-08-22
+Learning Randomized Algorithms with Transformers,https://arxiv.org/abs/2408.10818,2024-08-20,2024-08-22
+Beyond English-Centric LLMs - What Language Do Multilingual Language Models Think in?,https://arxiv.org/abs/2408.10811,2024-08-20,2024-08-22
+HMoE - Heterogeneous Mixture of Experts for Language Modeling,https://arxiv.org/abs/2408.10681,2024-08-20,2024-08-22
+Strategist - Learning Strategic Skills by LLMs via Bi-Level Tree Search,https://arxiv.org/abs/2408.10635,2024-08-20,2024-08-22
+Demystifying the Communication Characteristics for Distributed Transformer Models,https://arxiv.org/abs/2408.10197,2024-08-20,2024-08-22
+SMILE - Zero-Shot Sparse Mixture of Low-Rank Experts Construction From Pre-Trained Foundation Models,https://arxiv.org/abs/2408.10174,2024-08-20,2024-08-22
+The Exploration-Exploitation Dilemma Revisited - An Entropy Perspective,https://arxiv.org/abs/2408.09974,2024-08-20,2024-08-22
+Performance Law of Large Language Models,https://arxiv.org/abs/2408.09895,2024-08-20,2024-08-22
+Importance Weighting Can Help Large Language Models Self-Improve,https://arxiv.org/abs/2408.09849,2024-08-20,2024-08-22
+Machine Learning with Physics Knowledge for Prediction - A Survey,https://arxiv.org/abs/2408.09840,2024-08-20,2024-08-22
+Faster Adaptive Decentralized Learning Algorithms,https://arxiv.org/abs/2408.09775,2024-08-20,2024-08-22
+AdapMoE - Adaptive Sensitivity-based Expert Gating and Management for Efficient MoE Inference,https://arxiv.org/abs/2408.10284,2024-08-20,2024-08-22
+Acquiring Bidirectionality via Large and Small Language Models,https://arxiv.org/abs/2408.09640,2024-08-20,2024-08-22
+Attention is a smoothed cubic spline,https://arxiv.org/abs/2408.09624,2024-08-20,2024-08-22
+Latent Causal Probing - A Formal Perspective on Probing with Causal Models of Data,https://arxiv.org/abs/2407.13765,2024-07-18,2024-08-22
+Emergent Representations of Program Semantics in Language Models Trained on Programs,https://arxiv.org/abs/2305.11169v3,2023-05-18,2024-08-22
+Tree Attention - Topology-aware Decoding for Long-Context Attention on GPU clusters,https://arxiv.org/abs/2408.04093,2024-08-07,2024-08-22
+From pixels to planning - scale-free active inference,https://arxiv.org/abs/2407.20292,2024-07-27,2024-08-22
+Critique-out-Loud Reward Models,https://arxiv.org/abs/2408.11791,2024-08-21,2024-08-23
+Personality Alignment of Large Language Models,https://arxiv.org/abs/2408.11779,2024-08-21,2024-08-23
+FocusLLM - Scaling LLM's Context by Parallel Decoding,https://arxiv.org/abs/2408.11745,2024-08-21,2024-08-23
+Memorization In In-Context Learning,https://arxiv.org/abs/2408.11546,2024-08-21,2024-08-23
+First Activations Matter - Training-Free Methods for Dynamic Activation in Large Language Models,https://arxiv.org/abs/2408.11393,2024-08-21,2024-08-23
+Empirical Equilibria in Agent-based Economic systems with Learning agents,https://arxiv.org/abs/2408.12038,2024-08-21,2024-08-23
+Matmul or No Matmal in the Era of 1-bit LLMs,https://arxiv.org/abs/2408.11939,2024-08-21,2024-08-23
+Scaling Laws with Vocabulary - Larger Models Deserve Larger Vocabularies,https://arxiv.org/abs/2407.13623,2024-07-18,2024-08-23
+LLM Pruning and Distillation in Practice - The Minitron Approach,https://arxiv.org/abs/2408.11796,2024-08-21,2024-08-23
+Mission - Impossible Language Models,https://arxiv.org/abs/2401.06416,2024-01-12,2024-08-23
+Let Me Speak Freely - A Study on the Impact of Format Restrictions on Performance of Large Language Models,https://arxiv.org/abs/2408.02442,2024-08-05,2024-08-23
+Controllable Text Generation for Large Language Models - A Survey,https://arxiv.org/abs/2408.12599,2024-08-22,2024-08-23
+MuMA-ToM - Multi-modal Multi-Agent Theory of Mind,https://arxiv.org/abs/2408.12574,2024-08-22,2024-08-23
+Jamba-1.5 - Hybrid Transformer-Mamba Models at Scale,https://arxiv.org/abs/2408.12570,2024-08-22,2024-08-23
+Not All Samples Should Be Utilized Equally - Towards Understanding and Improving Dataset Distillation,https://arxiv.org/abs/2408.12483,2024-08-22,2024-08-23
+Search-Based LLMs for Code Optimization,https://arxiv.org/abs/2408.12159,2024-08-22,2024-08-23
+Advancing Prompt Learning through an External Layer,https://arxiv.org/abs/2407.19674v5,2024-07-29,2024-08-23
+Transfusion - Predict the Next Token and Diffuse Images with One Multi-Modal Model,https://arxiv.org/abs/2408.11039,2024-08-20,2024-08-23
+Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution,https://arxiv.org/abs/2310.16834,2023-10-25,2024-08-23
