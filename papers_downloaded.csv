@@ -585,3 +585,51 @@ Search-Based LLMs for Code Optimization,https://arxiv.org/abs/2408.12159,2024-08
 Advancing Prompt Learning through an External Layer,https://arxiv.org/abs/2407.19674v5,2024-07-29,2024-08-23
 Transfusion - Predict the Next Token and Diffuse Images with One Multi-Modal Model,https://arxiv.org/abs/2408.11039,2024-08-20,2024-08-23
 Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution,https://arxiv.org/abs/2310.16834,2023-10-25,2024-08-23
+Generative Verifiers - Reward Modeling as Next-Token Prediction,https://arxiv.org/abs/2408.15240,2024-08-27,2024-08-29
+The Mamba in the Llama - Distilling and Accelerating Hybrid Models,https://arxiv.org/abs/2408.15237,2024-08-27,2024-08-29
+How transformers learn structured data - insights from hierarchical filtering,https://arxiv.org/abs/2408.15138,2024-08-27,2024-08-29
+Evaluating the Energy Consumption of Machine Learning - Systematic Literature Review and Experiments,https://arxiv.org/abs/2408.15128,2024-08-27,2024-08-29
+SpikingSSMs - Learning Long Sequences with Sparse and Parallel Spiking State Space Models,https://arxiv.org/abs/2408.14909,2024-08-27,2024-08-29
+Inverse-Q* - Token Level Reinforcement Learning for Aligning Large Language Models Without Preference Data,https://arxiv.org/abs/2408.14874,2024-08-27,2024-08-29
+Diffusion Models Are Real-Time Game Engines,https://arxiv.org/abs/2408.14837,2024-08-27,2024-08-29
+Brain-inspired Artificial Intelligence - A Comprehensive Review,https://arxiv.org/abs/2408.14811,2024-08-27,2024-08-29
+Emergent Language in Open-Ended Environments,https://arxiv.org/abs/2408.14649,2024-08-27,2024-08-29
+1-Bit FQT - Pushing the Limit of Fully Quantized Training to 1-bit,https://arxiv.org/abs/2408.14267,2024-08-27,2024-08-29
+Exploring GPU-to-GPU Communication - Insights into Supercomputer Interconnects,https://arxiv.org/abs/2408.14090,2024-08-27,2024-08-30
+Category-Theoretical and Topos-Theoretical Frameworks in Machine Learning - A Survey,https://arxiv.org/abs/2408.14014,2024-08-27,2024-08-30
+Artificial intelligence for science - The easy and hard problems,https://arxiv.org/abs/2408.14508,2024-08-27,2024-08-30
+Selective Preference Optimization via Token-Level Reward Function Estimation,https://arxiv.org/abs/2408.13518,2024-08-27,2024-08-30
+A Law of Next-Token Prediction in Large Language Models,https://arxiv.org/abs/2408.13442,2024-08-27,2024-08-30
+How Diffusion Models Learn to Factorize and Compose,https://arxiv.org/abs/2408.13256,2024-08-27,2024-08-30
+Double Descent - Understanding Linear Model Estimation of Nonidentifiable Parameters and a Model for Overfitting,https://arxiv.org/abs/2408.13235,2024-08-27,2024-08-30
+Multi-Layer Transformers Gradient Can be Approximated in Almost Linear Time,https://arxiv.org/abs/2408.13233,2024-08-27,2024-08-30
+Evolvable Psychology Informed Neural Network for Memory Behavior Modeling,https://arxiv.org/abs/2408.14492,2024-08-27,2024-08-30
+Automating Thought of Search - A Journey Towards Soundness and Completeness,https://arxiv.org/abs/2408.11326,2024-08-21,2024-08-30
+Generative Verifiers - Reward Modeling as Next-Token Prediction,https://arxiv.org/abs/2408.15240,2024-08-27,2024-08-30
+Sapiens - Foundation for Human Vision Models,https://arxiv.org/abs/2408.12569,2024-08-22,2024-08-30
+Diffusion Models Are Real-Time Game Engines,https://arxiv.org/abs/2408.14837,2024-08-27,2024-08-30
+"Mini-Omni - Language Models Can Hear, Talk While Thinking in Streaming",https://arxiv.org/abs/2408.16725,2024-08-29,2024-08-30
+LLMs generate structurally realistic social networks but overestimate political homophily,https://arxiv.org/abs/2408.16629,2024-08-29,2024-08-30
+Self-Improving Diffusion Models with Synthetic Data,https://arxiv.org/abs/2408.16333,2024-08-29,2024-08-30
+Guided Reasoning - A Non-Technical Introduction,https://arxiv.org/abs/2408.16331,2024-08-29,2024-08-30
+EPO - Hierarchical LLM Agents with Environment Preference Optimization,https://arxiv.org/abs/2408.16090,2024-08-29,2024-08-31
+Is Personality Prediction Possible Based on Reddit Comments?,https://arxiv.org/abs/2408.16089,2024-08-29,2024-08-31
+Using Large Language Models to Create AI Personas for Replication and Prediction of Media Effects - An Empirical Test of 133 Published Experimental Research Findings,https://arxiv.org/abs/2408.16073,2024-08-29,2024-08-31
+Mamba or Transformer for Time Series Forecasting? Mixture of Universals (MoU) Is All You Need,https://arxiv.org/abs/2408.15997,2024-08-29,2024-08-31
+In-Context Imitation Learning via Next-Token Prediction,https://arxiv.org/abs/2408.15980,2024-08-29,2024-08-31
+Atari-GPT - Investigating the Capabilities of Multimodal Large Language Models as Low-Level Policies for Atari Games,https://arxiv.org/abs/2408.15950,2024-08-29,2024-08-31
+Nexus - Specialization meets Adaptability for Efficiently Training Mixture of Experts,https://arxiv.org/abs/2408.15901,2024-08-29,2024-08-31
+Efficient LLM Scheduling by Learning to Rank,https://arxiv.org/abs/2408.15792,2024-08-29,2024-08-31
+Implicit Regularization Paths of Weighted Neural Representations,https://arxiv.org/abs/2408.15784,2024-08-29,2024-08-31
+Harmonized Speculative Sampling,https://arxiv.org/abs/2408.15766,2024-08-29,2024-08-31
+Auxiliary-Loss-Free Load Balancing Strategy for Mixture-of-Experts,https://arxiv.org/abs/2408.15664,2024-08-29,2024-08-31
+SIaM - Self-Improving Code-Assisted Mathematical Reasoning of Large Language Models,https://arxiv.org/abs/2408.15565,2024-08-29,2024-08-31
+Dolphin - Long Context as a New Modality for Energy-Efficient On-Device Language Models,https://arxiv.org/abs/2408.15518,2024-08-29,2024-08-31
+Remove Symmetries to Control Model Expressivity,https://arxiv.org/abs/2408.15495,2024-08-29,2024-08-31
+Avoiding Generative Model Writer's Block With Embedding Nudging,https://arxiv.org/abs/2408.15450,2024-08-29,2024-08-31
+Auxiliary-Loss-Free Load Balancing Strategy for Mixture-of-Experts,https://arxiv.org/abs/2408.15664,2024-08-28,2024-08-31
+"SLM Meets LLM - Balancing Latency, Interpretability and Consistency in Hallucination Detection",https://arxiv.org/abs/2408.12748,2024-08-22,2024-08-31
+In-Context Learning with Representations - Contextual Generalization of Trained Transformers,https://arxiv.org/abs/2408.10147v1,2024-08-19,2024-08-31
+DimeRec - A Unified Framework for Enhanced Sequential Recommendation via Generative Diffusion Models,https://arxiv.org/abs/2408.12153v1,2024-08-22,2024-08-31
+An Overview on Machine Learning Methods for Partial Differential Equations - from Physics Informed Neural Networks to Deep Operator Learning,https://arxiv.org/abs/2408.13222,2024-08-23,2024-08-31
+Diffusion Models Are Real-Time Game Engines,https://arxiv.org/abs/2408.14837,2024-08-27,2024-08-31
