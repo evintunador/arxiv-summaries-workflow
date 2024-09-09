@@ -633,3 +633,59 @@ In-Context Learning with Representations - Contextual Generalization of Trained 
 DimeRec - A Unified Framework for Enhanced Sequential Recommendation via Generative Diffusion Models,https://arxiv.org/abs/2408.12153v1,2024-08-22,2024-08-31
 An Overview on Machine Learning Methods for Partial Differential Equations - from Physics Informed Neural Networks to Deep Operator Learning,https://arxiv.org/abs/2408.13222,2024-08-23,2024-08-31
 Diffusion Models Are Real-Time Game Engines,https://arxiv.org/abs/2408.14837,2024-08-27,2024-08-31
+Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution,https://arxiv.org/abs/2310.16834,2023-10-25,2024-09-02
+Bidirectional Decoding - Improving Action Chunking via Closed-Loop Resampling,https://arxiv.org/abs/2408.17355,2024-08-30,2024-09-02
+Flexible and Effective Mixing of Large Language Models into a Mixture of Domain Experts,https://arxiv.org/abs/2408.17280,2024-08-30,2024-09-02
+Geometry of Lightning Self-Attention - Identifiability and Dimension,https://arxiv.org/abs/2408.17221,2024-08-30,2024-09-02
+Towards Hyper-parameter-free Federated Learning,https://arxiv.org/abs/2408.17145,2024-08-30,2024-09-02
+Beyond Preferences in AI Alignment,https://arxiv.org/abs/2408.16984,2024-08-30,2024-09-02
+Training Ultra Long Context Language Model with Fully Pipelined Distributed Transformer,https://arxiv.org/abs/2408.16978,2024-08-30,2024-09-02
+Distributed Inference and Fine-tuning of Large Language Models Over The Internet,https://arxiv.org/abs/2312.08361,2023-12-13,2024-09-02
+Learning (With) Distributed Optimization,https://arxiv.org/abs/2308.05548,2023-08-10,2024-09-02
+Federated Learning - A Cutting-Edge Survey of the Latest Advancements and Applications,https://arxiv.org/abs/2310.05269,2023-10-08,2024-09-02
+Adversarial Training Using Feedback Loops,https://arxiv.org/abs/2308.11881,2023-08-23,2024-09-02
+OLMoE - Open Mixture-of-Experts Language Models,https://arxiv.org/abs/2409.02060,2024-09-03,2024-09-04
+Masked Diffusion Models are Secretly Time-Agnostic Masked Models and Exploit Inaccurate Categorical Sampling,https://arxiv.org/abs/2409.02908,2024-09-04,2024-09-05
+LongCite - Enabling LLMs to Generate Fine-grained Citations in Long-context QA,https://arxiv.org/abs/2409.02897,2024-09-04,2024-09-05
+Configurable Foundation Models - Building LLMs from a Modular Perspective,https://arxiv.org/abs/2409.02877,2024-09-04,2024-09-05
+A Comparative Study of Pre-training and Self-training,https://arxiv.org/abs/2409.02751,2024-09-04,2024-09-05
+Pooling And Attention - What Are Effective Designs For LLm-Based Embedding Models?,https://arxiv.org/abs/2409.02727,2024-09-04,2024-09-05
+Neural timescales from a computational perspective,https://arxiv.org/abs/2409.02684,2024-09-04,2024-09-05
+Introduction to Machine Learning,https://arxiv.org/abs/2409.02668,2024-09-04,2024-09-05
+A Survey on Emergent Language,https://arxiv.org/abs/2409.02645,2024-09-04,2024-09-05
+Accelerating Large Language Model Training with Hybrid GPU-based Compression,https://arxiv.org/abs/2409.02423,2024-09-04,2024-09-05
+Diffusion Models Learn Low-Dimensional Distributions via Subspace Clustering,https://arxiv.org/abs/2409.02426,2024-09-04,2024-09-05
+Scaling Laws for Economic Productivity - Experimental Evidence in LLM-Assisted Translation,https://arxiv.org/abs/2409.02391,2024-09-04,2024-09-05
+TimeDiT - General-purpose Diffusion Transformers for Time Series Foundation Model,https://arxiv.org/abs/2409.02322,2024-09-04,2024-09-05
+Unforgettable Generalization in Language Models,https://arxiv.org/abs/2409.02228,2024-09-04,2024-09-05
+Collaboratively Learning Federated Models from Noisy Decentralized Data,https://arxiv.org/abs/2409.02189,2024-09-04,2024-09-05
+On a heuristic approach to the description of consciousness as a hypercomplex system state and the possibility of machine consciousness (German edition),https://arxiv.org/abs/2409.02100,2024-09-04,2024-09-05
+Learning Machines - In Search of a Concept Oriented Language,https://arxiv.org/abs/2409.01968,2024-09-04,2024-09-05
+Training on the Benchmark Is Not All You Need,https://arxiv.org/abs/2409.01790,2024-09-04,2024-09-05
+Federated Prediction-Powered Inference from Decentralized Data,https://arxiv.org/abs/2409.01730,2024-09-04,2024-09-05
+From Yes-Men to Truth-Tellers - Addressing Sycophancy in Large Language Models with Pinpoint Tuning,https://arxiv.org/abs/2409.01658,2024-09-04,2024-09-05
+Dreaming is All You Need,https://arxiv.org/abs/2409.01633,2024-09-04,2024-09-05
+On-chain Validation of Tracking Data Messages (TDM) Using Distributed Deep Learning on a Proof of Stake (PoS) Blockchain,https://arxiv.org/abs/2409.01614,2024-09-04,2024-09-05
+An Implementation of Werewolf Agent That does not Truly Trust LLMs,https://arxiv.org/abs/2409.01575,2024-09-04,2024-09-05
+Quantifying Emergence in Neural Networks - Insights from Pruning and Training Dynamics,https://arxiv.org/abs/2409.01568,2024-09-04,2024-09-05
+The Compressor-Retriever Architecture for Language Model OS,https://arxiv.org/abs/2409.01495,2024-09-04,2024-09-05
+The Role of Transformer Models in Advancing Blockchain Technology - A Systematic Review,https://arxiv.org/abs/2409.02139,2024-09-04,2024-09-05
+Evolution of Social Norms in LLM Agents using Natural Language,https://arxiv.org/abs/2409.00993,2024-09-04,2024-09-05
+Beyond Parameter Count - Implicit Bias in Soft Mixture of Experts,https://arxiv.org/abs/2409.00879,2024-09-04,2024-09-05
+Self-evolving Agents with reflective and memory-augmented abilities,https://arxiv.org/abs/2409.00872,2024-09-04,2024-09-05
+How does the brain compute with probabilities?,https://arxiv.org/abs/2409.02709,2024-09-04,2024-09-05
+LanguaShrink - Reducing Token Overhead with Psycholinguistics,https://arxiv.org/abs/2409.00855,2024-09-04,2024-09-05
+Interpretable Clustering - A Survey,https://arxiv.org/abs/2409.00743,2024-09-04,2024-09-05
+Hyper-Compression - Model Compression via Hyperfunction,https://arxiv.org/abs/2409.00592,2024-09-04,2024-09-05
+Diffusion Policy Policy Optimization,https://arxiv.org/abs/2409.00588,2024-09-04,2024-09-05
+The Unbearable Slowness of Being,https://www.arxiv.org/abs/2408.10234v1,2024-08-03,2024-09-05
+Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution,https://arxiv.org/abs/2310.16834,2023-10-25,2024-09-05
+Attention Heads of Large Language Models - A Survey,https://arxiv.org/abs/2409.03752,2024-09-05,2024-09-06
+LAST - Language Model Aware Speech Tokenization,https://arxiv.org/abs/2409.03701,2024-09-05,2024-09-06
+A Fused Large Language Model for Predicting Startup Success,https://arxiv.org/abs/2409.03668,2024-09-05,2024-09-06
+On the Limited Generalization Capability of the Implicit Reward Model Induced by Direct Preference Optimization,https://arxiv.org/abs/2409.03650,2024-09-05,2024-09-06
+"Attend First, Consolidate Later - On the Importance of Attention in Different LLM Layers",https://arxiv.org/abs/2409.03621,2024-09-05,2024-09-06
+"Disclosure of AI-Generated News Increases Engagement but Does Not Reduce Aversion, Despite Positive Quality Ratings",https://arxiv.org/abs/2409.03500,2024-09-05,2024-09-06
+KAN See In the Dark,https://arxiv.org/abs/2409.03404,2024-09-05,2024-09-06
+Game On - Towards Language Models as RL Experimenters,https://arxiv.org/abs/2409.03402,2024-09-05,2024-09-06
+Improving Robustness to Multiple Spurious Correlations by Multi-Objective Optimization,https://arxiv.org/abs/2409.03303,2024-09-05,2024-09-06

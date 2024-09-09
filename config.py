@@ -22,7 +22,7 @@ frontmatter_lines = '#pdf\n#needsNote\n#needsVideo\n#unread\n'
 
 ### timestamps.py
 # The hotkey used to start the next yt chapter (`esc` ends the process)
-hotkey = '`'
+hotkey = '='
 # the strings to replace with shorter versions
 replacements = {
     "Multimodal Large Language Model": "MLLM",
@@ -72,6 +72,16 @@ replacements = {
     "Chains of Thought": "CoTs",
     "State Space Model": "SSM",
     "state space model": "SSM",
+    "Computer Science": "CS",
+    "computer science": "CS",
+    "Algebra": "Alg",
+    "algebra": "alg",
+    "Calculus": "Calc",
+    "calculus": "calc",
+    "Topology": "Topo",
+    "topology": "topo",
+    "Category Theory": "Cat Theory",
+    "category theory": "cat theory",
 }
 # the lines will be trimmed away until they get below this character count. 
 limit = 4475

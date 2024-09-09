@@ -21,8 +21,8 @@ def extract_arxiv_id(url):
 
 def open_links(arxiv_id, original_link):
     links_to_open = [
-        f"https://bytez.com/docs/arxiv/{arxiv_id}",
-        f"https://alphaxiv.org/abs/{arxiv_id}",
+        #f"https://bytez.com/docs/arxiv/{arxiv_id}",
+        #f"https://alphaxiv.org/abs/{arxiv_id}",
         original_link
     ] if arxiv_id else [original_link]
     
@@ -37,17 +37,17 @@ def apply_replacements(text, replacements):
     return text
 
 def on_activate():
-    global start_time, timestamps, current_link_index
+    global start_time, timestamps, current_link_index, links
 
     if start_time is None:
         # First hotkey press: start the timer
         start_time = time.time()
         print("Timer started!")
-        timestamp = "0:00 Intro"
-        timestamps.append(timestamp)
-        print(timestamp)
-        return
-
+        #timestamp = "0:00 Intro"
+        #timestamps.append(timestamp)
+        #print(timestamp)
+        #return
+    
     elapsed_time = time.time() - start_time
     minutes, seconds = divmod(int(elapsed_time), 60)
 
@@ -60,9 +60,9 @@ def on_activate():
         timestamps.append(timestamp)
         print(timestamp)
 
-        if current_link_index >= 1:  # Open links from the third hotkey press onwards
-            arxiv_id = extract_arxiv_id(link)
-            open_links(arxiv_id, link)
+        #if current_link_index >= 1:  # Open links from the third hotkey press onwards
+        arxiv_id = extract_arxiv_id(link)
+        open_links(arxiv_id, link)
         
         current_link_index += 1
     else:
@@ -90,18 +90,17 @@ with open(links_file, 'r') as file:
         except ValueError:
             print(f"Invalid line format: {line}")
 
-if links:
-    print("Opening the first link(s)...")
-    title, link = links[0]
-    arxiv_id = extract_arxiv_id(link)
-    open_links(arxiv_id, link)
-    #current_link_index = 1  # Set to 1 so the next hotkey press will open the second link
-else:
-    print("No links found in the file.")
+#if links:
+#    print("Opening the first link(s)...")
+#    title, link = links[0]
+#    arxiv_id = extract_arxiv_id(link)
+#    open_links(arxiv_id, link)
+#    #current_link_index = 1  # Set to 1 so the next hotkey press will open the second link
+#else:
+if not links:
+    print("No links found in links.txt")
 
-print("The first link(s) will be opened when you run the script.")
-print("Press the hotkey once to start the timer and record the intro.")
-print("Press the hotkey again to record the timestamp for the first paper.")
+print("The first link(s) will be opened and timer will be started when you first hit the hotkey.")
 print("Subsequent hotkey presses will record timestamps and open the next link(s).")
 print("Press ESC to exit the program.")
 
