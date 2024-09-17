@@ -15,17 +15,12 @@ if you're looking to see the backlog of papers i've looked into each week in my 
 - `config.py` - Where you can change a couple settings if you'd like. 
 - `newsletter-podcast.py` - this will consume all PDFs in the `pdfs-to-summarize/` folder and use OpenAI's API to generate summaries which will go into `newsletter.txt`. It then turns this newsletter into an mp3 file for a podcast using OpenAI's TTS. You need to create a file `key_openai.txt` and paste in your individual (not organization) OpenAI API key in order for this to work
 - `recording.py` - this file handles everything that happens during the actual video recordings. 
-    1. Running it opens the link from the first line of `links.txt` in your default browser
-    2. Hitting the hotkey ("\`" by default) the first time begins a timer and writes "0:00 Intro" as the first line to a file `timestamps.txt`
-    3. Hitting the hotkey the second time records the second timestamp which as its label contains the first line of `links.txt`.
-    4. Hitting the hotkey any following time both records the next timestamp and opens the next link
-    - *note:* In `timestamps.txt` common phrases (such as "Neural Network") are shortened to acronyms (eg "NN"). Add/remove phrases in `config.py`. Delete all phrases from the config to remove this functionality
-- `timestamp_trimmer.py` - this will trim lines until they get below a specified character count (4,475 by default; Youtube's max description length is 5,000 characters) prioritizing those which have the shortest time length to be trimmed first
-- `thumbnail.py` - creates a simple thumbnail for my weekly abstract reading videos after they've been recorded. Basically a screenshot is taken from the video then the right 2/3 of the screen gets overlayed with a specified color and either black or white text (160pt font) is written on that color depending on what shows up better. By default the text says "New\nArtificial\nIntelligence\nPapers\nMMM DD YYYY" but you can change this by calling it like in the example below. Color options include red, gree, yellow, purple, blue, cyan, magenta, orange, pink, black, and white. Here's an example call and an example output that do not match up with each other:
-```
-python thumbnail.py "path/to/video.mp4" --text "Alternative\nTitle of\nYour Choice" --coverage 3/4 --color red --font_size 170
-```
-![image failed to load](./thumbnail.jpg)
+    1. Running it begins the hotkey listener
+    2. Hitting the hotkey ("=" by default) the first time begins a timer, opens the link from the first line of `links.txt` in your default browser, and writes and writes the first timestamp to `timestamps.txt`
+    3. Hitting the hotkey any following time both records the next timestamp and opens the next link
+        - *note:* In `timestamps.txt` common phrases (such as "Neural Network") are shortened to acronyms (eg "NN"). Add/remove phrases in `config.py`. Delete all phrases from the config to remove this functionality
+    4. Hit `Esc` to end the timer and script
+- `timestamp_trimmer.py` - this will trim lines until they get below a specified character count (4,750 by default; Youtube's max description length is 5,000 characters) prioritizing those which have the shortest time length to be trimmed first
 - `papers_seen.csv` - includes every single paper that had its title pass in front of my eyes BEFORE the weekly abstract reading video; this is basically every single paper that gets published to arxiv under the AI category and every tangentially related category. From reading these titles I use `arxiv-search.py` to select which papers will go in the following file
 - `papers_downloaded.csv` - includes every single paper that has shown up on the [weekly paper videos](https://www.youtube.com/playlist?list=PLPefVKO3tDxP7iFzaSOkOZnXQ4Bkhi9YB) since 2024/06/21. From reading the abstracts of these papers I selected which papers would make their way into the following file by moving them into `pdfs-to-summarize/` during the video
 - `papers_kept.csv` - includes every single paper that has shown up on the [weekly substack newsletter/podcast](https://evintunador.substack.com) since 2024/06/21. These are the papers that I actually bother starting to read, some percentage of which get deleted part of the way through, some read but never discussed again, and some read & talked about on the channel in one of my [paper breakdown videos](https://www.youtube.com/playlist?list=PLPefVKO3tDxMah1lcs9J43Q9xajehA023)
@@ -47,15 +42,12 @@ python thumbnail.py "path/to/video.mp4" --text "Alternative\nTitle of\nYour Choi
         - the arXiv API wrapper is bugging out. Just run it a couple times until it works, preferably waiting at least 15 minutes if not an hour between attempts
         - the conditions of your search are such that no results have returned. Try removing lines from `search_terms_exclude.txt`, adding terms to `search_terms_include.txt`, changing `most_recent_day_searched.txt` to an earlier date, or adjusting the `restrict_to_most_recent`, `max_results`, or `categories` variables in `config.py`.
 3. Run `recording.py` and the link to the first paper in `links.txt` will open up in your default browser
-    3b. Once you're ready to record, hit record and the hotkey ("\`" by default but configurable in `config.py`) at the same time which will start the timer and record the first timestamp "0:00 Intro" into `timestamps.txt`
-    3c. Once you've finished your introduction, hit the hotkey again and the timestamp relevant to the aforementioned opened link will be recorded
-    3d. After those initial weird ones, every successive hit of the hotkey will both open the corresponding links and record the timestamp
-    3e. After all the papers have been read through, hit the hotkey one last time and "XX:XX Outro" will be written into the timestamps
-    3f. Hit `Esc` to end the script
+    3b. Once you're ready to record, hit record and the hotkey ("=" by default but configurable in `config.py`) at the same time which will start the timer, record the first timestamp, and open the first link
+    3c. After those initial weird ones, every successive hit of the hotkey will both open the corresponding links and record the timestamp
+    3d. Hit `Esc` to end the script
 4. If `timestamps.txt` is too long to fit into Youtube's description, run `timestamp_trimmer.py`
 5. Run the `newsletter-podcast.py` script to generate a `newsletter.txt` and `podcast.mp3` based on all the pdf files in `pdfs-to-summarize/`. Basically it has chatGPT summarize the paper and then OpenAI's TTS model read that summary to create the podcast; look in `config.py` to adjust the prompt. I assumed that during step 3 you were dropping every pdf file you wanted to read into that folder
-6. With your recorded video call `python thumbnail.py "path/to/your/video.mp4" --color pink`  to get the thumbnail
-7. Once you're finished run `cleanup.py`. This will send the pdfs in `pdfs-to-summarize/` to your obsidian vault and create corresponding markdown notes for them, and then delete all files created by the previous scripts to clean up the repo
+6. Once you're finished run `cleanup.py`. This will send the pdfs in `pdfs-to-summarize/` to your obsidian vault and create corresponding markdown notes for them, and then delete all files created by the previous scripts to clean up the repo
 
 ## Potential TODOs
 - [ ] train a model (BERT based?) off of `papers_seen.csv`, `papers_downloaded.csv`, and `papers_kept.csv` to automatically grab for me the papers that i find interesing in a given week rather than having to read through the boring list myself

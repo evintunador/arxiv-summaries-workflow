@@ -689,3 +689,48 @@ On the Limited Generalization Capability of the Implicit Reward Model Induced by
 KAN See In the Dark,https://arxiv.org/abs/2409.03404,2024-09-05,2024-09-06
 Game On - Towards Language Models as RL Experimenters,https://arxiv.org/abs/2409.03402,2024-09-05,2024-09-06
 Improving Robustness to Multiple Spurious Correlations by Multi-Objective Optimization,https://arxiv.org/abs/2409.03303,2024-09-05,2024-09-06
+Memory Augmented Language Models through Mixture of Word Experts,https://arxiv.org/abs/2311.10768,2023-11-15,2024-09-09
+Banishing LLM Hallucinations Requires Rethinking Generalization,https://arxiv.org/abs/2406.17642,2024-06-25,2024-09-09
+From MOOC to MAIC - Reshaping Online Teaching and Learning through LLM-driven Agents,https://arxiv.org/abs/2409.03512,2024-09-05,2024-09-09
+"The AdEMAMix Optimizer - Better, Faster, Older",https://arxiv.org/abs/2409.03137,2024-09-05,2024-09-09
+Implicit Chain of Thought Reasoning via Knowledge Distillation,https://arxiv.org/abs/2311.01460,2023-11-02,2024-09-09
+From Explicit CoT to Implicit CoT - Learning to Internalize CoT Step by Step,https://arxiv.org/abs/2405.14838,2024-05-23,2024-09-09
+Improving Transformer Models by Reordering their Sublayers,https://arxiv.org/abs/1911.03864,2019-11-10,2024-09-09
+Brainformers - Trading Simplicity for Efficiency,https://arxiv.org/abs/2306.00008,2023-05-29,2024-09-09
+"The AdEMAMix Optimizer - Better, Faster, Older",https://arxiv.org/abs/2409.03137,2024-09-05,2024-09-09
+"Theory, Analysis, and Best Practices for Sigmoid Self-Attention",https://arxiv.org/abs/2409.04431,2024-09-06,2024-09-10
+Residual Stream Analysis with Multi-Layer SAEs,https://arxiv.org/abs/2409.04185,2024-09-06,2024-09-10
+Half-VAE - An Encoder-Free VAE to Bypass Explicit Inverse Mapping,https://arxiv.org/abs/2409.04140,2024-09-06,2024-09-10
+Can LLMs Generate Novel Research Ideas? A Large-Scale Human Study with 100+ NLP Researchers,https://arxiv.org/abs/2409.04109,2024-09-06,2024-09-10
+STLM Engineering Report - Dropout,https://arxiv.org/abs/2409.05423,2024-09-06,2024-09-10
+Closed-Form Interpretation of Neural Network Latent Spaces with Symbolic Gradients,https://arxiv.org/abs/2409.05305,2024-09-06,2024-09-10
+"Some Results on Neural Network Stability, Consistency, and Convergence - Insights into Non-IID Data, High-Dimensional Settings, and Physics-Informed Neural Networks",https://arxiv.org/abs/2409.05030,2024-09-06,2024-09-10
+Attention-Based Efficient Breath Sound Removal in Studio Audio Recordings,https://arxiv.org/abs/2409.04949,2024-09-06,2024-09-10
+Learning Joint Models of Prediction and Optimization,https://arxiv.org/abs/2409.04898,2024-09-06,2024-09-10
+FedModule - A Modular Federated Learning Framework,https://arxiv.org/abs/2409.04849,2024-09-06,2024-09-10
+Achieving Peak Performance for Large Language Models - A Systematic Review,https://arxiv.org/abs/2409.04833,2024-09-06,2024-09-10
+Optimization Hyper-parameter Laws for Large Language Models,https://arxiv.org/abs/2409.04777,2024-09-06,2024-09-10
+BPE Gets Picky - Efficient Vocabulary Refinement During Tokenizer Training,https://arxiv.org/abs/2409.04599,2024-09-06,2024-09-10
+E2LLM - Encoder Elongated Large Language Models for Long-Context Understanding and Reasoning,https://arxiv.org/abs/2409.06679,2024-09-10,2024-09-11
+DA-MoE - Towards Dynamic Expert Allocation for Mixture-of-Experts Models,https://arxiv.org/abs/2409.06669,2024-09-10,2024-09-11
+LLaMA-Omni - Seamless Speech Interaction with Large Language Models,https://arxiv.org/abs/2409.06666,2024-09-10,2024-09-11
+Alleviating Hallucinations in Large Language Models with Scepticism Modeling,https://arxiv.org/abs/2409.06601,2024-09-10,2024-09-11
+Extracting Paragraphs from LLM Token Activations,https://arxiv.org/abs/2409.06328,2024-09-10,2024-09-11
+Unified Neural Network Scaling Laws and Scale-time Equivalence,https://arxiv.org/abs/2409.05782,2024-09-10,2024-09-11
+Advanced LSTM Neural Networks for Predicting Directional Changes in Sector-Specific ETFs Using Machine Learning Techniques,https://arxiv.org/abs/2409.05778,2024-09-10,2024-09-11
+Breaking Neural Network Scaling Laws with Modularity,https://arxiv.org/abs/2409.05780,2024-09-10,2024-09-11
+"LLMs Will Always Hallucinate, and We Need to Live With This",https://arxiv.org/abs/2409.05746,2024-09-10,2024-09-11
+Harmonic Reasoning in Large Language Models,https://arxiv.org/abs/2409.05521,2024-09-10,2024-09-11
+"Interpolation, Extrapolation, Hyperpolation - Generalising into new dimensions",https://arxiv.org/abs/2409.05513,2024-09-10,2024-09-11
+Towards Automated Machine Learning Research,https://arxiv.org/abs/2409.05258,2024-09-10,2024-09-11
+"Theory, Analysis, and Best Practices for Sigmoid Self-Attention",https://arxiv.org/abs/2409.04431,2024-09-06,2024-09-13
+Sentence Bottleneck Autoencoders from Transformer Language Models,https://arxiv.org/abs/2109.00055,2021-08-31,2024-09-13
+"Theory, Analysis, and Best Practices for Sigmoid Self-Attention",https://arxiv.org/abs/2409.04431,2024-09-06,2024-09-13
+A mathematical framework of intelligence and consciousness based on Riemannian Geometry,https://arxiv.org/abs/2407.11024v3,2024-07-02,2024-09-13
+Improving Pretraining Data Using Perplexity Correlations,https://arxiv.org/abs/2409.05816,2024-09-09,2024-09-13
+Efficient Privacy-Preserving KAN Inference Using Homomorphic Encryption,https://arxiv.org/abs/2409.07751,2024-09-12,2024-09-13
+Large Language Models are Pattern Matchers - Editing Semi-Structured and Structured Documents with ChatGPT,https://arxiv.org/abs/2409.07732,2024-09-12,2024-09-13
+Super Monotonic Alignment Search,https://arxiv.org/abs/2409.07704,2024-09-12,2024-09-13
+Synthetic continued pretraining,https://arxiv.org/abs/2409.07431,2024-09-12,2024-09-13
+Representation Tuning,https://arxiv.org/abs/2409.06927,2024-09-12,2024-09-13
+A mathematical framework of intelligence and consciousness based on Riemannian Geometry,https://arxiv.org/pdf/2407.11024,2024-07-02,2024-09-16

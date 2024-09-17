@@ -84,5 +84,5 @@ replacements = {
     "category theory": "cat theory",
 }
 # the lines will be trimmed away until they get below this character count. 
-limit = 4475
+limit = 4750
     # papers that i spent less time on get trimmed first

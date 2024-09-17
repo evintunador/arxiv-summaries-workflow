@@ -170,3 +170,12 @@ Training Ultra Long Context Language Model with Fully Pipelined Distributed Tran
 Diffusion Models Learn Low-Dimensional Distributions via Subspace Clustering,https://arxiv.org/abs/2409.02426,2024-09-04,2024-09-05
 "Attend First, Consolidate Later - On the Importance of Attention in Different LLM Layers",https://arxiv.org/abs/2409.03621,2024-09-05,2024-09-06
 Pooling And Attention - What Are Effective Designs For LLm-Based Embedding Models?,https://arxiv.org/abs/2409.02727,2024-09-04,2024-09-05
+LLaMA-Omni - Seamless Speech Interaction with Large Language Models,https://arxiv.org/abs/2409.06666,2024-09-10,2024-09-11
+DA-MoE - Towards Dynamic Expert Allocation for Mixture-of-Experts Models,https://arxiv.org/abs/2409.06669,2024-09-10,2024-09-11
+"Theory, Analysis, and Best Practices for Sigmoid Self-Attention",https://arxiv.org/abs/2409.04431,2024-09-06,2024-09-10
+Implicit Chain of Thought Reasoning via Knowledge Distillation,https://arxiv.org/abs/2311.01460,2023-11-02,2024-09-09
+BPE Gets Picky - Efficient Vocabulary Refinement During Tokenizer Training,https://arxiv.org/abs/2409.04599,2024-09-06,2024-09-10
+Can LLMs Generate Novel Research Ideas? A Large-Scale Human Study with 100+ NLP Researchers,https://arxiv.org/abs/2409.04109,2024-09-06,2024-09-10
+Breaking Neural Network Scaling Laws with Modularity,https://arxiv.org/abs/2409.05780,2024-09-10,2024-09-11
+"Interpolation, Extrapolation, Hyperpolation - Generalising into new dimensions",https://arxiv.org/abs/2409.05513,2024-09-10,2024-09-11
+"The AdEMAMix Optimizer - Better, Faster, Older",https://arxiv.org/abs/2409.03137,2024-09-05,2024-09-09
