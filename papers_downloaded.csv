@@ -771,3 +771,54 @@ Kolmogorov-Arnold Transformer,https://arxiv.org/abs/2409.10594,2024-09-16,2024-0
 Rolling Diffusion Models,https://arxiv.org/abs/2402.09470v3,2024-02-12,2024-09-20
 SELF-[IN]CORRECT - LLMs Struggle with Discriminating Self-Generated Responses,https://arxiv.org/abs/2404.04298v3,2024-04-04,2024-09-20
 Convergence of the denoising diffusion probabilistic models,https://arxiv.org/abs/2406.01320v2,2024-06-03,2024-09-20
+Training Language Models to Self-Correct via Reinforcement Learning,https://arxiv.org/abs/2409.12917,2024-09-19,2024-09-23
+MoEUT - Mixture-of-Experts Universal Transformers,https://arxiv.org/abs/2405.16039,2024-05-25,2024-09-24
+Training Language Models to Self-Correct via Reinforcement Learning,https://arxiv.org/abs/2409.12917,2024-09-19,2024-09-24
+LLMs Still Can't Plan; Can LRMs - A Preliminary Evaluation of OpenAI's o1 on PlanBench,https://arxiv.org/abs/2409.13373,2024-09-20,2024-09-24
+Molmo and PixMo - Open Weights and Open Data for State-of-the-Art Multimodal Models,https://arxiv.org/abs/2409.17146,2024-09-25,2024-09-26
+Characterizing stable regions in the residual stream of LLMs,https://arxiv.org/abs/2409.17113,2024-09-25,2024-09-26
+Counterfactual Token Generation in Large Language Models,https://arxiv.org/abs/2409.17027,2024-09-25,2024-09-26
+PeerArg - Argumentative Peer Review with LLMs,https://arxiv.org/abs/2409.16813,2024-09-25,2024-09-26
+Large Language Model Predicts Above Normal All India Summer Monsoon Rainfall in 2024,https://arxiv.org/abs/2409.16799,2024-09-25,2024-09-26
+Pre-trained Language Models Return Distinguishable Probability Distributions to Unfaithfully Hallucinated Texts,https://arxiv.org/abs/2409.16658,2024-09-25,2024-09-26
+A Character-Centric Creative Story Generation via Imagination,https://arxiv.org/abs/2409.16667,2024-09-25,2024-09-26
+Is All Learning (Natural) Gradient Descent?,https://arxiv.org/abs/2409.16422,2024-09-25,2024-09-26
+LLM Echo Chamber - personalized and automated disinformation,https://arxiv.org/abs/2409.16241,2024-09-25,2024-09-26
+Merging LoRAs like Playing LEGO - Pushing the Modularity of LoRA to Extremes Through Rank-Wise Clustering,https://arxiv.org/abs/2409.16167,2024-09-25,2024-09-26
+Self-attention as an attractor network - transient memories without backpropagation,https://arxiv.org/abs/2409.16112,2024-09-25,2024-09-26
+Assessing Simplification Levels in Neural Networks - The Impact of Hyperparameter Configurations on Complexity and Sensitivity,https://arxiv.org/abs/2409.16086,2024-09-25,2024-09-26
+Time-MoE - Billion-Scale Time Series Foundation Models with Mixture of Experts,https://arxiv.org/abs/2409.16040,2024-09-25,2024-09-26
+Grounded Computation & Consciousness - A Framework for Exploring Consciousness in Machines & Other Organisms,https://arxiv.org/abs/2409.16036,2024-09-25,2024-09-26
+AI Can Be Cognitively Biased - An Exploratory Study on Threshold Priming in LLM-Based Batch Relevance Assessment,https://arxiv.org/abs/2409.16022,2024-09-25,2024-09-26
+Artificial Human Intelligence - The role of Humans in the Development of Next Generation AI,https://arxiv.org/abs/2409.16001,2024-09-25,2024-09-26
+Planning in the Dark - LLM-Symbolic Planning Pipeline without Experts,https://arxiv.org/abs/2409.15915,2024-09-25,2024-09-26
+HLB - Benchmarking LLMs' Humanlikeness in Language Use,https://arxiv.org/abs/2409.15890,2024-09-25,2024-09-26
+Supervised Fine-Tuning - An Activation Pattern Optimization Process for Attention Heads,https://arxiv.org/abs/2409.15820,2024-09-25,2024-09-26
+Federated Large Language Models - Current Progress and Future Directions,https://arxiv.org/abs/2409.15723,2024-09-25,2024-09-26
+Looped Transformers for Length Generalization,https://arxiv.org/abs/2409.15647,2024-09-25,2024-09-26
+Personalized Federated Learning via Backbone Self-Distillation,https://arxiv.org/abs/2409.15636,2024-09-25,2024-09-26
+On The Specialization of Neural Modules,https://arxiv.org/abs/2409.14981,2024-09-25,2024-09-26
+Why Is Anything Conscious?,https://arxiv.org/abs/2409.14545,2024-09-25,2024-09-26
+On a measure of intelligence,https://arxiv.org/abs/2409.14496,2024-09-25,2024-09-26
+A Large Language Model and Denoising Diffusion Framework for Targeted Design of Microstructures with Commands in Natural Language,https://arxiv.org/abs/2409.14473,2024-09-25,2024-09-26
+Flat-LoRA - Low-Rank Adaption over a Flat Loss Landscape,https://arxiv.org/abs/2409.14396,2024-09-25,2024-09-26
+Investigating Layer Importance in Large Language Models,https://arxiv.org/abs/2409.14381,2024-09-25,2024-09-26
+Uncovering Latent Chain of Thought Vectors in Language Models,https://arxiv.org/abs/2409.14026,2024-09-25,2024-09-26
+Guided Profile Generation Improves Personalization with LLMs,https://arxiv.org/abs/2409.13093,2024-09-25,2024-09-26
+"Re-Introducing LayerNorm - Geometric Meaning, Irreversibility and a Comparative Study with RMSNorm",https://arxiv.org/abs/2409.12951,2024-09-25,2024-09-26
+Scaling Smart - Accelerating Large Language Model Pre-training with Small Model Initialization,https://arxiv.org/abs/2409.12903,2024-09-25,2024-09-26
+The Central Role of the Loss Function in Reinforcement Learning,https://arxiv.org/abs/2409.12799,2024-09-25,2024-09-26
+Scaling FP8 training to trillion-token LLMs,https://arxiv.org/abs/2409.12517,2024-09-25,2024-09-26
+Backtracking Improves Generation Safety,https://arxiv.org/abs/2409.14586,2024-09-22,2024-09-26
+SequenceMatch - Imitation Learning for Autoregressive Sequence Modelling with Backtracking,https://arxiv.org/abs/2306.05426,2023-06-08,2024-09-26
+From Explicit CoT to Implicit CoT - Learning to Internalize CoT Step by Step,https://arxiv.org/abs/2405.14838,2024-05-23,2024-09-27
+Consistency for Large Neural Networks,https://arxiv.org/abs/2409.14123,2024-09-21,2024-09-27
+Molmo and PixMo - Open Weights and Open Data for State-of-the-Art Multimodal Models,https://arxiv.org/abs/2409.17146v1,2024-09-25,2024-09-27
+Cyclic image generation using chaotic dynamics,https://arxiv.org/abs/2405.20717v2,2024-05-31,2024-09-27
+Infer Human's Intentions Before Following Natural Language Instructions,https://arxiv.org/abs/2409.18073,2024-09-26,2024-09-27
+"EMOVA - Empowering Language Models to See, Hear and Speak with Vivid Emotions",https://arxiv.org/abs/2409.18042,2024-09-26,2024-09-27
+"Why Companies ""Democratise"" Artificial Intelligence - The Case of Open Source Software Donations",https://arxiv.org/abs/2409.17876,2024-09-26,2024-09-27
+MIO - A Foundation Model on Multimodal Tokens,https://arxiv.org/abs/2409.17692,2024-09-26,2024-09-27
+Optimal Memorization Capacity of Transformers,https://arxiv.org/abs/2409.17677,2024-09-26,2024-09-27
+Logic-of-Thought - Injecting Logic into Contexts for Full Reasoning in Large Language Models,https://arxiv.org/abs/2409.17539,2024-09-26,2024-09-27
+NeuroPath - A Neural Pathway Transformer for Joining the Dots of Human Connectomes,https://arxiv.org/abs/2409.17510,2024-09-26,2024-09-27
