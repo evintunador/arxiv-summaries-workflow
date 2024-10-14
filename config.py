@@ -82,7 +82,9 @@ replacements = {
     "topology": "topo",
     "Category Theory": "Cat Theory",
     "category theory": "cat theory",
+    "Low-Rank Adaptation": "LoRA",
+    "Large Multimodal Model": "LMM",
 }
 # the lines will be trimmed away until they get below this character count. 
-limit = 4750
+limit = 4500
     # papers that i spent less time on get trimmed first
