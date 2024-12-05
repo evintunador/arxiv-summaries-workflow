@@ -6,22 +6,41 @@ def calculate_total_characters(timestamps):
     return sum(len(timestamp) for timestamp in timestamps)
 
 def trim_timestamps(timestamps, limit):
+    # First try removing descriptions from timestamps with smallest time gaps
     while calculate_total_characters(timestamps) > limit:
         min_diff = float('inf')
         min_index = -1
-        for i in range(1, len(timestamps) - 1):
-            curr_time = timestamps[i].split()[0]
-            next_time = timestamps[i + 1].split()[0]
-            curr_minutes, curr_seconds = map(int, curr_time.split(':'))
-            next_minutes, next_seconds = map(int, next_time.split(':'))
-            curr_total_seconds = curr_minutes * 60 + curr_seconds
-            next_total_seconds = next_minutes * 60 + next_seconds
-            diff = next_total_seconds - curr_total_seconds
-            if diff < min_diff:
-                min_diff = diff
-                min_index = i
-        if min_index != -1:
-            del timestamps[min_index]
+        
+        # Changed the range to avoid index out of bounds
+        for i in range(len(timestamps) - 1):
+            try:
+                # Add error handling for malformed timestamps
+                curr_time = timestamps[i].split()[0]
+                next_time = timestamps[i + 1].split()[0]
+                
+                # Skip if timestamp format is invalid
+                if ':' not in curr_time or ':' not in next_time:
+                    continue
+                    
+                curr_minutes, curr_seconds = map(int, curr_time.split(':'))
+                next_minutes, next_seconds = map(int, next_time.split(':'))
+                curr_total_seconds = curr_minutes * 60 + curr_seconds
+                next_total_seconds = next_minutes * 60 + next_seconds
+                
+                diff = next_total_seconds - curr_total_seconds
+                if diff < min_diff and len(timestamps[i].split()) > 1:  # Only consider timestamps with descriptions
+                    min_diff = diff
+                    min_index = i
+            except (ValueError, IndexError):
+                continue
+                
+        if min_index != -1 and len(timestamps[min_index].split()) > 1:
+            # delete the title/link & keep the time part
+            timestamp_parts = timestamps[min_index].split(maxsplit=1)
+            timestamps[min_index] = timestamp_parts[0]
+        else:
+            break  # No more timestamps to modify
+            
     return timestamps
 
 def main(timestamps_file):

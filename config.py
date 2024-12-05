@@ -1,6 +1,6 @@
 ### arxiv-search.py
 restrict_to_most_recent = True
-max_results = 5000
+max_results = 10000
 categories = "cat:cs.AI OR cat:stat.ML OR cat:cs.CL OR cat:cs.LG OR cat:cs.MA OR cat:cs.MA"
 
 ### generate_newsletter.py 
@@ -22,7 +22,9 @@ frontmatter_lines = '#pdf\n#needsNote\n#needsVideo\n#unread\n'
 
 ### timestamps.py
 # The hotkey used to start the next yt chapter (`esc` ends the process)
-hotkey = '='
+next_hotkey = '='
+# the hotkey used to delete the last recorded yt timestamp. for papers that end up being duds
+delete_hotkey = '-'
 # the strings to replace with shorter versions
 replacements = {
     "Multimodal Large Language Model": "MLLM",
