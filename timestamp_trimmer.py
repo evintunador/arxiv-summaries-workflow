@@ -11,14 +11,16 @@ def trim_timestamps(timestamps, limit):
         min_diff = float('inf')
         min_index = -1
         
-        # Changed the range to avoid index out of bounds
         for i in range(len(timestamps) - 1):
             try:
-                # Add error handling for malformed timestamps
-                curr_time = timestamps[i].split()[0]
-                next_time = timestamps[i + 1].split()[0]
+                # Split into timestamp, title, and link
+                parts = timestamps[i].split(' ')
+                if len(parts) < 3:  # Skip if no title and link
+                    continue
+                    
+                curr_time = parts[0]
+                next_time = timestamps[i + 1].split(' ')[0]
                 
-                # Skip if timestamp format is invalid
                 if ':' not in curr_time or ':' not in next_time:
                     continue
                     
@@ -28,16 +30,18 @@ def trim_timestamps(timestamps, limit):
                 next_total_seconds = next_minutes * 60 + next_seconds
                 
                 diff = next_total_seconds - curr_total_seconds
-                if diff < min_diff and len(timestamps[i].split()) > 1:  # Only consider timestamps with descriptions
+                if diff < min_diff and len(parts) > 2:  # Check if there's a title to remove
                     min_diff = diff
                     min_index = i
             except (ValueError, IndexError):
                 continue
                 
-        if min_index != -1 and len(timestamps[min_index].split()) > 1:
-            # delete the title/link & keep the time part
-            timestamp_parts = timestamps[min_index].split(maxsplit=1)
-            timestamps[min_index] = timestamp_parts[0]
+        if min_index != -1:
+            # Keep timestamp and link, remove title
+            parts = timestamps[min_index].split(' ')
+            timestamp = parts[0]
+            link = parts[-1]
+            timestamps[min_index] = f"{timestamp} {link}"
         else:
             break  # No more timestamps to modify
             
