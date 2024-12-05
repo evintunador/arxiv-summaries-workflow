@@ -3,7 +3,7 @@ import time
 import re
 from pynput import keyboard
 import os
-from config import hotkey, replacements
+from config import next_hotkey, delete_hotkey, replacements
 
 # File paths
 links_file = 'links.txt'
@@ -21,6 +21,7 @@ def extract_arxiv_id(url):
 
 def open_links(arxiv_id, original_link):
     links_to_open = [
+        # optionally might add these back in later
         #f"https://bytez.com/docs/arxiv/{arxiv_id}",
         #f"https://alphaxiv.org/abs/{arxiv_id}",
         original_link
@@ -29,24 +30,21 @@ def open_links(arxiv_id, original_link):
     for link in links_to_open:
         print(f"Opening: {link}")
         webbrowser.open(link)
-        time.sleep(2)  # Sleep for 2 seconds between each link
+        if len(links_to_open) > 1:
+            time.sleep(2)  # Sleep for 2 seconds between each link
 
 def apply_replacements(text, replacements):
     for old, new in replacements.items():
         text = text.replace(old, new)
     return text
 
-def on_activate():
+def next_paper():
     global start_time, timestamps, current_link_index, links
 
     if start_time is None:
         # First hotkey press: start the timer
         start_time = time.time()
         print("Timer started!")
-        #timestamp = "0:00 Intro"
-        #timestamps.append(timestamp)
-        #print(timestamp)
-        #return
     
     elapsed_time = time.time() - start_time
     minutes, seconds = divmod(int(elapsed_time), 60)
@@ -60,10 +58,8 @@ def on_activate():
         timestamps.append(timestamp)
         print(timestamp)
 
-        #if current_link_index >= 1:  # Open links from the third hotkey press onwards
         arxiv_id = extract_arxiv_id(link)
         open_links(arxiv_id, link)
-        
         current_link_index += 1
     else:
         timestamp = f"{minutes}:{seconds:02d} Outro"
@@ -74,9 +70,23 @@ def on_activate():
     with open(timestamps_file, "w") as f:
         f.write("\n".join(timestamps))
 
+def delete_last_timestamp():
+    global timestamps, current_link_index, start_time
+    if timestamps:
+        removed_timestamp = timestamps.pop()
+        print(f"Deleted timestamp: {removed_timestamp}")
+        
+        # Write updated timestamps to file
+        with open(timestamps_file, "w") as f:
+            f.write("\n".join(timestamps))
+    else:
+        print("No timestamps to delete")
+
 def on_press(key):
-    if key == keyboard.KeyCode.from_char(hotkey):
-        on_activate()
+    if key == keyboard.KeyCode.from_char(next_hotkey):
+        next_paper()
+    elif key == keyboard.KeyCode.from_char(delete_hotkey):
+        delete_last_timestamp()
     elif key == keyboard.Key.esc:
         return False  # Stop listener
 
@@ -90,18 +100,12 @@ with open(links_file, 'r') as file:
         except ValueError:
             print(f"Invalid line format: {line}")
 
-#if links:
-#    print("Opening the first link(s)...")
-#    title, link = links[0]
-#    arxiv_id = extract_arxiv_id(link)
-#    open_links(arxiv_id, link)
-#    #current_link_index = 1  # Set to 1 so the next hotkey press will open the second link
-#else:
 if not links:
     print("No links found in links.txt")
 
-print("The first link(s) will be opened and timer will be started when you first hit the hotkey.")
-print("Subsequent hotkey presses will record timestamps and open the next link(s).")
+print("The first link(s) will be opened and timer will be started when you first hit the `next_hotkey` as defined in config.py")
+print("Subsequent next_hotkey presses will record timestamps and open the next link(s).")
+print("Triggers of the `delete_hotkey` as defined in config.py will delete the last line from timestamps.txt")
 print("Press ESC to exit the program.")
 
 with keyboard.Listener(on_press=on_press) as listener:
