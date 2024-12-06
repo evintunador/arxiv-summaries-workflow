@@ -32,3 +32,50 @@ medical
 medicine
 medicinal
 quantum
+agricultural
+ethical
+Lie detection
+Disaster
+Drone
+Patent
+Mongolian
+Turkish
+First-order logic
+Clinical
+Toxicity
+Wireless
+Maritime
+Alzheimer's
+Genomics
+Electric vehicle
+Sycophancy
+Sycophant
+Wildfire
+Radio
+Spectrogram
+Radiology
+Japanese
+Heatwave
+Medicine
+Thermal
+Hand
+Chemistry
+Disease
+Recommender system
+German
+Traffic prediction
+Autonomous vehicle
+Cardiovascular 
+Arabic
+Climate
+Ultrasound
+Korean
+Drug
+Underwater
+5G
+6G
+Molecular
+Wearable
+Accelerometer
+Diabetic
+pathology

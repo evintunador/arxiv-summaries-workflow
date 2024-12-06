@@ -103,6 +103,7 @@ def delete_all_files_in_folder(folder_path):
 
 delete_all_files_in_folder("pdfs-to-summarize")
 delete_all_files_in_folder("pdfs")
+delete_all_files_in_folder("timestamps")
 
 try:
     if os.path.isfile('links.txt'):

@@ -15,8 +15,8 @@ prompts = [ # don't forget commas if you add more prompts to the list
 send_to_obsidian = True
 # vault_location is wherever you want the .md summaries to go, and attachments_location is wherever you want the pdf files to go
 # For people who use obsidian 'correctly' this might be the exact same folder
-obsidian_vault_location = '/Users/evintunador/Documents/Vault' #'your/obsidian/vault/location/here'
-obsidian_vault_attachments_location = '/Users/evintunador/Documents/Vault/attachments' #'your/obsidian/vault/location/here/attachments-folder'
+obsidian_vault_location = '/Users/evintunador/Vault' #'your/obsidian/vault/location/here'
+obsidian_vault_attachments_location = '/Users/evintunador/Vault/attachments' #'your/obsidian/vault/location/here/attachments-folder'
 # lines to add to the beginning of each summary.md file in obsidian. I've left mine in as examples
 frontmatter_lines = '#pdf\n#needsNote\n#needsVideo\n#unread\n'
 

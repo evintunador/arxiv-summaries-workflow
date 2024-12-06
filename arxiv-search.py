@@ -139,8 +139,6 @@ for result in safe_iterator(results):
         print()
     except UnexpectedEmptyPageError:
         continue
-    
-    #print('\n')
 
     # Sleep for 5 seconds to avoid overloading the server
     time.sleep(5)
@@ -171,9 +169,7 @@ def download_pdf(url, filename, event):
 def on_button_click(url, filename):
     arxiv_id = re.sub(r'v\d+$', '', url.split('/')[-1])
     arxiv_url = f"https://arxiv.org/abs/{arxiv_id}"
-    #arxiv_id_no_version = arxiv_id.split('v')[0]
-    #bytez_url = f"https://bytez.com/docs/arxiv/{arxiv_id_no_version}/paper"
-    line = f'{filename[5:-4]} | {arxiv_url}'# | {bytez_url}
+    line = f'{filename[5:-4]} | {arxiv_url}'
 
     # Duplicate check:
     try:

@@ -1,4 +1,5 @@
 # arxiv-summaries-workflow
+*README is out of date; if anyone ever actually uses this lmk and i can update the instructions*
 
 This repo is public access to what I use to automate my [weekly arxiv paper skimming series](https://youtube.com/playlist?list=PLPefVKO3tDxP7iFzaSOkOZnXQ4Bkhi9YB&si=J0Rmcmy-oVyAZI7I) on youtube. I don't think anybody will really find a majority of these files useful but who knows. 
 
