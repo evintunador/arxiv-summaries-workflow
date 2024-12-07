@@ -73,7 +73,7 @@ if __name__ == '__main__':
 
     # Write the message
     with open('newsletter.txt', 'w') as outfile:
-        outfile.write(f"Welcome to Tunadorable's weekly AI newsletter, where we summarize his favorite articles of the week that he plans to read."
+        outfile.write(f"Welcome to Tunadorable's monthly AI newsletter, where we summarize his favorite articles from last month that he plans to read this month."
                       f"\nThis article was written by gpt-4o-mini on {today}.")
 
     # Get list of all PDF files in the input folder
@@ -123,7 +123,7 @@ if __name__ == '__main__':
 
     # Write the message
     with open('newsletter.txt', 'a') as outfile:
-        outfile.write(f"{summaries}\n\n\n\nThanks for reading/listening, that's all for this week."
+        outfile.write(f"{summaries}\n\n\n\nThanks for reading/listening, that's all for this month."
                       f"\nPlease consider checking out Tunadorable's youtube channel where he provides commentary on the above papers."
                       f"\nhttps://youtube.com/@Tunadorable"
                       f"\n\nHere is the most up-to-date version of the python scripts I currently use to create this newsletter:"
