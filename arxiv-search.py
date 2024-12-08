@@ -15,31 +15,6 @@ import csv
 if not os.path.exists("pdfs"):
     os.makedirs("pdfs")
 
-'''# Python function to read words from a text file and store each line as a string in a list.
-def read_lines_from_file(filename):
-    """
-    Read lines from a text file and store them as strings in a list.
-    
-    Parameters:
-    - filename (str): The name of the text file to read from.
-    
-    Returns:
-    - List[str]: A list containing each line from the text file as a string.
-    """
-    lines = []
-    try:
-        with open(filename, 'r') as file:
-            for line in file:
-                lines.append(line.strip())  # Remove leading/trailing whitespace
-    except FileNotFoundError:
-        print("File not found: {filename}.")
-    except Exception as e:
-        print(f"An error occurred: {e}")
-    
-    return lines'''
-
-
-
 # Most Recent Days Checker. Sometimes arxiv posts papers w multiple dates on one day so we really just want to make sure we're checking whatever came out since we last queried
 with open('most_recent_day_searched.txt', 'r') as file:
     most_recent = file.read()
@@ -54,21 +29,9 @@ except ValueError:
 
     print("No date listed in most_recent_day_searched.txt. Two days ago's date inserted, but arXiv frequently publishes papers with older dates on a given day (yes it's confusing) so you may want to edit the text file to an even earlier date. If today is a weekend then the script may return nothing.")
 
-
-
 # search terms
-'''include_terms = #read_lines_from_file("search_terms_include.txt")
-exclude_terms = #read_lines_from_file("search_terms_exclude.txt")
-
-include, exclude = 'all:"', 'all:"'
-for term in include_terms: 
-    include += term + '" OR all:"'
-for term in exclude_terms: 
-    exclude += term + '" OR all:"'
-include = include[:-9]
-exclude = exclude[:-9]'''
-include = 'all:"' + '" OR all:"'.join(search_terms_include)
-exclude = 'all:"' + '" OR all:"'.join(search_terms_exclude)
+include = 'all:"' + '" OR all:"'.join(search_terms_include) + '"' if len(search_terms_include) > 0 else ""
+exclude = 'all:"' + '" OR all:"'.join(search_terms_exclude) + '"' if len(search_terms_exclude) > 0 else ""
 print("\nIncluded Terms:\n", include)
 print("\nExcluded Terms:\n", exclude)
  
