@@ -98,6 +98,7 @@ for result in safe_iterator(results):
     try:
         papers.append({"i": i, "title": result.title, "url": result.pdf_url, "published_date": result.published.date()})
         print(f'{result.title}\nPublish date: {result.published.date()}, PDF URL: {result.pdf_url}')
+        print(datetime.now().time())
         #print(result.categories)
         #print('Abstract: ', textwrap.fill(result.summary, width=220))
         #print('DOI ', result.doi)
@@ -141,7 +142,7 @@ def on_button_click(url, filename):
         with open('links.txt', 'r') as file:
             existing_lines = file.readlines()
             if any(l.strip() == line for l in existing_lines):
-                print(f'Line already exists in chapters.txt - Skipping')
+                print(f'Line already exists in links.txt - Skipping')
                 return  # Skip if the URL already exists
     except FileNotFoundError:
         pass  # Ignore if the file doesn't exist yet
