@@ -6,7 +6,7 @@ import tkinter as tk
 from tkinter import ttk
 import requests
 from threading import Thread, Event
-from config import restrict_to_most_recent, max_results, categories
+from config import restrict_to_most_recent, max_results, categories, search_terms_exclude, search_terms_include
 import os
 import re
 import csv
@@ -15,7 +15,7 @@ import csv
 if not os.path.exists("pdfs"):
     os.makedirs("pdfs")
 
-# Python function to read words from a text file and store each line as a string in a list.
+'''# Python function to read words from a text file and store each line as a string in a list.
 def read_lines_from_file(filename):
     """
     Read lines from a text file and store them as strings in a list.
@@ -36,7 +36,7 @@ def read_lines_from_file(filename):
     except Exception as e:
         print(f"An error occurred: {e}")
     
-    return lines
+    return lines'''
 
 
 
@@ -57,8 +57,8 @@ except ValueError:
 
 
 # search terms
-include_terms = read_lines_from_file("search_terms_include.txt")
-exclude_terms = read_lines_from_file("search_terms_exclude.txt")
+'''include_terms = #read_lines_from_file("search_terms_include.txt")
+exclude_terms = #read_lines_from_file("search_terms_exclude.txt")
 
 include, exclude = 'all:"', 'all:"'
 for term in include_terms: 
@@ -66,15 +66,17 @@ for term in include_terms:
 for term in exclude_terms: 
     exclude += term + '" OR all:"'
 include = include[:-9]
-exclude = exclude[:-9]
+exclude = exclude[:-9]'''
+include = 'all:"' + '" OR all:"'.join(search_terms_include)
+exclude = 'all:"' + '" OR all:"'.join(search_terms_exclude)
 print("\nIncluded Terms:\n", include)
 print("\nExcluded Terms:\n", exclude)
  
-if len(include_terms) > 0 & len(exclude_terms) > 0:
+if len(search_terms_include) > 0 & len(search_terms_exclude) > 0:
     query = f'({categories}) AND ({include}) ANDNOT ({exclude})'
-elif len(include_terms) > 0:
+elif len(search_terms_include) > 0:
     query = f'({categories}) AND ({include})'
-elif len(exclude_terms) > 0:
+elif len(search_terms_exclude) > 0:
     query = f'({categories}) ANDNOT ({exclude})'
 else:
     query = categories

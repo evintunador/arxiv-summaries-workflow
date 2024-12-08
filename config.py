@@ -1,7 +1,19 @@
 ### arxiv-search.py
 restrict_to_most_recent = True
-max_results = 10000
-categories = "cat:cs.AI OR cat:stat.ML OR cat:cs.CL OR cat:cs.LG OR cat:cs.MA OR cat:cs.MA"
+max_results = 5
+categories = "cat:cs.AI OR cat:stat.ML OR cat:cs.CL OR cat:cs.LG OR cat:cs.MA OR cat:cs.NE"
+search_terms_include = ""
+search_terms_exclude = ["prostate", "surgical", "gender", "ethnic", "quadrotor", "racist", "racial", "indigenous",\
+                         "vehicle", "drone", "quadruped", "drought", "hurricane", "flood", "tornado", "glycemic", "eeg",\
+                              "ultrasound", "indonesian", "fake news", "parkinson", "cancer", "stroke", "IoT", "antibody",\
+                                  "pelvic", "hand", "grasp", "peptide", "amino acid", "medical", "medicine", "medicinal", "quantum",\
+                                      "agricultural", "ethical", "Lie detection", "disaster", "drone", "patent", "mongolian", "turkish",\
+                                          "first-order logic", "clinical", "toxicity", "wireless", "maritime", "alzheimer's", "genomics",\
+                                              "electric vehicle", "sycophancy", "sycophant", "wildfire", "radio", "spectrogram", "radiology",\
+                                                  "japanese", "heatwave", "medicine", "thermal", "hand", "chemistry", "disease",\
+                                                      "recommender system", "german", "traffic prediction", "autonomous vehicle", "cardiovascular" ,\
+                                                          "arabic", "climate", "ultrasound", "korean", "drug", "underwater", "5g", "6g", "molecular",\
+                                                              "wearable", "accelerometer", "diabetic", "pathology"]
 
 ### generate_newsletter.py 
 # Mess around with these prompts to tease out specific information you're looking for
