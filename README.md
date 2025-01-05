@@ -15,10 +15,10 @@ if you're looking to see the backlog of papers i've looked into each week in my 
 - `newsletter-podcast.py` - this will consume all PDFs in the `pdfs-to-summarize/` folder and use OpenAI's API to generate summaries which will go into `newsletter.txt`. It then turns this newsletter into an mp3 file for a podcast using OpenAI's TTS. You need to create a file `key_openai.txt` and paste in your individual (not organization) OpenAI API key in order for this to work
 - `recording.py` - this file handles everything that happens during the actual video recordings. 
     1. Running it begins the hotkey listener
-    2. Hitting the primary hotkey ("=" by default) the first time begins a timer, opens the link from the first line of `links.txt` in your default browser, and writes and writes the first timestamp to `timestamps.txt`
+    2. Hitting the primary hotkey ("[" by default) the first time begins a timer, opens the link from the first line of `links.txt` in your default browser, and writes and writes the first timestamp to `timestamps.txt`
     3. Hitting the hotkey any following time both records the next timestamp and opens the next link
         - *note:* In `timestamps.txt` common phrases (such as "Neural Network") are shortened to acronyms (eg "NN"). Add/remove phrases in `config.py`. Delete all phrases from the config to remove this functionality
-    4. Hitting the delete_hotkey ("-" by default) deletes the previously written timestamp. This is very useful in conjunction with the automatic video silence remover from my [auto-video-editing-suite](https://github.com/evintunador/auto-video-editing-suite) as it allows me to not include a given paper in the video if i get to it and find it to be boring
+    4. Hitting the delete_hotkey ("]" by default) deletes the previously written timestamp. This is very useful in conjunction with the automatic video silence remover from my [auto-video-editing-suite](https://github.com/evintunador/auto-video-editing-suite) as it allows me to not include a given paper in the video if i get to it and find it to be boring
     5. Hit `Esc` to end the timer and script
 - `timestamp_trimmer.py` - this will trim lines until they get below a specified character count (4,500 by default; Youtube's max description length is 5,000 characters) prioritizing those which have the shortest time length to be trimmed first
 - `papers_seen.csv` - includes every single paper that had its title pass in front of my eyes BEFORE the weekly abstract reading video; this is basically every single paper that gets published to arxiv under the AI category and every tangentially related category. From reading these titles I use `arxiv-search.py` to select which papers will go in the following file
@@ -42,9 +42,9 @@ if you're looking to see the backlog of papers i've looked into each week in my 
         - the arXiv API wrapper is bugging out. Just run it a couple times until it works, preferably waiting at least 15 minutes if not an hour between attempts
         - the conditions of your search are such that no results have returned. Try removing lines from `search_terms_exclude.txt`, adding terms to `search_terms_include.txt`, changing `most_recent_day_searched.txt` to an earlier date, or adjusting the `restrict_to_most_recent`, `max_results`, or `categories` variables in `config.py`.
 3. Run `recording.py` and the link to the first paper in `links.txt` will open up in your default browser
-    3b. Once you're ready to record, hit record and the primary hotkey ("=" by default but configurable in `config.py`) at the same time which will start the timer, record the first timestamp, and open the first link
+    3b. Once you're ready to record, hit record and the primary hotkey ("[" by default but configurable in `config.py`) at the same time which will start the timer, record the first timestamp, and open the first link
     3c. Every successive hit of the primary hotkey will both open the corresponding links and record the timestamp
-    3d. If you hit the `delete_hotkey` ("-" by default) then the recently recorded timestamp will be deleted
+    3d. If you hit the `delete_hotkey` ("]" by default) then the recently recorded timestamp will be deleted
     3e. Hit `Esc` to end the script
 4. If `timestamps.txt` is too long to fit into Youtube's description, run `timestamp_trimmer.py`
 5. Run the `newsletter-podcast.py` script to generate a `newsletter.txt` and `podcast.mp3` based on all the pdf files in `pdfs-to-summarize/`. Basically it has chatGPT summarize the paper and then OpenAI's TTS model read that summary to create the podcast; look in `config.py` to adjust the prompt. I assumed that during step 3 you were dropping every pdf file you wanted to read into that folder

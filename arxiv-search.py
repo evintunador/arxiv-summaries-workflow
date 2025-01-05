@@ -49,7 +49,7 @@ print("\nQuery:\n", query)
 client = arxiv.Client(
   page_size = 1,
   delay_seconds = 5.0,
-  num_retries = 50
+  num_retries = 100
 )
 # Define the search parameters
 search = arxiv.Search(

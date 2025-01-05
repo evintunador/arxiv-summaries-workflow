@@ -1,6 +1,6 @@
 ### arxiv-search.py
 restrict_to_most_recent = True
-max_results = 2
+max_results = 5000
 categories = "cat:cs.AI OR cat:stat.ML OR cat:cs.CL OR cat:cs.LG OR cat:cs.MA OR cat:cs.NE"
 search_terms_include = []
 search_terms_exclude = ["prostate", "surgical", "gender", "ethnic", "quadrotor", "racist", "racial", "indigenous",\
@@ -13,7 +13,7 @@ search_terms_exclude = ["prostate", "surgical", "gender", "ethnic", "quadrotor",
                                                   "japanese", "heatwave", "medicine", "thermal", "hand", "chemistry", "disease",\
                                                       "recommender system", "german", "traffic prediction", "autonomous vehicle", "cardiovascular" ,\
                                                           "arabic", "climate", "ultrasound", "korean", "drug", "underwater", "5g", "6g", "molecular",\
-                                                              "wearable", "accelerometer", "diabetic", "pathology"]
+                                                              "wearable", "accelerometer", "diabetic", "pathology", "prompt engineer"]
 
 ### newsletter-podcast.py 
 # Mess around with these prompts to tease out specific information you're looking for
@@ -34,9 +34,9 @@ frontmatter_lines = '#pdf\n#needsNote\n#needsVideo\n#unread\n'
 
 ### timestamps.py
 # The hotkey used to start the next yt chapter (`esc` ends the process)
-next_hotkey = '='
+next_hotkey = '['
 # the hotkey used to delete the last recorded yt timestamp. for papers that end up being duds
-delete_hotkey = '-'
+delete_hotkey = ']'
 # the lines will be trimmed away until they get below this character count. 
 limit = 4500 # papers that i spent less time on get trimmed first
 # the dictionary indicating strings to replace with shorter versions
