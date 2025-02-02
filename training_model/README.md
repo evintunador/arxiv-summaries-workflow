@@ -1,1 +1,0 @@
-eventually i plan to use this repo to train a model to summarise arxiv papers. this is the first step of that process.

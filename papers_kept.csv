@@ -286,3 +286,43 @@ FlashAttention on a Napkin - A Diagrammatic Approach to Deep Learning IO-Awarene
 Large Concept Models - Language Modeling in a Sentence Representation Space,https://arxiv.org/abs/2412.08821,2024-12-11,2024-12-18
 Repository Structure-Aware Training Makes SLMs Better Issue Resolver,https://arxiv.org/abs/2412.19031,2024-12-30,2025-01-01
 Training Large Language Models to Reason in a Continuous Latent Space,https://www.arxiv.org/abs/2412.06769,2024-12-09,2024-12-20
+Chunk-Distilled Language Modeling,https://arxiv.org/abs/2501.00343,2025-01-08,2025-01-09
+Variational Lossy Autoencoder,https://arxiv.org/pdf/1611.02731,2016-11-08,2025-01-10
+FSMoE - A Flexible and Scalable Training System for Sparse Mixture-of-Experts Models,https://arxiv.org/abs/2501.10714,2025-01-23,2025-01-25
+Over-Tokenized Transformer - Vocabulary is Generally Worth Scaling,https://arxiv.org/pdf/2501.16975,2025-01-28,2025-01-31
+Understanding How Nonlinear Layers Create Linearly Separable Features for Low-Dimensional Data,https://arxiv.org/abs/2501.02364,2025-01-08,2025-01-09
+A simple neural network module for relational reasoning,https://arxiv.org/pdf/1706.01427,2017-06-05,2025-01-10
+Relational recurrent neural networks,https://arxiv.org/pdf/1806.01822,2018-06-05,2025-01-10
+Open Problems in Mechanistic Interpretability,https://arxiv.org/abs/2501.16496,2025-01-30,2025-01-31
+Superposition in Transformers - A Novel Way of Building Mixture of Experts,https://arxiv.org/abs/2501.00530,2025-01-08,2025-01-09
+The Meta-Representation Hypothesis,https://arxiv.org/abs/2501.02481,2025-01-08,2025-01-09
+GPipe - Efficient Training of Giant Neural Networks using Pipeline Parallelism,https://arxiv.org/pdf/1811.06965,2018-11-16,2025-01-10
+Mapping the Edge of Chaos - Fractal-Like Boundaries in The Trainability of Decoder-Only Transformer Models,https://arxiv.org/abs/2501.04286,2025-01-08,2025-01-09
+DeepSeek-R1 - Incentivizing Reasoning Capability in LLMs via Reinforcement Learning,https://www.arxiv.org/abs/2501.12948,2025-01-22,2025-01-31
+"M3PT - A Transformer for Multimodal, Multi-Party Social Signal Prediction with Person-aware Blockwise Attention",https://arxiv.org/abs/2501.13416,2025-01-23,2025-01-25
+Tensor Product Attention Is All You Need,https://arxiv.org/abs/2501.06425,2025-01-16,2025-01-19
+Fresh-CL - Feature Realignment through Experts on Hypersphere in Continual Learning,https://arxiv.org/abs/2501.02198,2025-01-08,2025-01-09
+Transformer with Fourier Integral Attentions,https://arxiv.org/abs/2206.00206,2022-06-01,2025-01-09
+Emergent weight morphologies in deep neural networks,https://arxiv.org/abs/2501.05550,2025-01-16,2025-01-19
+Graph-Aware Isomorphic Attention for Adaptive Dynamics in Transformers,https://arxiv.org/abs/2501.02393,2025-01-08,2025-01-09
+The Silent Majority - Demystifying Memorization Effect in the Presence of Spurious Correlations,https://arxiv.org/abs/2501.00961,2025-01-08,2025-01-09
+"Hierarchical Autoregressive Transformers - Combining Byte- and Word-Level Processing for Robust, Adaptable Language Models",https://arxiv.org/abs/2501.10322v2,2025-01-17,2025-01-31
+Scaling Laws for Floating Point Quantization Training,https://arxiv.org/abs/2501.02423,2025-01-08,2025-01-09
+Titans - Learning to Memorize at Test Time,https://arxiv.org/abs/2501.00663,2024-12-31,2025-01-16
+Generative Adversarial Networks,https://arxiv.org/abs/1406.2661,2014-06-10,2025-01-31
+Streaming DiLoCo with overlapping communication - Towards a Distributed Free Lunch,https://arxiv.org/abs/2501.18512,2025-01-30,2025-01-31
+DINT Transformer,https://arxiv.org/abs/2501.17486,2025-01-30,2025-01-31
+Tensor-GaLore - Memory-Efficient Training via Gradient Tensor Decomposition,https://arxiv.org/abs/2501.02379,2025-01-08,2025-01-09
+Grokking at the Edge of Numerical Stability,https://arxiv.org/abs/2501.04697,2025-01-08,2025-01-09
+An analytic theory of creativity in convolutional diffusion models,https://arxiv.org/abs/2412.20292,2024-12-30,2025-01-01
+Scaling Laws for Fine-Grained Mixture of Experts,https://arxiv.org/abs/2402.07871,2024-02-12,2025-01-31
+Overshoot - Taking advantage of future gradients in momentum-based stochastic optimization,https://arxiv.org/abs/2501.09556,2025-01-16,2025-01-19
+Neural Turing Machines,https://arxiv.org/pdf/1410.5401,2014-10-20,2025-01-10
+Why Are Positional Encodings Nonessential for Deep Autoregressive Transformers? Revisiting a Petroglyph,https://arxiv.org/abs/2501.00659,2025-01-08,2025-01-09
+DeMo - Decoupled Momentum Optimization,https://arxiv.org/abs/2411.19870,2024-11-29,2024-12-05
+Identity Mappings in Deep Residual Networks,https://arxiv.org/pdf/1603.05027,2016-03-16,2025-01-10
+TensorLLM - Tensorising Multi-Head Attention for Enhanced Reasoning and Compression in LLMs,https://arxiv.org/abs/2501.15674,2025-01-30,2025-01-31
+Reasoning Language Models - A Blueprint,https://arxiv.org/abs/2501.11223,2025-01-20,2025-01-25
+Attention is All You Need Until You Need Retention,https://arxiv.org/abs/2501.09166,2025-01-16,2025-01-19
+Proactive Conversational Agents with Inner Thoughts,https://arxiv.org/abs/2501.00383,2025-01-08,2025-01-09
+Matryoshka Re-Ranker - A Flexible Re-Ranking Architecture With Configurable Depth and Width,https://arxiv.org/abs/2501.16302,2025-01-30,2025-01-31

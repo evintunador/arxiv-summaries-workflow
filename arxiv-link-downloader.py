@@ -54,7 +54,29 @@ def add_to_csv_file(title, arxiv_url, published_date):
         writer.writerow([title, arxiv_url, published_date, today_date])
     print(f"Added to {csv_file_downloaded}: {title}")
 
+def is_arxiv_or_alphaxiv_url(url):
+    """
+    Returns True if the link belongs to either arxiv.org or alphaxiv.org (the wrapper),
+    which has the same structure except 'arxiv' is replaced by 'alphaxiv'.
+    """
+    return 'arxiv.org' in url.lower() or 'alphaxiv' in url.lower()
+
+def clean_to_arxiv_url(url):
+    """
+    If the URL is from 'alphaxiv', transform it to a valid 'arxiv' URL by replacing 'alphaxiv' with 'arxiv'.
+    Otherwise, returns the original URL.
+    This ensures the link can be handled by the 'arxiv' python library.
+    """
+    if 'alphaxiv' in url.lower():
+        # Replace only the domain portion, so we don't accidentally change the arXiv ID
+        # e.g., https://alphaxiv.org/abs/1234.5678 -> https://arxiv.org/abs/1234.5678
+        return url.lower().replace('alphaxiv', 'arxiv')
+    else:
+        return url
+
 def process_arxiv_url(arxiv_url):
+    # If it's from alphaxiv, convert to the actual arxiv link
+    arxiv_url = clean_to_arxiv_url(arxiv_url)
     # Extract the arXiv ID from the URL
     arxiv_id = re.sub(r'v\d+$', '', arxiv_url.split('/')[-1])
     search = arxiv.Search(id_list=[arxiv_id])
@@ -100,11 +122,11 @@ def process_webpage(url):
     except Exception as e:
         print(f"Error downloading {url}: {str(e)}")
 
-def is_arxiv_url(url):
-    return 'arxiv.org' in url.lower()
-
 def process_url(url):
-    if is_arxiv_url(url):
+    """
+    Determine if the URL is for arxiv or alphaxiv, or a normal webpage, and route appropriately.
+    """
+    if is_arxiv_or_alphaxiv_url(url):
         process_arxiv_url(url)
     else:
         process_webpage(url)
